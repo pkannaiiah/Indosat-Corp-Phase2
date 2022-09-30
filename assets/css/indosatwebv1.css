@@ -30148,6 +30148,17 @@ Media
   margin: 10px;
 }
 
+.getroam-sec-v1 .d-flex {
+  width: 50%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.getroam-sec-v1 .d-flex div {
+  width: calc(25% - 20px);
+  margin: 10px;
+}
+
 @media (max-width: 575.98px) {
   .getroam-sec .d-flex {
     width: 100%;
