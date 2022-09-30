@@ -4,7 +4,7 @@
 //====================*/
 
 @import "indosat-global";
-@import "functions";
+//@import "functions";
 
 // /* =================
 // Global SASS Ends
@@ -179,3 +179,5 @@
 //new mega menu 29-06-22
 @import "imports/components/new-menu-styles";
 
+//Added for roaming page no results 29-09-2022
+@import "imports/components/personal/roaming_search_noresult"

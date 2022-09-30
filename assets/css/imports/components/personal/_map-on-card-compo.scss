@@ -92,6 +92,60 @@
     }
 }
 
+.map-on-card-compo-v1 {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+        height: 70%;
+        background: rgb(255, 255, 255);
+        background: rgb(255, 255, 255);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.7710434515603116) 42%, rgba(255, 255, 255, 0) 80%);
+       
+    }
+
+    .map-card-top {
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        border-radius: 16px;
+        -webkit-box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.11);
+        box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.11);
+        padding: 36px 46px;
+        background: #fff;
+        z-index: 2;
+
+        h3 {
+            font-size: 28px;
+            margin-right: 20px;
+        }
+
+        h4 {
+            font-size: 22px;
+        }
+    }
+
+    .map-container {
+        //width: 100%;
+        margin: 0 auto;
+
+        .picdiv {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
 //Image Card
 .map-card-top-img {
     .map-card-left {
