@@ -11498,6 +11498,14 @@ h6,
   padding-bottom: 36px;
 }
 
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.txtcenter {
+  text-align: center;
+}
+
 @media (max-width: 1199.98px) {
   .ml-72 {
     margin-left: 52px;
@@ -11606,6 +11614,11 @@ h6,
   }
   .pb-36 {
     padding-bottom: 21px;
+  }
+}
+@media (max-width: 767.98px) {
+  .mb-30 {
+    margin-bottom: 20px !important;
   }
 }
 @media (max-width: 576px) {
@@ -34340,4 +34353,31 @@ Media
 
 .roaming_search_noresult p {
   font-family: "NotoSans-Light", "Arial";
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.roaming_search_noresult img {
+  height: 129px;
+  width: 129px;
+  margin-top: 20px;
+}
+
+.roaming_search_noresult h3 {
+  font-size: 24px;
+  margin-top: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  .roaming_search_noresult p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .roaming_search_noresult img {
+    height: 92px;
+    width: 92px;
+  }
+  .roaming_search_noresult h3 {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=indosatwebv1.css.map */

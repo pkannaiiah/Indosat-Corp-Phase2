@@ -108,7 +108,15 @@
 .pb-36 {
     padding-bottom: 36px;
 }
-
+//added for roaming other channels
+.mb-30
+{
+    margin-bottom: 30px!important;
+}
+.txtcenter
+{
+    text-align: center;
+}
 // -----------
 //Media Queries
 //---------------
@@ -275,6 +283,10 @@
 }
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
+    .mb-30
+{
+    margin-bottom: 20px!important;
+}
    
 }
 // Extra small devices (portrait phones, less than 576px)
