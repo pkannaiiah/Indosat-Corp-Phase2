@@ -34400,4 +34400,82 @@ Media
   .roaming_search_noresult h3 {
     font-size: 18px;
   }
+}
+.min-xs-font-20-16 {
+  font-size: 20px;
+}
+
+.cci_card {
+  padding: 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+}
+.cci_card .cci_card_sec1 {
+  display: flex;
+  justify-content: space-between;
+}
+.cci_card .cci_card_info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: #CCEDFF;
+  border-radius: 12px;
+  margin: 16px 0px;
+}
+
+.cci_card_usage {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  width: 30%;
+}
+
+.cci_card_usage img {
+  width: 71px;
+  height: 71px;
+}
+
+.cci_card_bonus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 8px;
+  width: 70%;
+}
+
+.usage_primary {
+  color: red;
+}
+
+.me-20 {
+  margin-right: 20px;
+}
+
+.ms-10 {
+  margin-left: 10px;
+}
+
+.cci_card_bonus_detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  background: #f9f9f9;
+  border-radius: 16px;
+  width: 100%;
+  margin-right: 16px;
+  color: #211e20;
+}
+.cci_card_bonus_detail span {
+  font-family: "noto_sansbold", "Arial";
+  font-size: 12px;
+}
+.cci_card_bonus_detail .cci_support_txt {
+  font-family: "noto_sansbold", "Arial";
+  color: #aaaaaa;
+  font-size: x-small;
 }/*# sourceMappingURL=indosatwebv1.css.map */
