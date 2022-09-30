@@ -30164,6 +30164,15 @@ Media
     width: 100%;
   }
 }
+@media (max-width: 768px) {
+  .getroam-sec-v1 .d-flex {
+    width: 100%;
+  }
+  .getroam-sec-v1 .d-flex div {
+    width: calc(25% - 20px);
+    margin: 5px;
+  }
+}
 .postpaid-simulate-discount .badge-organic {
   background: #ffa201;
   color: #fff;

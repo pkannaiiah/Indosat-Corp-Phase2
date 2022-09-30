@@ -36,3 +36,15 @@
       }
    }
 }
+
+@media (max-width: 768px){
+   .getroam-sec-v1 {
+      .d-flex {
+         width: 100%;
+      }
+      .d-flex div {
+         width: calc(25% - 20px);
+         margin: 5px;
+      }
+}
+}
