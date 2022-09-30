@@ -1,0 +1,374 @@
+
+
+//margins - custom Starts
+.ml-72 {
+    margin-left: 72px;
+}
+
+.mr-72 {
+    margin-right: 72px;
+}
+
+.mt-72 {
+    margin-top: 72px;
+}
+
+.mb-72 {
+    margin-bottom: 72px;
+}
+
+.mx-72 {
+    margin-left: 72px;
+    margin-right: 72px;
+}
+
+.my-72 {
+    margin-bottom: 72px;
+    margin-top: 72px;
+}
+
+.my-36 {
+    margin-bottom: 36px;
+    margin-top: 36px;
+}
+
+.mt-36 {
+
+    margin-top: 36px;
+}
+.mb-36 {
+
+    margin-bottom: 36px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+.mb-20,.my-20{
+    margin-bottom: 20px; 
+}
+.mt-20,.my-20{
+    margin-top: 20px; 
+}
+
+//margins - custom ends
+
+//paddings - custom Starts
+.pl-72 {
+    padding-left: 72px;
+}
+
+.pr-72 {
+    padding-right: 72px;
+}
+
+.pt-72 {
+    padding-top: 72px;
+}
+
+.pb-72 {
+    padding-bottom: 72px;
+}
+
+.px-72 {
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+.py-72 {
+    padding-bottom: 72px;
+    padding-top: 72px;
+}
+
+//Paddings- custom
+.p-20 {
+    padding: 20px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+//Paddings- custom
+
+//paddings - custom ends
+
+.px-15{
+    padding-left: 15px!important;
+    padding-right: 15px!important;;
+}
+.py-15{
+    padding-top: 15px!important;
+    padding-bottom: 15px!important;;
+}
+
+.pt-36 {
+    padding-top: 36px;
+}
+
+.pb-36 {
+    padding-bottom: 36px;
+}
+
+// -----------
+//Media Queries
+//---------------
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+     //margins - custom Starts
+     .ml-72 {
+        margin-left: 52px;
+    }
+
+    .mr-72 {
+        margin-right: 52px;
+    }
+
+    .mt-72 {
+        margin-top: 52px;
+    }
+
+    .mb-72 {
+        margin-bottom: 52px;
+    }
+
+    .mx-72 {
+        margin-left: 52px;
+        margin-right: 52px;
+    }
+
+    .my-72 {
+        margin-bottom: 52px;
+        margin-top: 52px;
+    }
+
+    //margins - custom ends
+
+    //paddings - custom Starts
+    .pl-72 {
+        padding-left: 52px;
+    }
+
+    .pr-72 {
+        padding-right: 52px;
+    }
+
+    .pt-72 {
+        padding-top: 52px;
+    }
+
+    .pb-72 {
+        padding-bottom: 52px;
+    }
+
+    .px-72 {
+        padding-left: 52px;
+        padding-right: 52px;
+    }
+
+    .py-72 {
+        padding-bottom: 52px;
+        padding-top: 52px;
+    }
+
+    .pt-36 {
+        padding-top: 26px;
+    }
+    
+    .pb-36 {
+        padding-bottom: 26px;
+    }
+
+    //paddings - custom ends
+    
+}
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+     //margins - custom Starts
+
+     .ml-72 {
+        margin-left: 42px;
+    }
+
+    .mr-72 {
+        margin-right: 42px;
+    }
+
+    .mt-72 {
+        margin-top: 42px;
+    }
+
+    .mb-72 {
+        margin-bottom: 42px;
+    }
+
+    .mx-72 {
+        margin-left: 42px;
+        margin-right: 42px;
+    }
+
+    .my-72 {
+        margin-bottom: 42px;
+        margin-top: 42px;
+    }
+
+    .my-36 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .mt-36 {
+
+        margin-top: 10px;
+    }
+    .my-36 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .mb-36 {
+
+        margin-bottom: 10px;
+    }
+
+
+    //margins - custom ends
+
+    //paddings - custom Starts
+    .pl-72 {
+        padding-left: 42px;
+    }
+
+
+    .pr-72 {
+        padding-right: 42px;
+    }
+
+    .pt-72 {
+        padding-top: 42px;
+    }
+
+    .pb-72 {
+        padding-bottom: 42px;
+    }
+
+    .px-72 {
+        padding-left: 42px;
+        padding-right: 42px;
+    }
+
+    .py-72 {
+        padding-bottom: 42px;
+        padding-top: 42px;
+    }
+
+    .pt-36 {
+        padding-top: 21px;
+    }
+    
+    .pb-36 {
+        padding-bottom: 21px;
+    }
+
+    //paddings - custom ends
+   
+}
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+   
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 576px) {
+    
+    //margins - custom Starts
+    .ml-72 {
+        margin-left: 22px;
+    }
+
+    .mr-72 {
+        margin-right: 22px;
+    }
+
+    .mt-72 {
+        margin-top: 22px;
+    }
+
+    .mb-72 {
+        margin-bottom: 22px;
+    }
+
+    .mx-72 {
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+
+    .my-72 {
+        margin-bottom: 22px;
+        margin-top: 22px;
+    }
+    .mb-24{
+        margin-bottom: 12px;
+    }
+
+    //margins - custom ends
+
+    //paddings - custom Starts
+    .pl-72 {
+        padding-left: 22px;
+    }
+
+    .pr-72 {
+        padding-right: 22px;
+    }
+
+    .pt-72 {
+        padding-top: 22px;
+    }
+
+    .pb-72 {
+        padding-bottom: 22px;
+    }
+
+    .px-72 {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    .py-72 {
+        padding-bottom: 22px;
+        padding-top: 22px;
+    }
+    .pt-36 {
+        padding-top: 11px;
+    }
+    
+    .pb-36 {
+        padding-bottom: 11px;
+    }
+
+    //paddings - custom ends
+   
+}
+// iOS 6 devices (portrait phones, less than 425px)
+@media (max-width: 425px) {}
+
+// iOS 6+ devices (portrait phones, less than 414px)
+@media (max-width: 414px) {}
+
+// Redmi pro devices (portrait phones, less than 393px)
+@media (max-width: 393px) {}
+
+
+
+// iOS 6 devices (portrait phones, less than 375px)
+@media (max-width: 375px) {}
+
+
+
+// Android devices (portrait phones, less than 360px)
+@media (max-width: 360px) {}
+
+
+// iOS 5 devices (portrait phones, less than 320px)
+@media (max-width: 320px) {}
+

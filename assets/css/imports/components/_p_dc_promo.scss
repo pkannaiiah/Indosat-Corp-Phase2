@@ -1,0 +1,17 @@
+//dc promo page
+.p-promo-swp-01 {
+    .dc-promo-swiper-01 {padding-bottom:40px;}
+    .promo-web-banner{display:block;}
+    .promo-mob-banner{display:none;}
+    }
+    @media (max-width: 576px) {
+          //dc promo page
+.p-promo-swp-01 {
+    .dc-promo-swiper-01 {
+       padding-bottom: 40px;
+       .promo-web-banner{display:none;}
+       .promo-mob-banner{display:block;}   
+    }  
+ 
+  } 
+    }   

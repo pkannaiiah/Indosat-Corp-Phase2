@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#ED2324;}
+	.st1{fill:#FFFFFF;}
+	.st2{filter:url(#Adobe_OpacityMaskFilter);}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st4{mask:url(#_x33_dk1irf48b_1_);}
+	.st5{fill:#ED1C24;}
+	.st6{filter:url(#Adobe_OpacityMaskFilter_1_);}
+	.st7{opacity:0.528;mask:url(#_x33_dk1irf48b_2_);fill:#E4E4E4;enable-background:new    ;}
+</style>
+<g transform="translate(26 26)">
+	<circle class="st0" cx="-6" cy="-6" r="20"/>
+	<circle class="st1" cx="-6" cy="-6" r="13"/>
+	<g transform="translate(8 8)">
+		<g>
+			<circle id="q46mvjrlua_1_" class="st1" cx="-13.8" cy="-13.8" r="11.5"/>
+		</g>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-25.6" y="-25.6" width="23" height="23">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="-25.6" y="-25.6" width="23" height="23" id="_x33_dk1irf48b_1_">
+			<g class="st2">
+				<circle id="q46mvjrlua_2_" class="st3" cx="-13.8" cy="-13.8" r="11.5"/>
+			</g>
+		</mask>
+		<g class="st4">
+			<g>
+				<path class="st5" d="M-2.6-14.7c-0.1-2.2-0.8-4.2-2-5.9c-1.6-2.3-4-4-6.7-4.7c-0.9-0.2-1.8-0.4-2.8-0.4c-1.2,0-2.4,0.2-3.5,0.6
+					c-2.7,0.9-5,2.7-6.4,5.1c-0.8,1.3-1.3,2.8-1.5,4.4c-0.1,0.5-0.1,0.9-0.1,1.4c0,2.5,0.8,4.9,2.2,6.8C-22-5.4-20-4-17.8-3.2
+					c1.1,0.4,2.4,0.6,3.7,0.6c1.7,0,3.4-0.4,4.8-1.1c1.6-0.7,3-1.8,4.1-3.2c1.6-2,2.6-4.5,2.6-7.2C-2.6-14.3-2.6-14.5-2.6-14.7
+					L-2.6-14.7z M-4.5-14.5L-7-10.4l1.6,2.7c-1.1,1.4-2.5,2.6-4.1,3.3l-1.2-2.1h-4.8L-17-3.8C-19.3-4.6-21.3-6-22.6-8l1.9-3.2
+					l-2.4-4.2h-1.2c0.2-1.6,0.8-3.2,1.7-4.5h3.4l2.4-4.2l0-0.1c1-0.3,2-0.4,3-0.4c0.8,0,1.5,0.1,2.2,0.2l-0.2,0.3l2.4,4.2h4.3
+					c1,1.5,1.7,3.3,1.8,5.3L-4.5-14.5L-4.5-14.5z"/>
+				<path class="st5" d="M-13.1-18.8l-4.5,1.7l-0.7,4.7l3.7,3l4.5-1.7l0.7-4.8L-13.1-18.8z"/>
+			</g>
+		</g>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="-19" y="-14" width="22.2" height="22">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="-19" y="-14" width="22.2" height="22" id="_x33_dk1irf48b_2_">
+			<g class="st6">
+				<circle id="q46mvjrlua_3_" class="st3" cx="-13.8" cy="-13.8" r="11.5"/>
+			</g>
+		</mask>
+		<ellipse class="st7" cx="-7.9" cy="-3" rx="11.1" ry="11"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,141 @@
+.bootstrap-datetimepicker-widget{
+    table{
+        th.picker-switch,td.day{
+            font-family: $heavy;
+        }
+        th.picker-switch{
+            font-size: 14px;
+            padding-bottom: 20px;
+        }
+        th.dow{
+            font-size: 12px;
+            color: $secondary;
+            font-weight: normal;
+        }
+        .timepicker-hour,.timepicker-minute,.separator{
+            font-family: $heavy;
+            font-size: 36px !important;
+        }
+        .separator{
+            line-height: 38px;
+        }
+        th.prev,th.next{pointer-events: none;}
+        td.day{
+            height: 37px;
+            width: 37px;
+            border-radius: 30px;
+            &.active{
+                color: $primary;
+                background: #fff0f0;
+                &::before{
+                    content: none;
+                }
+            }
+            &.new,&.old{
+                color: #e0e0e0;
+            }
+        }
+        thead tr:first-child th:hover,td.hour:hover,td.minute:hover,td span:hover{
+            background: transparent;
+        }
+    }
+    .row{
+        margin: 0px;
+    }
+    .datepicker{
+        padding: 22px;
+        flex: 0 0 65%;
+        max-width: 65%;
+        border-right: 1px solid #e0e0e0;
+    }
+    .timepicker{
+        padding: 22px;
+        flex: 0 0 35%;
+        max-width: 35%;
+        display: flex;
+        align-items: center;
+    }
+    .btn{
+        min-width: auto;
+    }
+    button{
+        display: none;
+    }
+    .timepicker-picker{
+        .glyphicon{
+            position: relative;
+            height: 37px;
+            &:before{
+                content: '';
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 10px;
+                height: 10px;
+            }
+            &.glyphicon-chevron-down{
+                &:before{
+                    background: url(../images/personal/caret-down-black.svg);
+                    top: 10px;
+                    bottom: auto;
+                    background-size: cover;
+                }
+            }
+            &.glyphicon-chevron-up{
+                &:before{
+                    background: url(../images/personal/caret-up-black.svg);
+                    top: auto;
+                    bottom: 10px;
+                    background-size: cover;
+                }
+            }
+        }
+    }
+}
+// -----------
+//Media Queries
+//---------------
+@media (max-width: 1199.98px) {
+
+}
+@media (max-width: 991.98px) {
+    .bootstrap-datetimepicker-widget{
+        .row{
+            flex-direction: column;      
+        }
+        .datepicker{
+            flex: 0 0 100%;
+            max-width: 100%;
+            border-right: 0px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .timepicker{
+            flex: 0 0 100%;
+            max-width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .timepicker-picker{
+                table{
+                    > tr{
+                        td{
+                            &:last-child{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 767.98px) {
+  
+}
+@media (max-width: 576px) {
+    .bootstrap-datetimepicker-widget{
+        .datepicker{
+            padding: 22px 10px 15px 10px;
+        }
+    }
+}

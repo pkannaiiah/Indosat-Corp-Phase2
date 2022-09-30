@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cat_icon/ico_interest_cat_education</title>
+    <defs>
+        <rect id="path-1" x="8" y="8" width="16" height="16"></rect>
+    </defs>
+    <g id="cat_icon/ico_interest_cat_education" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Rectangle"></g>
+        <path d="M14,8 L22,8 L22,8 L22,21 L13,21 L13,9 C13,8.44771525 13.4477153,8 14,8 Z" id="Rectangle" fill="#ED2324" mask="url(#mask-2)" transform="translate(17.500000, 14.500000) scale(-1, 1) translate(-17.500000, -14.500000) "></path>
+        <rect id="Rectangle" fill="#FF797A" mask="url(#mask-2)" x="15" y="15" width="5" height="3" rx="1"></rect>
+        <polygon id="Rectangle" fill="#FFD600" mask="url(#mask-2)" points="18 8 21 8 21 12 19.5641275 11.1705808 18 12"></polygon>
+        <path d="M11,8 L12,8 C12.5522847,8 13,8.44771525 13,9 L13,20.9230769 L13,20.9230769 L11,22 L11,8 Z" id="Rectangle" fill="#FF797A" mask="url(#mask-2)" transform="translate(12.000000, 15.000000) scale(-1, 1) translate(-12.000000, -15.000000) "></path>
+        <path d="M12.5,20 L22,20 L22,20 L22,22 C22,22.5522847 21.5522847,23 21,23 L12.5,23 C11.6715729,23 11,22.3284271 11,21.5 C11,20.6715729 11.6715729,20 12.5,20 Z" id="Rectangle-Copy" fill="#C62B2C" mask="url(#mask-2)"></path>
+    </g>
+</svg>

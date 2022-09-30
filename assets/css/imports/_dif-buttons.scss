@@ -1,0 +1,181 @@
+// Buttons Mixins
+@mixin button-variant($background, $border, $hover-background: darken($background, 7.5%), $hover-border: darken($border, 10%), $active-background: darken($background, 10%), $active-border: darken($border, 12.5%)) {
+
+  color: color-yiq($background);
+  @include gradient-bg($background);
+  border-color: $border;
+  @include box-shadow($btn-box-shadow);
+
+  @include hover {
+    color: color-yiq($hover-background);
+    @include gradient-bg($hover-background);
+    border-color: $hover-border;
+  }
+
+  &:focus,
+  &.focus {
+
+    // Avoid using mixin so we can pass custom focus shadow properly
+    @if $enable-shadows {
+      box-shadow: $btn-box-shadow, 0 0 0 $btn-focus-width rgba(mix(color-yiq($background), $border, 15%), 0);
+    }
+
+    @else {
+      box-shadow: 0 0 0 $btn-focus-width rgba(mix(color-yiq($background), $border, 15%), 0);
+    }
+  }
+
+  // Disabled comes first so active can properly restyle
+  &.disabled,
+  &:disabled {
+    color: color-yiq($background);
+    background-color: $background;
+    border-color: $border;
+
+    // Remove CSS gradients if they're enabled
+    @if $enable-gradients {
+      background-image: none;
+    }
+  }
+
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active,
+  .show>&.dropdown-toggle {
+    color: color-yiq($active-background);
+    background-color: $active-background;
+
+    @if $enable-gradients {
+      background-image: none; // Remove the gradient for the pressed/active state
+    }
+
+    border-color: $active-border;
+
+    &:focus {
+
+      // Avoid using mixin so we can pass custom focus shadow properly
+      @if $enable-shadows and $btn-active-box-shadow !=none {
+        box-shadow: $btn-active-box-shadow, 0 0 0 $btn-focus-width rgba(mix(color-yiq($background), $border, 15%), 0);
+      }
+
+      @else {
+        box-shadow: 0 0 0 $btn-focus-width rgba(mix(color-yiq($background), $border, 15%), 0);
+      }
+    }
+  }
+}
+
+
+.btn-outline-danger {
+  font-size: 11px !important;
+  min-width: 60px !important;
+  padding: 10px !important;
+  line-height: 0 !important;
+  font-family: $noto-light !important;
+}
+
+// Button SASS
+.btn {
+  min-width: 148px;
+  //min-height: 48px;;
+  color: $white;
+  font-family: $heavy;
+  text-transform: uppercase;
+  border: 0px solid transparent !important;
+  @include button-size(14px, 0.75rem, 14px, 12px, 25px);
+
+  @include hover {
+    color: $black;
+    border: 0px solid transparent !important;
+  }
+
+  &:focus,
+  &.focus {
+    outline: 0;
+    box-shadow: none;
+  }
+
+  // Disabled comes first so active can properly restyle
+  &.disabled,
+  &:disabled {
+    opacity: $btn-disabled-opacity;
+    @include box-shadow(0);
+  }
+
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active {
+    @include box-shadow(0);
+
+    &:focus {
+      @include box-shadow(0, 0);
+    }
+  }
+}
+
+
+.btn-lg {
+  @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $btn-font-size-lg, $btn-line-height-lg, 25px);
+}
+
+.btn-sm {
+  min-width: 87px;
+  @include button-size(10px, 20px, 10px, 10px, 25px!important);
+}
+
+
+//
+// Alternate buttons
+//
+
+@each $color,
+$value in $theme-colors {
+  .btn-#{$color} {
+    @include button-variant($value, $value);
+
+  }
+}
+
+@each $color,
+$value in $theme-colors {
+  .btn-outline-#{$color} {
+    @include button-outline-variant($value);
+
+    &:focus,
+    &.focus {
+      outline: 0;
+      box-shadow: none;
+    }
+  }
+}
+
+
+
+
+.btn-primary {
+  color: $white;
+  background-color: $btn-color;
+  border-color: $btn-color;
+}
+
+.btn-primary:hover {
+  color: $white;
+  background-color: $btn-color-hover;
+  border-color: $btn-color-hover;
+
+}
+
+
+// Small devices (landscape phones, less than 768px)
+@include media-breakpoint-down(sm) {}
+
+// Extra small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(xs) {
+
+  .btn {
+    min-width: 87px;
+    @include button-size(10px, 20px, 10px, 10px, 25px!important);
+
+  }
+
+
+
+}

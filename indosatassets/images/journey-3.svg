@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="220" viewBox="0 0 220 220">
+    <defs>
+        <circle id="2b1ze3cjja" cx="109.5" cy="109.5" r="109.5"/>
+        <path id="5b5g76k4bc" d="M12 0h42c6.627 0 12 5.373 12 12v96c0 6.627-5.373 12-12 12H12c-6.627 0-12-5.373-12-12V12C0 5.373 5.373 0 12 0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <mask id="rrd5n4whjb" fill="#fff">
+                <use xlink:href="#2b1ze3cjja"/>
+            </mask>
+            <use fill="#FFF" xlink:href="#2b1ze3cjja"/>
+            <g mask="url(#rrd5n4whjb)">
+                <g>
+                    <g>
+                        <path fill="#FFE8D3" d="M44.805.498c-18.343 17.996-28.16 28.732-29.45 32.209C14.064 36.183 8.945 60.377 0 105.29l35.55 2.587 2.353-14.108 8.028-8.023L55.2 69.051 39.258 35.28 44.805.499z" transform="translate(69 40) matrix(-1 0 0 1 110.56 50.68)"/>
+                        <path fill="#FFE2C8" d="M85.094 38.7C65.113 51.75 53.242 61.325 49.482 67.422c-3.76 6.097-8.112 14.451-13.055 25.064 7.84 1.575 16.071.77 24.695-2.416 8.623-3.185 13.517-6.365 14.68-9.537L81.9 43.582l.095-.143 3.099-4.739z" transform="translate(69 40) matrix(-1 0 0 1 110.56 50.68) scale(-1 1) rotate(-82 0 135.881)"/>
+                    </g>
+                    <g>
+                        <g>
+                            <path fill="#ED2324" d="M121.69 154.451l-40.288-5.853c-1.918-.279-3.723.977-4.128 2.872l-9.819 45.942 54.346 11.324 3.033-50.422c.115-1.909-1.251-3.588-3.144-3.863z" transform="translate(69 40) translate(.83 .625) matrix(-1 0 0 1 192.493 0)"/>
+                            <path fill="#EED0B6" d="M39.902 87.775c.033 6.244 1.51 11.167 4.432 14.767 2.921 3.601 10.085 7.501 21.491 11.7L54.592 88.703l-14.69-.929z" transform="translate(69 40) translate(.83 .625)"/>
+                            <g transform="translate(69 40) translate(.83 .625) rotate(-8 1199.085 -381.804)">
+                                <path fill="#CD0F10" d="M1.281 0.761L31.983 1.104 35.291 7.755 31.983 14.352 0.189 13.856z"/>
+                                <ellipse cx="26.469" cy="7.728" fill="#FFD600" rx="3.309" ry="3.312"/>
+                            </g>
+                            <g>
+                                <g transform="translate(69 40) translate(.83 .625) translate(.14 .783) translate(6 3)">
+                                    <mask id="q4bgcxrkyd" fill="#fff">
+                                        <use xlink:href="#5b5g76k4bc"/>
+                                    </mask>
+                                    <use fill="#ED2324" xlink:href="#5b5g76k4bc"/>
+                                    <g fill="#FFD600" mask="url(#q4bgcxrkyd)">
+                                        <path d="M0 0h66v102c0 4.97-4.03 9-9 9H9c-4.97 0-9-4.03-9-9V0z"/>
+                                    </g>
+                                    <path fill="#ED2324" fill-rule="nonzero" d="M12 0h42l-1.632 4.897C51.55 7.347 49.258 9 46.675 9h-27.35c-2.583 0-4.876-1.653-5.693-4.103L12 0z" mask="url(#q4bgcxrkyd)"/>
+                                    <circle cx="46.5" cy="4.5" r="1.5" fill="#FFEF9A" fill-rule="nonzero" mask="url(#q4bgcxrkyd)"/>
+                                    <circle cx="109.5" cy="46.5" r="88.5" fill="#FFF" fill-opacity=".384" mask="url(#q4bgcxrkyd)"/>
+                                </g>
+                            </g>
+                            <path fill="#FFE8D3" d="M63.646 137.14c4.372-4.178 7.197-9.766 8.477-16.764 1.92-10.497 4.583-14.066 6.694-21.747 1.407-5.121 7.296-12.163 17.668-21.126 0 0 3.804-5.897-.445-8.474-2.579-1.567-7.057-.509-13.435 3.173-5.07 1.867-9.326 3.377-12.77 4.53-5.165 1.728-18.734 19.044-21.586 22.02-4.75 4.955-8.18 9.973-10.294 15.054 0 0 17.46 32.846 21.833 33.262l3.858-9.927z" transform="translate(69 40) translate(.83 .625) scale(-1 1) rotate(3 0 -2489.236)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g mask="url(#rrd5n4whjb)">
+                <g>
+                    <path fill="#ED2324" fill-rule="nonzero" stroke="#F9F9F9" stroke-width="5" d="M30.906.467c1.061-.598 2.344-.623 3.427-.068 8.944 4.583 18.727 9.012 29.35 13.286 1.338.538 2.236 1.819 2.312 3.267l.005.199v31.716l-.028 1.394-.08 1.158C64.72 64.123 54.046 73.752 34.428 84.55c-1.126.62-2.489.598-3.595-.059l-1.21-.725C10.264 72.035.207 62.041.004 49.451L0 49.06v-31.91c0-1.561.957-2.957 2.397-3.497 10.157-3.81 19.66-8.205 28.51-13.187z" transform="translate(30 60)"/>
+                    <text font-family="Ooredoo-Heavy, Ooredoo" font-size="14.7" font-weight="600" transform="translate(30 60)">
+                        <tspan x="18.721" y="31" fill="#FFF">PULSA</tspan> <tspan x="8" y="46.76" fill="#FFF" font-size="19.6">SAFE</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

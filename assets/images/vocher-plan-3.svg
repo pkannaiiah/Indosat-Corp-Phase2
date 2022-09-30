@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="220" viewBox="0 0 220 220">
+    <defs>
+        <path id="61rl7isvpc" d="M13.23 0h52.924c7.307 0 13.23 6.097 13.23 13.619v115.762c0 7.522-5.923 13.619-13.23 13.619H13.23C5.924 143 0 136.903 0 129.381V13.619C0 6.097 5.924 0 13.23 0z"/>
+        <path id="0fr91af4re" d="M12.172 0h48.425c6.723 0 12.172 5.616 12.172 12.544v111.26c0 6.929-5.45 12.545-12.172 12.545H12.172C5.45 136.349 0 130.733 0 123.805V12.545C0 5.615 5.45 0 12.172 0z"/>
+        <linearGradient id="rgco34ey2f" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFD600"/>
+            <stop offset="100%" stop-color="#FFD600"/>
+        </linearGradient>
+        <filter id="t1mk17flkg" width="119.9%" height="200%" x="-9.9%" y="-30%" filterUnits="objectBoundingBox">
+            <feOffset dy="6" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.109047203 0"/>
+        </filter>
+        <circle id="b94ngwpkga" cx="109.5" cy="109.5" r="109.5"/>
+        <rect id="rapt86y32h" width="151" height="30" x="0" y="0" rx="15"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <mask id="1t8yx8e35b" fill="#fff">
+                <use xlink:href="#b94ngwpkga"/>
+            </mask>
+            <use fill="#FFF" xlink:href="#b94ngwpkga"/>
+            <g mask="url(#1t8yx8e35b)">
+                <g>
+                    <g>
+                        <path fill="#FFE8D3" d="M48.7.541c-19.937 19.561-30.607 31.23-32.01 35.01C15.287 39.329 9.724 65.628 0 114.445l38.641 2.813 2.558-15.335 8.725-8.72L60 75.054 42.671 38.35 48.701.54z" transform="translate(34 25) matrix(-1 0 0 1 154 56)"/>
+                        <path fill="#FFE2C8" d="M92.493 42.065c-21.718 14.186-34.621 24.592-38.709 31.22-4.087 6.627-8.817 15.708-14.19 27.243 8.522 1.713 17.47.837 26.843-2.625 9.373-3.463 14.692-6.919 15.956-10.367l6.629-40.165.103-.154 3.368-5.152z" transform="translate(34 25) matrix(-1 0 0 1 154 56) scale(-1 1) rotate(-82 0 147.697)"/>
+                    </g>
+                    <g>
+                        <g>
+                            <path fill="#ED2324" d="M166.098 168.795l-43.792-6.363c-2.084-.303-4.047 1.063-4.487 3.123l-10.672 49.936 59.071 12.309 3.298-54.806c.125-2.075-1.36-3.9-3.418-4.199z" transform="translate(34 25) translate(.902 .68) matrix(-1 0 0 1 276.883 0)"/>
+                            <path fill="#EED0B6" d="M77.198 96.32c.035 6.788 1.641 12.138 4.817 16.052 3.175 3.914 10.962 8.153 23.36 12.717L93.165 97.33l-15.967-1.01z" transform="translate(34 25) translate(.902 .68)"/>
+                            <g transform="translate(34 25) translate(.902 .68) rotate(-8 1326.795 -656.415)">
+                                <path fill="#CD0F10" d="M1.392 0.827L34.764 1.2 38.36 8.429 34.764 15.6 0.205 15.06z"/>
+                                <ellipse cx="28.77" cy="8.4" fill="#FFD600" rx="3.596" ry="3.6"/>
+                            </g>
+                            <g transform="translate(34 25) translate(.902 .68)">
+                                <g>
+                                    <g transform="translate(36.098 .32) translate(.308)">
+                                        <mask id="683t6vixpd" fill="#fff">
+                                            <use xlink:href="#61rl7isvpc"/>
+                                        </mask>
+                                        <use fill="#FFD600" fill-rule="nonzero" xlink:href="#61rl7isvpc"/>
+                                        <g mask="url(#683t6vixpd)">
+                                            <g transform="translate(3.308 3.326)">
+                                                <use fill="url(#rgco34ey2f)" fill-rule="nonzero" xlink:href="#0fr91af4re"/>
+                                            </g>
+                                        </g>
+                                        <path fill="#ED2324" fill-rule="nonzero" d="M16.538 0h46.308l-2.853 8.606c-.271.818-1.036 1.37-1.899 1.37H21.29c-.862 0-1.627-.552-1.898-1.37L16.538 0z" mask="url(#683t6vixpd)"/>
+                                        <ellipse cx="54.577" cy="4.988" fill="#FFEF9A" fill-rule="nonzero" mask="url(#683t6vixpd)" rx="1.654" ry="1.663"/>
+                                        <ellipse cx="120.731" cy="41.57" fill="#FFF" fill-opacity=".384" mask="url(#683t6vixpd)" rx="87.654" ry="88.128"/>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g transform="translate(0 29)">
+                                        <use fill="#000" filter="url(#t1mk17flkg)" xlink:href="#rapt86y32h"/>
+                                        <use fill="#FFF" fill-opacity=".928" xlink:href="#rapt86y32h"/>
+                                    </g>
+                                    <text fill="#333" font-family="Ooredoo-Heavy, Ooredoo" font-size="14" font-weight="600" transform="translate(0 29)">
+                                        <tspan x="16.305" y="20.321">*556*123456789#</tspan>
+                                    </text>
+                                </g>
+                                <circle cx="78.5" cy="89.5" r="16.5" fill="#C2D43F"/>
+                                <g>
+                                    <path d="M12.6 12.6H29.4V29.4H12.6z" transform="translate(57 68)"/>
+                                    <path fill="#FFF" fill-rule="nonzero" d="M15.96 19.858c.687 1.314 1.56 2.5 2.62 3.561 1.061 1.06 2.248 1.934 3.562 2.621l2.061-2.06c.12-.135.269-.225.448-.27.18-.044.351-.03.515.045.986.344 2.091.515 3.316.515.253 0 .47.09.65.27.178.178.268.395.268.649v3.293c0 .253-.09.47-.269.65-.179.178-.396.268-.65.268-2.15 0-4.21-.418-6.182-1.254-1.896-.807-3.576-1.942-5.04-3.405-1.463-1.464-2.598-3.144-3.405-5.04-.836-1.971-1.254-4.032-1.254-6.183 0-.253.09-.47.269-.65.179-.178.396-.268.65-.268h3.292c.254 0 .47.09.65.269.179.179.269.396.269.65 0 1.224.171 2.329.515 3.315.045.164.052.336.022.515s-.112.328-.246.448l-2.061 2.06z" transform="translate(57 68)"/>
+                                </g>
+                            </g>
+                            <path fill="#FFE8D3" d="M103.007 149.98c4.751-4.543 7.823-10.617 9.214-18.223 2.086-11.41 4.981-15.29 7.276-23.639 1.529-5.566 7.93-13.22 19.204-22.962 0 0 4.135-6.41-.483-9.212-2.803-1.702-7.671-.552-14.604 3.45-5.51 2.029-10.136 3.67-13.88 4.923-5.614 1.879-20.363 20.7-23.463 23.935-5.163 5.386-8.892 10.84-11.19 16.363 0 0 18.979 35.703 23.732 36.154l4.194-10.79z" transform="translate(34 25) translate(.902 .68) scale(-1 1) rotate(3 0 -3996.544)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

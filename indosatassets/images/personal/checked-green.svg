@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="checked-green" transform="translate(-15 -15)">
+    <path id="Path_1" data-name="Path 1" d="M0,0H20V20H0Z" transform="translate(15 15)" fill="none" fill-rule="evenodd"/>
+    <path id="Path_2" data-name="Path 2" d="M19.945,9.972A9.972,9.972,0,1,1,9.972,0,9.973,9.973,0,0,1,19.945,9.972Z" transform="translate(15 15)" fill="#b0e01f" fill-rule="evenodd"/>
+    <path id="Path_3" data-name="Path 3" d="M5.993,10.04a.668.668,0,0,1,.943,0l1.885,1.886,4.243-4.243a.667.667,0,0,1,.943.943L9.293,13.34a.668.668,0,0,1-.943,0L5.993,10.983A.668.668,0,0,1,5.993,10.04Z" transform="translate(15 15)" fill="#fff" stroke="#fff" stroke-width="0.5" fill-rule="evenodd"/>
+  </g>
+</svg>

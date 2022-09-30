@@ -1,0 +1,100 @@
+.medium-square-cards-list{
+    ul{
+        li{
+            margin-right: 20px;
+            margin-top: 22px;
+            flex: 0 0 14.8%;
+            max-width: 14.8%;
+        }
+    }
+    .uppercase-16{
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+}
+.medium-square-card{
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+    display: block;
+    background: #fff;
+    min-height: 165px;
+    padding: 33px 20px 20px 20px;
+    text-align: center;
+    &-img{
+        margin-bottom: 22px;
+        img{
+            height: 48px;
+            width: auto;
+        }
+    }
+    h6{
+        font-size: 14px;
+        color: #333;
+    }
+}
+// -----------
+//Media Queries
+//---------------
+@media (max-width: 1199.98px) {
+    .medium-square-cards-list{
+        ul{
+            li{
+                flex: 0 0 17.8%;
+                max-width: 17.8%;
+            }
+        }
+    }
+}
+@media (max-width: 991.98px) {
+    .medium-square-cards-list{
+        ul{
+            li{
+                flex: 0 0 21.8%;
+                max-width: 21.8%;
+            }
+        }
+    }
+}
+@media (max-width: 767.98px) {
+    .medium-square-cards-list{
+        ul{
+            li{
+                flex: 0 0 29%;
+                max-width: 29%;
+            }
+        }
+    }
+}
+@media (max-width: 576px) {
+    .medium-square-cards-list{
+        ul{
+            margin: 0px -5px;
+            li{
+                margin-top: 10px;
+                margin-right: 0px;
+                padding: 0px 5px;
+                flex: 0 0 33.333%;
+                max-width: 33.333%;
+            }
+        }
+        .uppercase-16{
+            font-size: 12px;
+        }
+    }
+    .medium-square-card{
+        min-height: 90px;
+        padding: 10px 5px 0px 5px;
+        box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+        &-img{
+            margin-bottom: 10px;
+            img{
+                height: 34px;
+            }
+        }
+        h6{
+            font-size: 11px;
+        }
+    }
+}

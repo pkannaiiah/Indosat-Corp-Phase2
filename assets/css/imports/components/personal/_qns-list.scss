@@ -1,0 +1,52 @@
+.qns-list{
+    li{
+        a{
+            font-size: 16px;
+            color: #333333;
+            padding: 25px 25px 25px 0px;
+            border-bottom: 1px dotted #d8d8d8;
+            display: block;
+            position: relative;
+            &::after{
+                position: absolute;
+                content: '';
+                background: url(../images/personal/detail-black.svg);
+                right: 0px;
+                top: 50%;
+                pointer-events: none;
+                width: 12px;
+                height: 12px;
+                transform: translateY(-50%) ;
+                background-size: cover;
+            }
+        }
+    }
+}
+// -----------
+//Media Queries
+//---------------
+@media (max-width: 1199.98px) {
+
+}
+@media (max-width: 991.98px) {
+    .qns-list{
+        li{
+            a{
+                padding: 20px 25px 20px 0px;
+            }
+        }
+    }
+}
+@media (max-width: 767.98px) {
+  
+}
+@media (max-width: 576px) {
+    .qns-list{
+        li{
+            a{
+                padding: 15px 25px 15px 0px;
+                font-size: 14px;
+            }
+        }
+    }
+}

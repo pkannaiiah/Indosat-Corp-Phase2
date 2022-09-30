@@ -1,0 +1,266 @@
+.global_hero_carousal {
+    min-height: 400px;
+    background-color: $img-bg-color;
+
+    .shine {
+        min-height: 400px;
+    }
+
+    .swiper-slide {
+        background-color: $img-bg-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+
+        img {
+            width: auto;
+            height: auto;
+            // object-fit: cover;
+            // object-position: top;
+            max-width: none;
+        }
+    }
+
+    .swiper-pagination-bullets {
+        width: 100%;
+        /*bottom: 30px;*/
+        bottom: 10px; /*23-04-22*/
+    }
+
+    .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        opacity: 0.3;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: $primary;
+        opacity: 1;
+    }
+}
+
+
+.mobile_banner {
+    display: none;
+}
+
+//---------------
+//Media Queries
+//--------------- 454
+
+
+
+// -----------
+//Media Queries
+//---------------
+@media (max-width: 1280px) {
+    .global_hero_carousal {
+        min-height: 250px;
+
+        .shine {
+            min-height: 250px;
+        }
+
+        .swiper-slide {
+            img {
+                height: 454px;
+            }
+        }
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    .global_hero_carousal {
+        .swiper-slide {
+            img {
+                height: 300px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .global_hero_carousal {
+        .swiper-slide {
+            img {
+                height: 380px;
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .global_hero_carousal {
+        .swiper-slide {
+            img {
+                height: 300px;
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width:768px) {
+    
+    .global_hero_carousal {
+
+        .swiper-slide {
+            img {
+                height: 300px;
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .global_hero_carousal {
+        min-height: 200px;
+
+        .swiper-slide {
+            img {
+                height: 247px;
+            }
+        }
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 576px) {
+
+
+    .global_hero_carousal {
+        position: fixed;
+        // top: 88px;
+        z-index: 1;
+        width: 100%;
+        min-height: auto;
+        transition: top 0.5s;
+    }
+
+    .top {
+        top: 44px;
+    }
+
+    .web_banner {
+        display: none;
+    }
+
+    .mobile_banner {
+        display: block;
+    }
+
+    .global_hero_carousal {
+
+        // height: 440px;
+
+        .swiper-slide {
+            align-items: flex-start;
+
+            // display: block;
+            img {
+                width: 100%;
+            }
+
+        }
+
+    }
+
+    .hero-inner {
+        top: 128px;
+    }
+
+    .global_hero_carousal {
+        .swiper-slide {
+            img {
+                height: auto;
+            }
+        }
+    }
+
+}
+
+
+
+// iOS 6 devices (portrait phones, less than 425px)
+@media (max-width: 576px) {
+    .global_hero_carousal {
+        height: 704px;
+    }
+}
+
+@media (max-width: 550px) {
+    .global_hero_carousal {
+        height: 672px;
+    }
+}
+
+@media (max-width: 500px) {
+    .global_hero_carousal {
+        height: 611px;
+    }
+}
+
+
+// iOS 6 devices (portrait phones, less than 425px)
+@media (max-width: 426px) {
+    .global_hero_carousal {
+        height: 519px;
+    }
+}
+
+
+
+// iOS 6+ devices (portrait phones, less than 414px)
+@media (max-width: 414px) {
+    .global_hero_carousal {
+        height: 506px;
+    }
+}
+
+
+
+// iOS 6+ devices (portrait phones, less than 414px)
+@media (max-width: 412px) {
+    .global_hero_carousal {
+        height: 503px;
+    }
+}
+
+// Redmi pro devices (portrait phones, less than 393px)
+@media (max-width: 393px) {
+    .global_hero_carousal {
+        height: 481px;
+    }
+}
+
+
+
+// iOS 6 devices (portrait phones, less than 375px)
+@media (max-width: 376px) {
+    .global_hero_carousal {
+        height: 459px;
+    }
+}
+
+
+
+// Android devices (portrait phones, less than 360px)
+@media (max-width: 360px) {
+    .global_hero_carousal {
+        height: 440px;
+    }
+}
+
+
+// iOS 5 devices (portrait phones, less than 320px)
+@media (max-width: 320px) {
+    .global_hero_carousal {
+        height: 391px;
+    }
+}

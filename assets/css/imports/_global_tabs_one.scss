@@ -1,0 +1,10 @@
+.global_tabs_one{
+.nav-pills .nav-link{border-radius:8px;}
+.nav-pills a{font-family:$heavy;font-size:16px;color:#211e20;padding:10px 20px;}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {color:#ed2324; background-color:#fff0f0;}
+}
+@media (max-width: 480px) {
+.global_tabs_one{
+.nav-pills a{font-size:14px;color:#211e20;}
+}
+} 

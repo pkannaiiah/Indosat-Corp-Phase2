@@ -1,0 +1,140 @@
+.global_mini_carousal {
+    min-height: 240px;
+
+    background-color: $img-bg-color;
+
+    .swiper-slide {
+        background-color: $img-bg-color;
+        .img-cont{
+           height: 280px;
+            overflow: hidden;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .picdiv {
+                height: 100%;
+            }
+           
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+
+    .swiper-pagination-bullets {
+        width: 100%;
+        bottom: 30px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        opacity: 0.3;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: $primary;
+        opacity: 1;
+    }
+    
+    .ban-text-cont {
+        position: absolute;
+        z-index: 1;
+        height: 100%;
+        left: 0;
+        right: 0;
+        display: flex;
+        width: calc(100% - 30px);
+        .ban-text{
+            height: 100%;
+            color: $white;
+            @extend %flex-vertical-center;
+            .text-cont{
+                h2{margin-bottom: 0;}
+                p{margin: 0; font-family: $noto-light; font-size: 14px;margin-top: 24px;}
+            }
+        }
+    }
+
+}
+
+.mobile_banner {
+    display: none;
+}
+
+//---------------
+//Media Queries
+//---------------
+
+//@include global-mini-carousel--lg(); 1200px
+@mixin global-mini-carousel--lg() {
+    .global_mini_carousal {
+        min-height: 200px;
+    }
+}
+
+
+//@include global-mini-carousel--md(); 992px
+@mixin global-mini-carousel--md() {
+    .global_mini_carousal {
+        min-height: 100px;
+    }
+}
+
+
+//@include global-mini-carousel--sm(); 768px
+@mixin global-mini-carousel--sm() {}
+
+//@include global-mini-carousel--xs(); 576px
+@mixin global-mini-carousel--xs() {
+    .global_mini_carousal {
+        position: fixed;
+        top: 128px;
+        z-index: 1;
+        width: 100%;
+        min-height: auto;
+        transition: top 0.5s;
+        .ban-text-cont {
+            .ban-text{
+                .text-cont{
+                    h2{}
+                    p{margin-top: 10px; font-size: 12px;}
+                }
+            }
+        }
+    }
+
+    .top {
+        top: 44px;
+    }
+
+    .web_banner {
+        display: none;
+    }
+
+    .mobile_banner {
+        display: block;
+    }
+
+    .global_mini_carousal {
+
+        min-height: 200px;
+
+    }
+    
+}
+
+
+//@include global-mini-carousel--xs(); 375px
+@mixin global-mini-carousel--375() {}
+
+//@include global-mini-carousel--360(); 360px
+@mixin global-mini-carousel--360() {}
+
+//@include global-mini-carousel--320(); 320px
+@mixin global-mini-carousel--320() {}

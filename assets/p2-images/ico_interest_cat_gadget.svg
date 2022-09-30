@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cat_icon/ico_interest_cat_gadget</title>
+    <defs>
+        <rect id="path-1" x="8" y="8" width="16" height="16"></rect>
+        <path d="M1.27272727,1.13686838e-13 L7.72727273,1.13686838e-13 C8.43018059,1.13686838e-13 9,0.5372583 9,1.2 L9,13.8 C9,14.4627417 8.43018059,15 7.72727273,15 L1.27272727,15 C0.569819409,15 0,14.4627417 0,13.8 L0,1.2 C0,0.5372583 0.569819409,1.13686838e-13 1.27272727,1.13686838e-13 Z" id="path-3"></path>
+        <path d="M1.27272727,0 L7.72727273,0 C8.43018059,0 9,0.5372583 9,1.2 L9,12.8 C9,13.4627417 8.43018059,14 7.72727273,14 L1.27272727,14 C0.569819409,14 0,13.4627417 0,12.8 L0,1.2 C0,0.5372583 0.569819409,0 1.27272727,0 Z" id="path-5"></path>
+    </defs>
+    <g id="cat_icon/ico_interest_cat_gadget" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Rectangle"></g>
+        <g id="Group-2" mask="url(#mask-2)">
+            <g transform="translate(12.000000, 9.000000)" id="Group-3">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="Rectangle" fill="#ED2324" xlink:href="#path-3"></use>
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <use id="Rectangle" fill="#FFD600" xlink:href="#path-5"></use>
+                <path d="M2,0 L7,0 L6.29289322,0.707106781 C6.10535684,0.89464316 5.85100293,1 5.58578644,1 L3.41421356,1 C3.14899707,1 2.89464316,0.89464316 2.70710678,0.707106781 L2,0 L2,0 Z" id="Rectangle" fill="#ED2324" mask="url(#mask-6)"></path>
+                <g id="Group" mask="url(#mask-6)" fill="#FFD600">
+                    <g transform="translate(0.777778, 3.250000)" id="Rectangle">
+                        <path d="M0.957884694,0.75 L4.48655975,0.75 C4.89285491,0.75 5.22222222,1.07936731 5.22222222,1.48566247 L5.22222222,8.07046332 L5.22222222,8.07046332 C5.22222222,8.44576107 4.91696182,8.75 4.54040404,8.75 L0.904040404,8.75 C0.52748262,8.75 0.222222222,8.44576107 0.222222222,8.07046332 L0.222222222,1.48566247 C0.222222222,1.07936731 0.55158953,0.75 0.957884694,0.75 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

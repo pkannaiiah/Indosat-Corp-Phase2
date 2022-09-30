@@ -1,0 +1,38 @@
+.Error-nav {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .error-title {
+        font-family: "Ooredoo-Heavy";
+        font-size: 16px;
+        text-align: center;
+        padding: 0 10px;
+        margin: 0;
+    }
+}
+
+
+.error-main-cont {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 100px);
+    text-align: center;
+    justify-content: center;
+    .error-main {
+        text-align: center;
+        img {
+            max-width: 158px;
+            max-height: 150px;
+            margin-bottom: 10%;
+        }
+        h2 {
+            font-size: 16px;
+
+            span {
+                color: $primary;
+            }
+        }
+    }
+}

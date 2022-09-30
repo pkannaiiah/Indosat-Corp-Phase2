@@ -1,0 +1,22 @@
+//add gen sec
+.comp_resimg{display: none;}
+.p_dc_partner_content{}
+.image_video_popup{
+   .iv_popup_row{
+      width:100%;
+      margin-bottom:25px;
+      .iv-col-left{font-family:$noto-light;font-size:16px;color:#211e20;margin-bottom:10px;}
+      .iv-col-right{font-family:$heavy;font-size:14px;color:#211e20;}
+      .iv-col-right .colleft{width:100%;font-size:12px;}
+      .iv-col-right .colleft label{font-family:$heavy;font-size:14px;width:100%;color:#ed2324;margin-bottom:0px;}
+      .iv-col-right .hedsec{font-family:$noto-light;font-size:14px;color:#211e20;margin:0px;width:100%;}
+   }
+}
+@media (max-width: 576px) {
+.comp_resimg{display:block;}
+.image_video_popup{
+.iv_popup_row{     
+.iv-col-left{margin-bottom:5px;margin-top:10px;}
+}
+}
+}

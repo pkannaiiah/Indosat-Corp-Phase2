@@ -1,0 +1,256 @@
+.p-home-swp-01 {
+    .p-home-swp-01-swiper-container {
+        padding-bottom: 40px;
+        .home-sw01-slidecont {
+            @include border-radius(14px);
+            overflow: hidden;
+            .hsw01-text-imgcont {
+                min-height: 150px;
+                width: 100%;            
+                cursor: pointer;
+                @extend %default-bg-image;
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .flexgrid-item {
+            @include border-radius(8px);
+            position: relative;
+            overflow: hidden;            
+            box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.11);           
+            min-height: 150px;
+            .img-cont {
+                width: 100%;
+                height: 100%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .overlay-img {
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 0;
+                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.02) 40%, #000000 100%);
+                display: flex;
+                justify-content: center;
+                align-content: center;
+
+                h5 {
+                    margin: 20px;
+                    color: $white;
+                    text-align: left;
+                    margin-top: auto;
+                    font-size: 22px;
+                    width: 100%;
+                    position: relative;
+                    cursor: pointer;
+                    
+
+                }
+            }
+
+            &:hover {
+
+                .overlay-img {
+                    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 40%, transparent 100%);
+
+                    h5 {
+                        &::after {
+                            content: '';
+                            @include border-radius(50%);
+                            background: #ffffff url(../../indosatassets/images/detail-red.svg) 50% 50% no-repeat;
+                            position: absolute;
+                            top: -2px;
+                            right: -2px;
+                            width: 30px;
+                            height: 30px;
+
+                            background-size: cover;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+//---------------
+//Media Queries
+//---------------
+
+//@include p-home-swp-01--lg(); 1200px
+@mixin p-home-swp-01--lg() {
+    .p-home-swp-01 {
+        .p-home-swp-01-swiper-container {
+            .home-sw01-slidecont {
+                .hsw01-text-imgcont {
+                   // height: 172px;
+                }
+            }
+        }
+    }
+}
+
+//@include p-home-swp-01--md(); 992px
+@mixin p-home-swp-01--md() {
+
+    .p-home-swp-01 {
+        .p-home-swp-01-swiper-container {
+            .home-sw01-slidecont {
+                .hsw01-text-imgcont {
+                   // height:175px;
+                }
+            }
+            .swiper-slide {
+                //@extend %swiper-slide-padding;
+                padding-right: 7.5px;
+                padding-left: 7.5px;
+    
+                &:first-child {
+                    padding-left: 15px;
+                }
+    
+                &:last-child {
+                    padding-right: 15px;
+                }
+            }
+            .swiper-pagination-bullets {
+                margin-left: 15px;
+            }
+        }
+    }
+
+}
+
+//@include p-home-swp-01--sm(); 768px
+@mixin p-home-swp-01--sm() {
+    .p-home-swp-01 {
+        .p-home-swp-01-swiper-container {
+            .home-sw01-slidecont {
+                .hsw01-text-imgcont {
+                   // height: 143px;
+                }
+            }
+        }
+    }
+}
+
+//@include p-home-swp-01--xs(); 576px
+@mixin p-home-swp-01--xs() {
+    .p-home-swp-01 {
+        .p-home-swp-01-swiper-container {
+            padding-bottom: 30px;
+            .home-sw01-slidecont {
+                .hsw01-text-imgcont {
+                   // height: 250px;
+                }
+            }
+            .swiper-slide {
+                padding-right: 0;
+                padding-left: 0;
+
+                &:first-child {
+                    padding-left: 0;
+                }
+    
+                &:last-child {
+                    padding-right: 0;
+                }
+            }
+            .swiper-pagination-bullets {
+                bottom: 0;
+            }
+        }
+    }
+}
+
+
+//@include p-home-swp-01--425(); 425px
+@mixin p-home-swp-01--425() {
+    .p-home-swp-01 {
+        .p-home-swp-01-swiper-container {
+            .home-sw01-slidecont {
+                .hsw01-text-imgcont {
+                   // height: 211px;
+                }
+            }
+        }
+    }
+}
+
+//@include p-home-swp-01--425(); 425px
+@mixin p-home-swp-01--414() {
+    .p-home-swp-01 {
+        .p-home-swp-01-swiper-container {
+            .home-sw01-slidecont {
+                .hsw01-text-imgcont {
+                   // height: 205px;
+                }
+            }
+        }
+    }
+}
+
+//@include p-home-swp-01--xs(); 393px
+@mixin p-home-swp-01--393() {
+    .p-home-swp-01 {
+        .p-home-swp-01-swiper-container {
+            .home-sw01-slidecont {
+                .hsw01-text-imgcont {
+                    //height: 195px;
+                }
+            }
+        }
+    }
+}
+
+//@include p-home-swp-01--xs(); 375px
+@mixin p-home-swp-01--375() {
+    .p-home-swp-01 {
+        .p-home-swp-01-swiper-container {
+            .home-sw01-slidecont {
+                .hsw01-text-imgcont {
+                   // height: 186px;
+                }
+            }
+        }
+    }
+}
+
+//@include p-home-swp-01--360(); 360px
+@mixin p-home-swp-01--360() {
+    .p-home-swp-01 {
+        .p-home-swp-01-swiper-container {
+            .home-sw01-slidecont {
+                .hsw01-text-imgcont {
+                   // height: 179px;
+                }
+            }
+        }
+    }
+}
+
+//@include p-home-swp-01--320(); 320px
+@mixin p-home-swp-01--320() {
+    .p-home-swp-01 {
+        .p-home-swp-01-swiper-container {
+            .home-sw01-slidecont {
+                .hsw01-text-imgcont {
+                   // height: 159px;
+                }
+            }
+        }
+    }
+}

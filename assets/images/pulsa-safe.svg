@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g transform="translate(-729 -942) translate(0 631) translate(230 72) translate(226 235) translate(273) translate(0 4)">
+                                <path fill="#ED2324" fill-rule="nonzero" d="M20.5 1C31.27 1 40 9.73 40 20.5S31.27 40 20.5 40 1 31.27 1 20.5c0-2.792.588-5.505 1.71-7.998.34-.755 1.534-1.906 2.29-1.566.755.34.786 2.042.446 2.798C4.497 15.842 4 18.134 4 20.5 4 29.613 11.387 37 20.5 37S37 29.613 37 20.5 29.613 4 20.5 4c-2.803 0-5.5.698-7.904 2.012-.727.398-1.638.13-2.036-.596-.397-.727-.13-1.638.597-2.036C13.998 1.826 17.19 1 20.5 1z"/>
+                                <path fill="#ED2324" fill-rule="nonzero" d="M9 18.5h13c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5H9c-.828 0-1.5-.672-1.5-1.5s.672-1.5 1.5-1.5z" transform="rotate(-90 15.5 20)"/>
+                                <rect width="11" height="3" x="15" y="21" fill="#ED2324" fill-rule="nonzero" rx="1.5" transform="rotate(-90 20.5 22.5)"/>
+                                <rect width="7" height="3" x="22" y="23" fill="#ED2324" fill-rule="nonzero" rx="1.5" transform="rotate(-90 25.5 24.5)"/>
+                                <path fill="#ED2324" fill-rule="nonzero" d="M2.746 9c.787 0 1.425.638 1.425 1.426l-.32 2.718 2.674-.178c.748 0 1.362.577 1.421 1.31l.005.116c0 .788-.639 1.426-1.426 1.426l-4.1.177C1.639 15.995 1 15.357 1 14.57l.32-4.144C1.32 9.638 1.958 9 2.746 9z" transform="scale(1 -1) rotate(-72 -12.726 0)"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

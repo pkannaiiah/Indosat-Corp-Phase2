@@ -1,0 +1,59 @@
+
+
+ 
+ .sim-combo-pack{
+   .img-text-tile {
+      margin-top: 40px;
+      .img-text-tile-img {
+         width: 40px;
+            height: 40px;
+         img{
+            width: 40px;
+            height: 40px;}
+     }
+     .img-text-tile-desc{
+        margin-left: 17px;
+      p{
+         
+         color: #000;
+         font-size: 12px;
+         line-height: 20px;
+         margin: 0;
+      }
+     }
+  }
+ }
+ .sim-table{
+    .global-table-cont{
+       .table{
+          th{
+             font-size: 16px;
+          }
+       }
+    }
+ }
+ 
+ @media (max-width: 575.98px) {
+   .sim-combo-pack{
+      .img-text-tile {
+         margin-top: 30px;    
+         margin-bottom: 10px;
+ 
+     }
+    }
+    .mt-xs-0{
+       margin-top: 0;
+    }
+    .sim-table{
+      .global-table-cont{
+         .table-responsive{
+            
+         .table{
+            th{
+               font-size: 14px;
+            }
+         }
+      }
+      }
+   }
+ }

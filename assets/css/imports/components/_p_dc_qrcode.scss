@@ -1,0 +1,35 @@
+//qrcode st
+.reg-qr-code-comp{
+    text-align: center;
+    img{width:auto!important;}
+    .qr-code-text{
+       font-family:$noto-light;
+       font-size:16px;
+       color:#333333;
+       text-align:center;
+       margin-top:17px;
+    }
+ }
+ 
+ .reg-url-link{
+    width:100%;
+    border:1px solid #e0e0e0;
+    border-radius:16px;
+    height:72px;
+    label{
+       font-family:$heavy;
+       font-size:20px;
+       margin:0px;
+       padding:20px;
+    }
+ }
+ //qrcode end
+ @media (max-width: 576px) {
+     //qrcode st
+   .reg-url-link{
+    height:62px;      
+    label{padding:18px;font-size:16px;}
+ }
+ //qrcode end
+
+ }

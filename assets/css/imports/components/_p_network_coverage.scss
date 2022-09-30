@@ -1,0 +1,399 @@
+.datacentermap-network-cont {
+    border: 0;
+    width: 100%;
+    min-height: 800px;
+
+}
+
+.network_coverage_gmap {
+    //border:1px solid #ed1c24;
+    position: relative;
+
+    .noresult-div {
+        color: #e0e0e0;
+        font-size: 14px;
+        font-family: $noto-light;
+        margin-bottom: 15px;
+    }
+
+    .makesure-div {
+        color: #211e20;
+        font-size: 12px;
+
+        margin-bottom: 15px;
+    }
+
+    //store location st
+    .store_available {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 50%;
+        left: 65%;
+        transform: translateX(-65%);
+    }
+
+    .store_unavailable {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 30%;
+        left: 70%;
+        transform: translateX(-70%);
+    }
+
+    //store location end
+
+    .google-maps {
+        position: initial;
+
+        iframe {
+            width: 100%;
+            height: 833px;
+        }
+    }
+
+    .network-search {
+        width: auto;
+        //border:1px solid #000;
+        background: transparent;
+        position: absolute;
+        margin-top: 36px;
+        overflow: hidden;
+        z-index: 99;
+        height: 100%;
+
+        .network_coverage {
+            width: 380px;
+            padding: 10px 0px;
+            z-index: 99;
+
+            ul {
+                padding: 0px;
+
+                li {
+                    font-size: 14px;
+                    font-family: $heavy;
+                    list-style: none;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        .network_coverage_search {
+            width: 380px;
+            height: 133px;
+            background: #fff;
+            border-radius: 16px;
+            padding: 27px 21px;
+            text-align: center;
+
+            h4 {
+                font-family: $heavy;
+                font-size: 16px;
+                margin-bottom: 24px;
+            }
+        }
+
+        .search_result_comp {
+            background: #fff;
+            min-height: 150px;
+            box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.14);
+            padding: 15px;
+            border-radius: 8px;
+            position: absolute;
+            top: 125px;
+            width: 89%;
+            margin: 0px 20px;
+            max-height: 300px;
+            overflow-x: auto;
+            z-index: 9;
+
+            ul {
+                display: inline;
+                padding: 0px;
+                height: 150px;
+
+                li {
+                    width: 100%;
+                    display: block;
+                    list-style: none;
+
+                    a {
+
+                        color: $black;
+                        font-size: 14px;
+                        cursor: pointer;
+                        display: block;
+                        padding: 5px 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .search-sec-row {
+        position: relative;
+
+        input[type=text] {
+            font-family: $noto-light;
+            font-size: 14px;
+            height: 40px;
+            border: 1px solid #e0e0e0;
+            width: 100%;
+            border-radius: 8px;
+            padding: 6px 30px 6px 43px;
+        }
+
+        .search-icon {
+            position: absolute;
+            top: 0px;
+
+            img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+
+        .input_close_icon {
+            position: absolute;
+            width: 30px;
+            right: 5px;
+            top: 5px;
+        }
+    }
+
+    .network_coverage {
+        width: 100%;
+        position: relative;
+
+        .network_select_radiobtn {
+            width: 250px;
+            height: 48px;
+            background: #fff;
+            border-radius: 8px;
+            padding: 12px 20px;
+            position: absolute;
+            bottom: 20px;
+            box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.14);
+            z-index: 99;
+
+            form {
+                margin: 40px 0;
+            }
+
+            label {
+                width: 66px;
+                border-radius: 3px;
+                font-size: 14px;
+                font-family: "Ooredoo-Heavy";
+                margin-bottom: 0px;
+            }
+
+            .net-def {
+                width: 66px;
+                border-radius: 3px;
+                font-size: 14px;
+                font-family: "Ooredoo-Heavy";
+                margin-bottom: 0px;
+                position: relative;
+                padding-left: 30px;
+                line-height: 24px;
+
+                &::before {
+                    position: absolute;
+                    display: block;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    content: '';
+                    width: 1.5em;
+                    background: #fff;
+                    border-radius: 20px;
+                    border: 1px solid #e0e0e0;
+                    height: 24px;
+                    width: 24px;
+                }
+            }
+
+            .network-2g:before {
+                background: #ffa88e !important;
+            }
+
+            .network-3g:before {
+                background: #ffa201 !important;
+            }
+
+            .network-4g:before {
+                background: #68bfab !important;
+            }
+
+            /* hide input */
+            input.radio:empty {
+                margin-left: -999px;
+            }
+
+            /* style label */
+            input.radio:empty~label {
+                position: relative;
+                float: left;
+                line-height: 1.5em;
+                text-indent: 30px;
+                margin-top: 0em;
+                cursor: pointer;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+
+
+
+            .net-def:before {
+                position: absolute;
+                display: block;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                content: '';
+                width: 1.5em;
+                background: #fff;
+                border-radius: 20px;
+                border: 1px solid #e0e0e0;
+                height: 24px;
+                width: 24px;
+            }
+
+            input.radio:empty~label:before {
+                position: absolute;
+                display: block;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                content: '';
+                width: 1.5em;
+                background: #fff;
+                border-radius: 20px;
+                border: 1px solid #e0e0e0;
+                height: 24px;
+                width: 24px;
+            }
+
+            /* toggle hover */
+            input.radio:hover:not(:checked)~label:before {
+                //content:'\2714';
+                text-indent: 0.3em;
+                color: #ffffff;
+            }
+
+            input.radio:focus {
+                border: 0px;
+                outline: 0px;
+            }
+
+            input.radio:hover:not(:checked)~label {
+                color: #888;
+            }
+
+            /* toggle on */
+            input.radio:checked~label:before {
+                //content:'\2714';
+                text-indent: 0.4em;
+                color: #fff;
+                background-color: #ed1c24;
+                border-radius: 20px;
+            }
+
+            input.radio:checked~label {
+                color: #777;
+            }
+
+            /* radio focus */
+            input.radio:focus~label:before {
+                box-shadow: 0 0 0 0px #999;
+            }
+
+        }
+
+        ul {
+            padding: 0px;
+
+            li {
+                width: 30%;
+                display: inline;
+                list-style: none;
+
+            }
+        }
+    }
+
+}
+
+.network_coverage_gmap .network_coverage .network_select_radiobtn .active::before {
+    box-shadow: 0 0 8px #ED1C24;
+}
+
+@media (max-width: 576px) {
+    .alert_message {
+        width: 95% !important;
+        margin: 0 auto;
+    }
+
+    .network_coverage_gmap {
+        .network-search {
+
+            .network_coverage_search {
+                width: 100%;
+                height: 55px;
+                padding: 10px;
+                background: transparent;
+            }
+
+            .search_result_comp {
+                top: 50px;
+                width: 94%;
+                margin: 0px 10px;
+            }
+        }
+
+        .network-search.net_cover {
+            bottom: auto;
+            height: 400px;
+            width: 100%;
+            top: 0px;
+
+        }
+
+
+        .network_coverage {
+            .network_select_radiobtn {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+
+    //store location icons st
+    .store_available {
+        top: 20% !important;
+        left: 30%;
+    }
+
+    .store_unavailable {
+        top: 30% !important;
+        left: 50%;
+    }
+
+    .store_available_res {
+        top: 60% !important;
+        left: 30%;
+    }
+
+    .store_unavailable_res {
+        top: 70% !important;
+        left: 50%;
+    }
+
+    //store location icons end
+
+}

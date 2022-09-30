@@ -1,0 +1,235 @@
+//CSR - Landing Css
+
+
+
+
+.csr-landing {
+  margin-top: 0;
+
+  .landing-description {
+    background-color: #f9f9f9;
+    padding-top: 70px;
+    padding-bottom: 71px;
+  }
+
+  .bg-grey {
+    background-color: #f9f9f9;
+  }
+
+  .land-descrption {
+    padding-top: 71px;
+    padding-bottom: 70px;
+    font-size: 16px;
+    font-family: $noto-light;
+    line-height: 26px;
+    color: $secondary;
+  }
+
+  .csr-pillar1-edu {
+    text-align: center;
+
+    .pg2-banner-text {
+      left: 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      .tut_rightbox {
+        max-width: 70%;
+      }
+    }
+
+    p {
+      max-width: 70%;
+    }
+  }
+
+  .csr-pillar2-edu {
+    text-align: center;
+
+    .pg2-banner-text {
+      left: initial;
+      right: 0;
+      display: flex;
+      align-items: center;
+
+      .tut_rightbox {
+        max-width: 70%;
+      }
+    }
+
+    p {
+      max-width: 70%;
+    }
+  }
+
+  .show-in-xs {
+    display: none;
+  }
+}
+
+
+
+
+
+@media (min-width: 1900px) {
+  .csr-landing {
+
+
+    .csr-pillar1-edu {
+      .pg2-banner-text {
+        .tut_rightbox {
+          max-width: 50%;
+        }
+      }
+    }
+
+    .csr-pillar2-edu {
+      text-align: center;
+
+      .pg2-banner-text {
+
+        .tut_rightbox {
+          max-width: 50%;
+        }
+      }
+    }
+  }
+
+
+}
+
+
+@media (max-width: 768px) {
+  .global_hero_carousal {
+    .swiper-slide {
+      background-color: #ffffff !important;
+    }
+  }
+
+  .csr-landing {
+    .landing-description {
+      padding-top: 0;
+      padding-bottom: 30px;
+
+      .container {
+        .ban-descrption {
+          p {
+            font-size: 12px;
+            
+          }
+        }
+      }
+    }
+
+    .csr-pillar1-edu {
+      .hide-in-xs {
+        display: none !important;
+      }
+
+      display: none !important;
+    }
+
+    .csr-pillar2-edu {
+      .hide-in-xs {
+        display: none !important;
+      }
+
+      display: none !important;
+
+    }
+
+    .show-in-xs {
+      display: block;
+      background-color: #fff;
+
+      .tut_rightbox {
+        padding: 40px 25px 0 25px;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+
+        h3 {
+          font-size: 30px;
+          margin-bottom: 16px;
+        }
+
+        p {
+          font-size: 12px;
+          margin-bottom: 30px;
+          max-width: 100%;
+          color: #8d9293;
+        }
+      }
+
+
+    }
+  }
+
+
+}
+@media (max-width: 576px) {
+  .global_hero_carousal {
+    .swiper-slide {
+      background-color: #ffffff !important;
+    }
+  }
+
+  .csr-landing {
+    .landing-description {
+      padding-top: 0;
+      padding-bottom: 30px;
+
+      .container {
+        .ban-descrption {
+          p {
+            font-size: 12px;
+           
+          }
+        }
+      }
+    }
+
+    .csr-pillar1-edu {
+      .hide-in-xs {
+        display: none !important;
+      }
+
+      display: none !important;
+    }
+
+    .csr-pillar2-edu {
+      .hide-in-xs {
+        display: none !important;
+      }
+
+      display: none !important;
+
+    }
+
+    .show-in-xs {
+      display: block;
+      background-color: #fff;
+
+      .tut_rightbox {
+        padding: 20px 25px 0 25px;
+
+        h3 {
+          font-size: 20px;
+          margin-bottom: 16px;
+        }
+
+        p {
+          font-size: 12px;
+          margin-bottom: 30px;
+          max-width: 100%;
+          color: #8d9293;
+        }
+      }
+
+
+    }
+  }
+
+
+}

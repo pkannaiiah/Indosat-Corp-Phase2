@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<ul class="cd-secondary-nav">
+    <li>
+        <a href="#one" id="one">Clik to Hide</a>
+    </li>
+    <li>
+        <a href="#two">Two</a>
+    </li>
+    <li>
+        <a href="#three">Three</a>
+    </li>
+    <li>
+        <a href="#four">Four</a>
+    </li>
+</ul>
+
+<p class="demo">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. </p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    
+$(".cd-secondary-nav a").click(function () {
+        var anchorValue= $(this).attr("href");
+        // alert(anchorValue);
+        if(anchorValue == '#one'){
+            $('.demo').hide();
+        }
+});
+</script>
+
+</body>
+</html>

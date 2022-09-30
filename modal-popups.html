@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Indosat</title>
+
+  <!--/* -- Brand Favicon -- */-->
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+
+  <!-- /* --  fontawesome CSS V 5 -- */ 
+    <link rel="stylesheet" href="assets/css/imports/vendors/fontawesome-all.min.css">
+    -->
+  <!-- /* -- Swiper CSS V 6.1.1 -- */ -->
+  <link rel="stylesheet" href="assets/css/imports/vendors/swiper-bundle.min.css">
+
+  <!--/* -- Custom CSS V 1.0 -- */-->
+  <link rel="stylesheet" href="assets/css/indosatwebv1.css">
+</head>
+
+<body>
+  <img class="position-absolute trans-img" src="assets/images/transimg.png" alt="" title="">
+
+  <div class="wrapper">
+    <div class="container">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#largeModal">
+        Large model
+      </button>
+
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#smallModal">
+        small model
+      </button>
+
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#successModal">
+        Success
+      </button>
+
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#failureModal">
+        Failure
+      </button>
+
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#logoutModal">
+        Logout Confirmation
+      </button>
+
+      <!-- largeModal Modal -->
+      <div class="modal  fade" id="largeModal" tabindex="-1" aria-labelledby="largeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-promo full-height-promo modal-lg modal-dialog-centered">
+          <div class="modal-content modal-promo">
+
+            <div class="modal-body promo-body">
+              <button type="button" class="close promo-close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true"> <img src="assets/images/close-black.svg" alt="close"></span>
+              </button>
+              <img class="promo-img" src="assets/images/hero-banner-web.jpg" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- small Modal Modal -->
+    <div class="modal  fade" id="smallModal" tabindex="-1" aria-labelledby="largeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-promo modal-sm modal-dialog-centered ">
+        <div class="modal-content modal-promo">
+
+          <div class="modal-body promo-body">
+            <button type="button" class="close promo-close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"> <img src="assets/images/close-black.svg" alt="close"></span>
+            </button>
+            <img class="promo-img" src="assets/images/hero-banner-mobile.jpg" alt="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Success Modal Modal starts  -->
+    <div class="modal  fade" id="successModal" tabindex="-1" aria-labelledby="largeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-promo modal-sm modal-dialog-centered ">
+          <div class="modal-content modal-promo bg-white">
+
+              <div class="modal-body promo-body " >
+            
+
+                  <div class="model-cont p-3 my-3 " >
+
+                      <div
+                          class="heading-info-section-ho5 d-flex align-items-center flex-wrap flex-column justify-content-center">
+
+                          <div class="img-cont text-center mb-3"><img width="120" src="assets/images/success.png"
+                                  alt="" title="">
+                          </div>
+                          <h5 class="section-ho5 text-center">Thank you
+                              Your request successfully
+                              submitted</h5>
+                          <p class="section-body3 text-center">Your mailing list contact request successfully submitted</p>
+
+
+                          <div class="section-btn-cont">
+                              <a href="#" class="btn btn-primary" data-dismiss="modal">OK</a>
+                          </div>
+                      </div>
+
+
+                  </div>
+
+
+
+
+
+              </div>
+
+          </div>
+      </div>
+  </div>
+  <!-- Success Modal Modal starts  -->
+
+  <!-- Failure Modal Modal starts  -->
+  <div class="modal  fade" id="failureModal" tabindex="-1" aria-labelledby="largeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-promo modal-sm modal-dialog-centered ">
+        <div class="modal-content modal-promo bg-white">
+
+            <div class="modal-body promo-body " >
+          
+
+                <div class="model-cont p-3 my-3 " >
+
+                    <div
+                        class="heading-info-section-ho5 d-flex align-items-center flex-wrap flex-column justify-content-center">
+
+                        <div class="img-cont text-center mb-3"><img width="120" src="assets/images/failure.png"
+                                alt="" title="">
+                        </div>
+                        <h5 class="section-ho5 text-center">Something went wrong</h5>
+                        <p class="section-body3 text-center">We cannot processing your request, 
+                          please try again</p>
+
+
+                        <div class="section-btn-cont">
+                            <a href="#" class="btn btn-primary" data-dismiss="modal">OK</a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Failure Modal Modal starts  -->
+
+<!-- Logout Confirmation Modal Modal starts  -->
+<div class="modal  fade" id="logoutModal" tabindex="-1" aria-labelledby="largeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-promo modal-sm modal-dialog-centered ">
+      <div class="modal-content modal-promo bg-white">
+
+          <div class="modal-body promo-body">
+              <div class="model-cont p-3 my-3">
+
+                  <div class="heading-info-section-ho5 d-flex align-items-center flex-wrap flex-column justify-content-center">
+                      <div class="img-cont text-center mb-3"><img width="120" src="assets/images/failure.png" alt="" title="">
+                      </div>
+                      <h5 class="section-ho5 text-center">Are you sure want to logout?</h5>
+                      <p class="section-body3 text-center">You will be logged out from the account. You can always re-login later.</p>
+                      <div class="section-btn-cont">
+                          <a href="#" class="btn btn-primary" data-dismiss="modal">NO</a>
+                      </div>
+                      <div class="section-subbtn-cont">
+                        <a href="#"> Yes logout now </a>
+                    </div>
+                  </div>
+
+              </div>
+
+          </div>
+
+      </div>
+  </div>
+</div>
+<!-- Logout Confirmation Modal Modal starts  -->
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--/* -- jQuery JS V 3.3.1 -- */-->
+  <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+  <!--/* -- bootstrap JS Bundle V  v4.5.2 -- */-->
+  <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+  <!--/* -- Swiper JS V V 6.1.1 -- */-->
+  <script type="text/javascript" src="assets/js/swiper-bundle.min.js"></script>
+
+  <!-- mega-menu js st-->
+  
+  <script src="assets/js/mega-menu/mobile-mega-menu.min.js"></script>
+  <script src="assets/js/mega-menu/main-mega-menu.js"></script>
+  <!-- mega-menu js end-->
+  <script src="assets/js/mega-menu/mega-footer.js"></script>
+
+
+  <!--/* -- custom JS V 1.0 -- */-->
+  <script type="text/javascript" src="assets/js/custom.js"></script>
+
+
+  <!-- Initialize Swiper -->
+  <script>
+    $(document).ready(function(){
+        $("#smallModal").modal('show');
+    });
+</script>
+</body>
+
+</html>

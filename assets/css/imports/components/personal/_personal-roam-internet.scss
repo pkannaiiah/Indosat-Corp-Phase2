@@ -1,0 +1,12 @@
+.p-roam-internet{
+    .product_card-img img{width:100%!important;}   
+ }
+ .getroam-sec{
+    .d-flex{width:80%;}
+    .d-flex div{width:calc(25% - 20px);margin:10px;}
+ }
+ @media (max-width: 575.98px) {
+    .getroam-sec{
+       .d-flex{width:100%;}
+    }
+ }

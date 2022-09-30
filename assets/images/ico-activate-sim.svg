@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="39" viewBox="0 0 39 39">
+    <defs>
+        <path id="gxxd6wjgya" d="M4.8 0h13.455c1.396 0 2.724.608 3.636 1.667l6.945 8.06c.751.87 1.164 1.983 1.164 3.133V31.2c0 2.651-2.149 4.8-4.8 4.8H4.8C2.149 36 0 33.851 0 31.2V4.8C0 2.149 2.149 0 4.8 0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 3H40V43H0z" transform="translate(0 -4)"/>
+        <g transform="translate(0 -4) translate(0 4)">
+            <mask id="9l8hwldsib" fill="#fff">
+                <use xlink:href="#gxxd6wjgya"/>
+            </mask>
+            <use fill="#ED1C24" fill-rule="nonzero" xlink:href="#gxxd6wjgya"/>
+            <g mask="url(#9l8hwldsib)">
+                <g fill-rule="nonzero" transform="translate(7 15)">
+                    <rect width="14.4" height="13.8" x="2.8" y="1.2" fill="#FF979C" rx="2.4"/>
+                    <g fill="#ED1C24">
+                        <g>
+                            <path d="M0 4.533L15 4.533 15 5.44 0 5.44zM5.44 0L5.44 4.533 4.533 4.533 4.533 0zM10.88 0L10.88 4.533 9.973 4.533 9.973 0z" transform="translate(.4 .547) translate(2)"/>
+                            <path d="M3.264 0.181L3.264 4.715 2.357 4.715 2.357 0.181z" transform="translate(.4 .547) translate(2)"/>
+                        </g>
+                        <g>
+                            <path d="M0 5.533L16.727 5.533 16.727 6.44 0 6.44zM7.44 1L7.44 5.533 6.533 5.533 6.533 1zM12.88 1L12.88 5.533 11.973 5.533 11.973 1z" transform="translate(.4 .547) rotate(180 8.8 7.753)"/>
+                            <path d="M5.264 0L5.264 5.715 4.357 5.715 4.357 0z" transform="translate(.4 .547) rotate(180 8.8 7.753)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g fill-rule="nonzero" transform="translate(0 -4) translate(21 25)">
+            <circle cx="9" cy="9" r="9" fill="#B0E020"/>
+            <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M5 9L7.667 12 13 7"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,192 @@
+// Large devices (desktops, less than 1200px)
+@include media-breakpoint-down(lg) {
+    @include global--lg();
+    @include headdings--lg();
+   
+    //Global media ends
+  
+    @include global-mini-carousel--lg();
+   
+    @include global-contact--lg();
+    @include p-home-card-01--lg();    
+    @include template4-swp-04--lg();
+
+
+    //corp
+    @include corp-other-info--lg();
+
+    // Personal Home Swipers
+    @include p-home-swp-01--lg();
+    @include p-home-swp-02--lg();
+    @include p-home-swp-03--lg();
+
+}
+
+// Medium devices (tablets, less than 992px)
+@include media-breakpoint-down(md) {
+    @include global--md();
+    @include headdings--md();
+   
+    //Global media ends
+    
+    //Home page compoents
+  
+    @include global-mini-carousel--md();
+    
+    @include p-home-swp-02--md();
+    @include p-home-swp-03--md();
+    @include p-home-list-01--md();
+    @include p-home-list-02--md();
+    @include p-home-card-01--md();
+    @include global-contact--md();
+    @include template4-swp-04--md();
+    //corp
+    @include corp-other-info--md();
+    // Personal Home Swipers
+    @include p-home-swp-01--md();
+    @include p-home-swp-02--md();
+    @include p-home-swp-03--md();
+    
+}
+
+
+// Small devices (landscape phones, less than 768px)
+@include media-breakpoint-down(sm) {
+    @include global--sm();
+    @include headdings--sm();
+    
+    //Global media ends
+  
+    @include global-mini-carousel--sm();
+  
+
+    @include p-home-card-01--sm();
+    @include global-contact--sm();
+    
+    @include template4-swp-04--sm();
+
+    //corp
+    @include corp-other-info--sm();
+    // Personal Home Swipers
+    @include p-home-swp-01--sm();
+    @include p-home-swp-02--sm();
+    @include p-home-swp-03--sm();
+    @include general-compo-5--sm();
+    @include footer-fixed-icons--sm();
+}
+
+// Small devices (landscape phones, less than 768px)
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(xs) {
+    @include global--xs();
+    @include headdings--xs();
+   
+    //Global media ends
+
+ 
+    // Toast Messages
+    @include footer-fixed-icons--xs();
+    @include temp4-varinat1--xs();
+    @include template4-swp-04--xs();
+    @include p-home-list-01--xs();
+    @include p-home-card-01--xs();
+   
+    @include global-mini-carousel--xs();
+    @include global-contact--xs();
+
+    // Personal Home Swiper
+    @include p-home-swp-01--xs();
+    @include p-home-swp-02--xs();
+    @include p-home-swp-03--xs();
+    
+
+    //corp
+
+    @include corp-other-info--xs();
+    @include general-compo-5--xs();
+    @include corp-other-info--xs();
+}
+
+// iOS 6 devices (portrait phones, less than 425px)
+@media (max-width: 425px) {
+    // Personal Home Swiper
+    @include p-home-swp-01--425();
+    @include p-home-swp-02--425();
+    @include p-home-swp-03--425();
+}
+
+// iOS 6+ devices (portrait phones, less than 414px)
+@media (max-width: 414px) {
+    // Personal Home Swiper
+    @include p-home-swp-01--414();
+    @include p-home-swp-02--414();
+    @include p-home-swp-03--414();
+}
+
+// Redmi pro devices (portrait phones, less than 393px)
+@media (max-width: 393px) {
+    // Personal Home Swiper 
+    @include p-home-swp-01--393();
+    @include p-home-swp-02--393();
+    @include p-home-swp-03--393();
+}
+
+
+
+// iOS 6 devices (portrait phones, less than 375px)
+@media (max-width: 375px) {
+    @include headdings--375();
+   
+    //Global media ends
+   
+    @include p-home-card-01--375();
+    @include global-contact--375();
+
+    //corp
+    @include corp-other-info--375();
+
+    // Personal Home Swiper
+    @include p-home-swp-01--375();
+    @include p-home-swp-02--375();
+    @include p-home-swp-03--375();
+    @include general-compo-5--375();
+
+}
+
+
+// Android devices (portrait phones, less than 360px)
+@media (max-width: 360px) {
+    @include headdings--360();
+  
+    //Global media ends
+   
+
+    //corp
+    @include corp-other-info--360();
+
+    // Personal Home Swiper
+    @include p-home-swp-01--360();
+    @include p-home-swp-02--360();
+    @include p-home-swp-03--360();
+
+    @include footer-fixed-icons--xs();
+}
+
+
+// iOS 5 devices (portrait phones, less than 320px)
+@media (max-width: 320px) {
+    @include headdings--320();
+   
+    //Global media ends
+    //corp
+    @include corp-other-info--320();
+
+    // Personal Home Swiper 01
+    @include p-home-swp-01--320();
+    @include p-home-swp-02--320();
+    @include p-home-swp-03--320();
+    @include footer-fixed-icons--320;
+}

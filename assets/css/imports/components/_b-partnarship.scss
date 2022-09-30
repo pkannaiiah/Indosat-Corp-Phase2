@@ -1,0 +1,101 @@
+.b-partnarship {
+  .b-partnarship-rect {
+    min-height: 500px;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 20px;
+  }
+
+  /* 1234567 */
+  .part-data-cont {
+    margin: 30px 0;
+
+    .part-data-cont-ul {
+      margin: 0;
+      padding: 0;
+
+      h6 {
+        margin-bottom: 16px;
+      }
+
+      .part-data-cont-li {
+        position: relative;
+        font-size: 16px;
+        font-family: $noto-light;
+        padding-left: 36px;
+        margin-bottom: 5px;
+
+        &::before {
+          content: '';
+         // background: url(../../indosatassets/images/content.svg);
+          background-image: url(#{$service-assetPath}content.svg);
+          position: absolute;
+          top: -4px;
+          left: -4px;
+          width: 36px;
+          height: 36px;
+          background-size: cover;
+        }
+
+      }
+      .part-star{
+        &::before {
+          content: '';
+         // background: url(../../indosatassets/images/checked-green.svg);
+          background-image: url(#{$service-assetPath}checked-green.svg);
+          position: absolute;
+          top: -4px;
+          left: -4px;
+          width: 36px;
+          height: 36px;
+          background-size: cover;
+        }
+
+      }
+
+
+
+    }
+  }
+}
+
+//-----------------
+//Media
+//-----------------
+
+// Large devices (desktops, less than 1200px)
+@include media-breakpoint-down(lg) {}
+
+// Medium devices (tablets, less than 992px)
+@include media-breakpoint-down(md) {}
+
+
+// Small devices (landscape phones, less than 768px)
+@include media-breakpoint-down(sm) {}
+
+// Extra small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(xs) {}
+
+// iOS 6 devices (portrait phones, less than 425px)
+@media (max-width: 425px) {}
+
+// iOS 6+ devices (portrait phones, less than 414px)
+@media (max-width: 414px) {}
+
+// Redmi pro devices (portrait phones, less than 393px)
+@media (max-width: 393px) {}
+
+
+
+// iOS 6 devices (portrait phones, less than 375px)
+@media (max-width: 375px) {}
+
+
+
+// Android devices (portrait phones, less than 360px)
+@media (max-width: 360px) {}
+
+
+// iOS 5 devices (portrait phones, less than 320px)
+@media (max-width: 320px) {}

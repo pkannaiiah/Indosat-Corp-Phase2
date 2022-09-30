@@ -1,0 +1,90 @@
+.before-login-header-comp{
+    font-family: "Ooredoo-Heavy";
+    font-size: 14px;
+    display: flex;
+
+    .webtnreg-login{
+
+    .beforelogin-btn{
+    padding:10px 30px;
+    border-radius: 30px;
+    top: 0px;
+    margin: 0px;
+    float: left;
+    color: #fff;
+    background-color: #ed1c24;
+    height: 42px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right:15px;
+    }
+    .indo-register-btn{
+    padding:10px 30px;
+    border-radius: 30px;
+    top: 0px;
+    margin: 0px;
+    float: left;
+    color: #ed1c24;
+    background-color: #fff;
+    border:1px solid #ed1c24;
+    height: 42px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    }
+}
+    .login-avatar{display: none;}
+}
+
+@media (max-width: 1024px) {
+.before-login-header-comp{
+    .login-avatar {
+    display: block;
+    border-radius: 30px;
+    margin: 0px 10px;
+    float: left;
+    color: #211e20;
+    position: absolute;
+    top: 10px;
+    right: 3.5rem;
+    padding: 0px;
+    width: 28px;
+ }
+}
+.before-login-header-comp{
+    .webtnreg-login{
+        display: flex;
+        top: 0px;
+        position: absolute;
+        padding:0px;
+        background: #fff;
+        padding-bottom: 15px;
+        width: 100%;
+        padding-top: 10px;
+        justify-content: center;
+    }
+    .beforelogin-btn {
+        padding:7px 30px;height:38px;
+    }
+  .indo-register-btn {
+        padding:7px 25px;height:38px;
+    }
+}
+
+}
+@media (max-width: 768px) {
+    .before-login-header-comp{
+        .webtnreg-login{
+            top: 60px;
+        }
+    }
+}
+@media (max-width: 480px) {
+    .before-login-header-comp{
+        .login-avatar {
+            top:17px;
+            margin: 0px 10px;
+        }
+    }
+}

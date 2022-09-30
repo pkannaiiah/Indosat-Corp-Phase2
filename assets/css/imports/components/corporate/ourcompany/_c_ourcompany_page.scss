@@ -1,0 +1,134 @@
+//Safari 9+ hacks
+
+@supports (-webkit-appearance:none) {
+  .c_ourcomp_director_chief .swiper-wrapper .swiper-slide .card a {
+    min-height: 310px;
+  }
+
+}
+
+.c_ourcomp_director_chief {
+
+  .swiper-wrapper {
+    flex-wrap: wrap;
+
+    .swiper-slide {
+      padding: 0 10px 30px;
+      width: 25%;
+      height: auto;
+      overflow: hidden;
+
+
+      .card {
+        @extend %cardbox-shadow;
+        padding: 20px;
+        height: 100%;
+        background-color: $white;
+
+        a {
+          display: flex;
+          flex-flow: column nowrap;
+
+          color: $secondary;
+          text-decoration: none;
+          height: 100%;
+
+
+
+          .card_content {
+            .card_title {
+              font-family: $heavy;
+              font-size: 20px;
+              margin-bottom: 10px;
+              line-height: normal;
+            }
+
+            .card_text {
+              font-family: $noto-light;
+              font-size: 14px;
+
+            }
+          }
+
+          .card_image {
+            margin: auto 20px 0px;
+          }
+
+        }
+
+      }
+    }
+  }
+}
+
+
+// -----------
+//Media Queries
+//---------------
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .c_ourcomp_director_chief {
+    padding-bottom: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 100%;
+
+    .swiper-pagination-bullets {
+      left: 15px;
+    }
+
+    .swiper-wrapper {
+      flex-wrap: nowrap;
+
+      .swiper-slide {
+        width: 280px;
+      }
+    }
+  }
+
+  /* .c_ourcomp_director_chief {
+    .swiper-wrapper {
+      .swiper-slide {
+        width: 33.33%;
+      }
+    }
+  } */
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  
+
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 576px) {}
+
+// iOS 6 devices (portrait phones, less than 425px)
+@media (max-width: 425px) {}
+
+// iOS 6+ devices (portrait phones, less than 414px)
+@media (max-width: 414px) {}
+
+// Redmi pro devices (portrait phones, less than 393px)
+@media (max-width: 393px) {}
+
+
+
+// iOS 6 devices (portrait phones, less than 375px)
+@media (max-width: 375px) {}
+
+
+
+// Android devices (portrait phones, less than 360px)
+@media (max-width: 360px) {}
+
+
+// iOS 5 devices (portrait phones, less than 320px)
+@media (max-width: 320px) {}

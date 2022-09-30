@@ -1,0 +1,286 @@
+.dif-swiper-cards4-imgbtn {
+
+    .swiper-wrapper {
+        margin-bottom: 34px;
+
+    }
+
+    .swiper-pagination-bullets {
+        bottom: 0px;
+    }
+
+    .swiper-pagination-bullet-active {
+        opacity: 1;
+        background: #3490dc;
+    }
+
+    .card {
+        background-color: $card-bg;
+        background-clip: border-box;
+        border: 1px solid #cccccc;
+        height: 100%;
+        overflow: hidden;
+        @include border-radius(25px);
+
+        .img-cont {
+            position: relative;
+            text-align: center;
+
+            .btn-overlay {
+                position: absolute;
+                bottom: 1rem;
+                right: 1rem;
+                display: inline-block;
+                color: #3490dc;
+                background: #ffffff;
+                min-width: 100px;
+            }
+        }
+
+        .card-body {
+            // Enable `flex-grow: 1` for decks and groups so that card blocks take up
+            // as much space as possible, ensuring footers are aligned to the bottom.
+            padding: 0.5rem;
+            color: $primary;
+        }
+
+        .card-title {
+            margin-bottom: $card-spacer-y;
+            color: $dark;
+        }
+
+        .card-text {
+            color: $info;
+        }
+
+        .card-subtitle {
+            margin-top: -$card-spacer-y / 2;
+            margin-bottom: 0;
+        }
+
+        .card-text:last-child {
+            margin-bottom: 0;
+        }
+
+        .btn-primary {}
+
+
+
+    }
+}
+
+
+.slides-count4 {
+    .swiper-wrapper {
+        margin-bottom: 0px;
+    }
+
+    .swiper-wrapper {
+        justify-content: start;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+}
+
+.slides-count3,
+.slides-count2,
+.slides-count1 {
+    .swiper-wrapper {
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+
+    .swiper-pagination {
+        display: none;
+
+    }
+}
+
+
+
+.slides3-count3 {
+    .swiper-wrapper {
+        justify-content: start;
+        margin-bottom: 0;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+}
+
+
+/* Flex start - 3 cards - Dot navigation Hide and show  starts*/
+
+.slides-count3-start,
+.slides-count2-start,
+.slides-count1-start {
+    padding-bottom: 20px!important;
+    .swiper-pagination {
+        display: none;
+    }
+
+}
+
+/* Flex start - 3 cards - Dot navigation Hide and show  ends */
+
+
+
+
+
+
+//---------------
+//Media Queries
+//---------------
+
+//@include footer-fixed-icons--lg(); 1200px
+@mixin template4-swp-04--lg() {}
+
+//@include footer-fixed-icons--md(); 992px
+@mixin template4-swp-04--md() {
+
+    .slides-count4 {
+        .swiper-wrapper {
+            justify-content: start;
+            margin-bottom: 34px;
+        }
+
+        .swiper-pagination {
+            display: block;
+        }
+    }
+
+    .slides-count3 {
+        .swiper-wrapper {
+            justify-content: start;
+        }
+
+        .swiper-pagination {
+            display: none;
+        }
+    }
+
+
+    /* Flex start - 3 cards - Dot navigation Hide and show  starts*/
+
+.slides-count3-start{
+    padding-bottom: 40px!important;
+    .swiper-pagination {
+        display: block;
+    }
+}
+.slides-count2-start,
+.slides-count1-start {
+    padding-bottom: 20px!important;
+    .swiper-pagination {
+        display: none;
+    }
+
+}
+
+/* Flex start - 3 cards - Dot navigation Hide and show  ends */
+
+
+    .slides3-count3 {
+        .swiper-wrapper {
+            justify-content: start;
+            margin-bottom: 34px;
+        }
+
+        .swiper-pagination {
+            display: block;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+//@include footer-fixed-icons--sm(); 768px
+@mixin template4-swp-04--sm() {
+    .slides-count3 {
+        .swiper-wrapper {
+            justify-content: start;
+            margin-bottom: 34px;
+        }
+
+        .swiper-pagination {
+            display: block;
+        }
+    }
+
+    .slides-count2 {
+        .swiper-wrapper {
+            justify-content: start;
+            margin-bottom: 0px;
+        }
+
+        .swiper-pagination {
+            display: none;
+        }
+    }
+
+    /* Flex start - 3 cards - Dot navigation Hide and show  starts*/
+
+.slides-count2-start{
+    padding-bottom: 40px!important;
+    .swiper-pagination {
+        display: block;
+    }
+}
+
+.slides-count1-start {
+    padding-bottom: 20px!important;
+    .swiper-pagination {
+        display: none;
+    }
+
+}
+
+/* Flex start - 3 cards - Dot navigation Hide and show  ends */
+
+
+
+     
+}
+
+
+//@include footer-fixed-icons--xs(); 576px
+@mixin template4-swp-04--xs() {
+    .slides-count2 {
+        .swiper-wrapper {
+            margin-bottom: 34px;
+        }
+
+        .swiper-pagination {
+            display: block;
+        }
+    }
+
+    .slides-count1 {
+        .swiper-wrapper {
+            justify-content: start;
+            margin-bottom: 0px;
+        }
+
+        .swiper-pagination {
+            display: none;
+        }
+    }
+}
+
+
+//@include footer-fixed-icons--xs(); 375px
+@mixin template4-swp-04--375() {}
+
+//@include footer-fixed-icons--360(); 360px
+@mixin template4-swp-04--360() {}
+
+//@include footer-fixed-icons--320(); 320px
+@mixin template4-swp-04--320() {}

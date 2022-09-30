@@ -1,0 +1,31 @@
+
+.c_ourcomp_company_value{
+    font-family: $noto-light;
+h3{margin-bottom:72px;}    
+.tem-header-section {max-width:100%;text-align:center;}    
+.temp4-var1 .var1-box .var1-group2 h5 {font-family:$heavy;font-size:18px;}
+.temp4-var1 .var1-box .var1-group2 p {font-size:14px;}
+.temp4-var1 .var1-box{max-width:none!important;width:auto!important;margin-bottom:30px;flex:0 30%!important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: inherit;
+    -webkit-box-align: start!important;
+    -ms-flex-align: start!important;
+    align-items: start!important;
+    display: flex;
+}
+.var1-group2{max-width:75%!important;}
+.temp4-var1 {display: -webkit-box;display: -ms-flexbox;display:flex;-ms-flex-pack:distribute;
+justify-content:left!important;margin-top:0px;}
+}
+@media (max-width: 425px) {
+
+.c_ourcomp_company_value{
+ h3 {margin-bottom:30px;}
+.temp4-var1 .var1-box .var1-group2 h5{font-family:$heavy;font-size:14px;}
+.var1-group2 {max-width:100%!important;}
+.temp4-var1 .var1-box .var1-group2 p{font-size:12px;}
+}
+//add global css
+.global_breadcrumb ul li a {font-size: 12px;padding: 5px 10px;}
+}

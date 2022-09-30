@@ -1,0 +1,49 @@
+.yellow-icon-info{
+    &-img{
+        width: 50px;
+        img{
+            width: 100%;
+        }
+    }
+    &-text{
+        margin-left: 25px;
+        flex: 1;
+        h5{
+            font-size: 18px;
+        }
+        p{
+            font-size: 12px;
+            margin-top: 10px;
+        }
+    }
+}
+// -----------
+//Media Queries
+//---------------
+@media (max-width: 1199.98px) {
+
+}
+@media (max-width: 991.98px) {
+    .yellow-icon-info{
+        &-text{
+            h5{
+                font-size: 16px;
+            }
+        }
+    }
+}
+@media (max-width: 767.98px) {
+  
+}
+@media (max-width: 576px) {
+    .yellow-icon-info{
+        &-img{
+            width: 40px;
+        }
+        &-text{
+            h5{
+                font-size: 14px;
+            }
+        }
+    }
+}

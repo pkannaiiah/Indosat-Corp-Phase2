@@ -1,0 +1,271 @@
+//product page popup class
+.productpopup {
+    ul {
+        padding: 0px 15px 0px 15px;
+
+        li {
+            list-style: disc;
+            font-size: 14px;
+            color: #211e20;
+        }
+    }
+}
+
+.product-pic {
+    width: 130px;
+    margin: 0 auto;
+}
+
+//product page popup
+
+
+.data_center_gmap {
+    position: relative;
+
+    .datacentermap-cont {
+        border: 0;
+        width: 100%;
+        min-height: 500px;
+
+    }
+
+    .google-maps {
+        position: inherit;
+        overflow: hidden;
+        top: 0px;
+        min-height: calc(100% - 100px) !important;
+
+        iframe {
+            width: 100%;
+            height: 550px;
+        }
+    }
+
+    .date-center-row {
+        position: absolute;
+        //width: 100%;
+        z-index: 9;
+
+
+        .date-center-card {
+            background: #fff;
+            width: 380px;
+            min-height: 376px;
+            border-radius: 16px;
+            // overflow-y:scroll;
+            padding: 25px 10px 25px 27px;
+
+            h5 {
+                margin-bottom: 39px;
+                text-align: center;
+                white-space: normal;
+            }
+        }
+        .min-hauto{min-height: auto!important;}
+    }
+
+    .mycontainer {
+        white-space: nowrap;
+        overflow-x: hidden;
+        //overflow-y: scroll;
+        width: 345px;
+        height: 300px;
+
+        .box {
+            display: inline-block;
+            width: 331px;
+            vertical-align: top;
+            padding-right: 5px;
+            cursor: pointer;
+
+            .nextBtn {
+                .py-2 {
+                    width: calc(100% - 20px);
+                }
+            }
+
+            img {
+                width: 10px;
+            }
+
+            h6 {
+                color: #211e20;
+            }
+
+            p {
+                font-size: 12px;
+                color: #211e20;
+                margin-bottom: 0px;
+                white-space: normal;
+            }
+
+            .border1px {
+                border-bottom: 1px solid #e0e0e0;
+                margin: 8px 0px
+            }
+        }
+        .box2 {
+            margin-bottom: 15px;
+
+            .backBtn {
+                font-family: $heavy;
+                font-size: 14px;
+                margin-bottom: 32px;
+            }
+
+            .hedtext {
+                font-family: $noto-light;
+                font-size: 20px;
+                margin-bottom: 21px;
+            }
+
+            .datetext {
+                font-size: 14px;
+                color: #d8d8d8;
+                margin-top: 6px;
+            }
+
+            .locattext {
+                font-family: $noto-light;
+                font-size: 14px;
+
+                .p-2 {
+                    white-space: normal;
+                    width: calc(100% - 26px);
+                }
+            }
+
+            .minheight1 {
+                min-height: 100px;
+                margin-top: 32px;
+            }
+        }
+
+
+    }
+
+    .mycontainer-detail {
+        .box2 {
+            margin-bottom: 15px;
+
+            .backBtn {
+                font-family: $heavy;
+                font-size: 14px;
+                margin-bottom: 32px;
+            }
+
+            .hedtext {
+                font-family: $noto-light;
+                font-size: 20px;
+                margin-bottom: 21px;
+            }
+
+            .datetext {
+                font-size: 14px;
+                color: #d8d8d8;
+                margin-top: 6px;
+            }
+
+            .locattext {
+                font-family: $noto-light;
+                font-size: 14px;
+
+                .p-2 {
+                    white-space: normal;
+                }
+            }
+
+            .minheight1 {
+                min-height: 100px;
+                margin-top: 32px;
+            }
+        }
+
+    }
+}
+
+//gobal scrollbar st
+.scrollbar::-webkit-scrollbar {
+    background-color: #fff;
+    width: 10px;
+}
+
+/* background of the scrollbar except button or resizer */
+.scrollbar::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+.scrollbar::-webkit-scrollbar-track:hover {
+    width: 10px;
+    background-color: #f4f4f4;
+}
+
+/* scrollbar itself */
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    border: 3px solid #fff;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #e0e0e0;
+    border: 3px solid #e0e0e0;
+}
+
+/* set button(top and bottom of the scrollbar) */
+.scrollbar::-webkit-scrollbar-button {
+    display: none;
+}
+
+.scrollbar {
+    width: 10px;
+    min-width: 150px;
+    background: #fff;
+    overflow-y: scroll;
+}
+
+.overflow {
+    min-height: 300px;
+}
+
+//scrollbar st
+
+@media (max-width: 576px) {
+    .pyg-60 {
+        padding-top: 60px;
+    }
+
+    .data_center_gmap {
+        .date-center-row {
+            position: relative;
+
+            .date-center-card {
+                width: 100%;
+                min-height: 250px;
+                padding: 0;
+                border-radius: 0px;
+            }
+        }
+
+        .mycontainer {
+            width: 100%;
+            height: 240px;
+
+            .box {
+                width: 290px;
+                font-size: 14px;
+                padding-right: 15px;
+            }
+        }
+
+        .google-maps {
+            height: 700px;
+            display: none;
+
+            iframe {
+                height: 400px;
+            }
+
+        }
+    }
+}

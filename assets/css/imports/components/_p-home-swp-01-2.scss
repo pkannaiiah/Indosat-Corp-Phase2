@@ -1,0 +1,288 @@
+.p-home-swp-01-2 {
+    .p-home-swp-01-2-swiper-container {
+        .card-wraper {
+            flex-wrap: wrap;
+          }
+          .sw-slide-cont{
+            width: calc(50% - 10px); 
+            margin-right: 20px;
+            margin-bottom: 20px;
+            &:nth-child(2n){
+                margin-right: 00px;
+            }
+    
+        }
+        .home-sw01-slidecont {
+            @include border-radius(14px);
+           
+            overflow: hidden;
+            .hsw01-text-imgcont {
+                min-height: 150px;
+                width: 100%;            
+                cursor: pointer;
+                @extend %default-bg-image;
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .flexgrid-item {
+            @include border-radius(8px);
+            position: relative;
+            overflow: hidden;            
+            box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.11);           
+            min-height: 150px;
+            .img-cont {
+                width: 100%;
+                height: 100%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .overlay-img {
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 0;
+                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.02) 40%, #000000 100%);
+                display: flex;
+                justify-content: center;
+                align-content: center;
+
+                h5 {
+                    margin: 20px;
+                    color: $white;
+                    text-align: left;
+                    margin-top: auto;
+                    font-size: 22px;
+                    width: 100%;
+                    position: relative;
+                    cursor: pointer;
+                    
+
+                }
+            }
+
+            &:hover {
+
+                .overlay-img {
+                    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 40%, transparent 100%);
+
+                    h5 {
+                        &::after {
+                            content: '';
+                            @include border-radius(50%);
+                            background: #ffffff url(../../indosatassets/images/detail-red.svg) 50% 50% no-repeat;
+                            position: absolute;
+                            top: -2px;
+                            right: -2px;
+                            width: 30px;
+                            height: 30px;
+
+                            background-size: cover;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+// -----------
+//Media Queries
+//---------------
+
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    .p-home-swp-01-2 {
+        .p-home-swp-01-2-swiper-container {
+                .home-sw01-slidecont {
+                    .hsw01-text-imgcont {
+                       // height: 172px;
+                    }
+                }
+            }
+        }
+    
+}
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .p-home-swp-01-2 {
+        .p-home-swp-01-2-swiper-container {
+            padding-bottom: 30px;
+            .card-wraper {
+                flex-wrap: nowrap;
+                .sw-slide-cont {
+                    margin-bottom: 0;
+                    margin-right: auto;
+                    width: auto;
+                    &:nth-child(2n){
+                        margin-right: auto;
+
+                    }
+                  }
+              }
+                .home-sw01-slidecont {
+                    .hsw01-text-imgcont {
+                        
+                    }
+                }
+                .swiper-slide {
+                    //@extend %swiper-slide-padding;
+                    padding-right: 7.5px;
+                    padding-left: 7.5px;
+        
+                    &:first-child {
+                        padding-left: 15px;
+                    }
+        
+                    &:last-child {
+                        padding-right: 15px;
+                    }
+                }
+                .swiper-pagination-bullets {
+                    margin-left: 15px;
+                }
+            }
+        }
+   
+}
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .p-home-swp-01-2 {
+        .p-home-swp-01-2-swiper-container {
+                .home-sw01-slidecont {
+                    .hsw01-text-imgcont {
+                       // height: 143px;
+                    }
+                }
+            }
+        }
+   
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 576px) {
+    .p-home-swp-01-2 {
+        .p-home-swp-01-2-swiper-container {
+                padding-bottom: 30px;
+                .home-sw01-slidecont {
+                    .hsw01-text-imgcont {
+                       // height: 250px;
+                    }
+                }
+                .swiper-slide {
+                    padding-right: 0;
+                    padding-left: 0;
+    
+                    &:first-child {
+                        padding-left: 0;
+                    }
+        
+                    &:last-child {
+                        padding-right: 0;
+                    }
+                }
+                .swiper-pagination-bullets {
+                    bottom: 0;
+                }
+            }
+        }
+   
+}
+// iOS 6 devices (portrait phones, less than 425px)
+@media (max-width: 425px) {
+    .p-home-swp-01-2 {
+        .p-home-swp-01-2-swiper-container {
+                .home-sw01-slidecont {
+                    .hsw01-text-imgcont {
+                        //height: 211px;
+                    }
+                }
+            }
+        }
+}
+
+// iOS 6+ devices (portrait phones, less than 414px)
+@media (max-width: 414px) {
+    .p-home-swp-01-2 {
+        .p-home-swp-01-2-swiper-container {
+                .home-sw01-slidecont {
+                    .hsw01-text-imgcont {
+                       // height: 205px;
+                    }
+                }
+            }
+        }
+}
+
+// Redmi pro devices (portrait phones, less than 393px)
+@media (max-width: 393px) {
+    .p-home-swp-01-2 {
+        .p-home-swp-01-2-swiper-container {
+                .home-sw01-slidecont {
+                    .hsw01-text-imgcont {
+                        //height: 195px;
+                    }
+                }
+            }
+        }
+}
+
+
+
+// iOS 6 devices (portrait phones, less than 375px)
+@media (max-width: 375px) {
+    .p-home-swp-01-2 {
+        .p-home-swp-01-2-swiper-container {
+                .home-sw01-slidecont {
+                    .hsw01-text-imgcont {
+                        //height: 186px;
+                    }
+                }
+            }
+        }
+}
+
+
+
+// Android devices (portrait phones, less than 360px)
+@media (max-width: 360px) {
+    .p-home-swp-01-2 {
+        .p-home-swp-01-2-swiper-container {
+                .home-sw01-slidecont {
+                    .hsw01-text-imgcont {
+                        //height: 179px;
+                    }
+                }
+            }
+        }
+}
+
+
+// iOS 5 devices (portrait phones, less than 320px)
+@media (max-width: 320px) {
+    .p-home-swp-01-2 {
+        .p-home-swp-01-2-swiper-container {
+                .home-sw01-slidecont {
+                    .hsw01-text-imgcont {
+                        //height: 159px;
+                    }
+                }
+            }
+        }
+}

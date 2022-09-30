@@ -1,0 +1,597 @@
+.corp-abt-head-cards {
+  height: 100%;
+
+  .corp-desccards-slidecont {
+    @extend %cardbox-shadow;
+    overflow: hidden;
+    //min-height: 200px;
+    max-height: 400px;
+    width: calc(33% - 13px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    &:nth-child(3n) {
+      margin-right: 0px;
+
+    }
+
+    .swiper-pagination-bullets {
+      margin-left: 15px;
+    }
+
+    .desccards-card {
+      height: 100%;
+
+      .img-cont {
+        min-height: 100px;
+        //background-color: $img-bg-color;
+        @extend %default-bg-image;
+      }
+
+      .desccards-card-body {
+        padding: 20px;
+
+        .desccards-card-text {
+          //font-size: 18px;max-height: 105px;
+          @include multi-Truncate(18px, 1.4, 3);
+          font-family: $noto-light;
+        }
+      }
+
+      .desccards-card-footer {
+        padding: 16px 20px;
+
+        .ic-red-more {
+          width: 16px;
+          height: 36px;
+        }
+      }
+    }
+
+
+
+    .home-sw04-slidecont {
+
+      height: 100%;
+
+      .sw04-card {
+        border-radius: 16px;
+
+        .img-cont {
+          margin-top: 30px;
+
+          .card-img-top {
+            width: 83px;
+            height: 83px;
+          }
+        }
+
+        .sw04-card-body {
+          display: flex;
+          flex-flow: wrap;
+
+          h4 {
+            font-size: 18px;
+            max-height: 45px;
+            overflow: hidden;
+            width: 100%;
+          }
+
+          .suptxt-cont {
+            margin-top: auto;
+            height: 64px;
+            overflow: hidden;
+          }
+
+          p {
+            margin-top: auto;
+            font-family: $noto-light;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+
+  }
+}
+
+.corp-abt-head-cards-col4 {
+  height: 100%;
+
+  .corp-desccards-slidecont {
+    @extend %cardbox-shadow;
+    overflow: hidden;
+    //min-height: 200px;
+    max-height: 400px;
+    width: calc(25% - 15px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    &:nth-child(4n) {
+      margin-right: 0px;
+
+    }
+
+    .swiper-pagination-bullets {
+      margin-left: 15px;
+    }
+
+    .desccards-card {
+      height: 100%;
+
+      .img-cont {
+        min-height: 100px;
+        background-color: $img-bg-color;
+      }
+
+      .desccards-card-body {
+        padding: 20px;
+
+        .desccards-card-text {
+          //font-size: 18px;max-height: 105px;
+          @include multi-Truncate(18px, 1.4, 3);
+          font-family: $noto-light;
+        }
+        .desccards-card-text-2 {
+          //font-size: 18px;max-height: 105px;
+          @include multi-Truncate(18px, 1.4, 2);
+          font-family: $noto-light;
+        }
+        .desccards-card-text-noto12{
+          font-family: $noto-light;
+          font-size: 12px;
+
+        }
+      }
+
+      .desccards-card-footer {
+        padding: 16px 20px;
+
+        .ic-red-more {
+          width: 16px;
+          height: 36px;
+        }
+      }
+    }
+
+
+
+    .home-sw04-slidecont {
+
+      height: 100%;
+
+      .sw04-card {
+        border-radius: 16px;
+
+        .img-cont {
+          margin-top: 30px;
+
+          .card-img-top {
+            width: 83px;
+          }
+        }
+
+        .sw04-card-body {
+          display: flex;
+          flex-flow: wrap;
+
+          h4 {
+            font-size: 18px;
+            max-height: 45px;
+            overflow: hidden;
+            width: 100%;
+          }
+
+          .suptxt-cont {
+            margin-top: auto;
+            height: 64px;
+            overflow: hidden;
+          }
+
+          p {
+            margin-top: auto;
+            font-family: $noto-light;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+
+  }
+}
+
+
+
+
+/*-----------------
+Media
+-------------------*/
+
+// Large devices (desktops, less than 1200px)
+@include media-breakpoint-down(lg) {}
+
+// Medium devices (tablets, less than 992px)
+@include media-breakpoint-down(md) {
+  .corp-abt-head-cards {
+    height: auto;
+
+    .corp-desccards-slidecont {
+
+      height: 100%;
+      width: calc(33% - 13px);
+      margin-right: 20px;
+      margin-bottom: 20px;
+
+      &:nth-child(3) {
+        margin-right: 0px;
+
+      }
+    }
+  }
+
+  .corp-abt-head-cards-col4 {
+    height: 100%;
+  
+    .corp-desccards-slidecont {
+     
+      overflow: hidden;
+      //min-height: 200px;
+      max-height: 400px;
+      width: calc(33% - 13px);
+      margin-right: 20px;
+      margin-bottom: 20px;
+      &:nth-child(4n) {
+        margin-right: 20px;
+  
+      }
+  
+      &:nth-child(3n) {
+        margin-right: 0px;
+  
+      }
+  
+      .swiper-pagination-bullets {
+        margin-left: 15px;
+      }
+  
+      .desccards-card {
+        height: 100%;
+  
+        .img-cont {
+          min-height: 100px;
+          background-color: $img-bg-color;
+        }
+  
+        .desccards-card-body {
+          padding: 20px;
+  
+          .desccards-card-text {
+            //font-size: 18px;max-height: 105px;
+            @include multi-Truncate(18px, 1.4, 3);
+            font-family: $noto-light;
+          }
+        }
+  
+        .desccards-card-footer {
+          padding: 16px 20px;
+  
+          .ic-red-more {
+            width: 16px;
+            height: 36px;
+          }
+        }
+      }
+  
+  
+  
+      .home-sw04-slidecont {
+  
+        height: 100%;
+  
+        .sw04-card {
+          border-radius: 16px;
+  
+          .img-cont {
+            margin-top: 30px;
+  
+            .card-img-top {
+              width: 83px;
+            }
+          }
+  
+          .sw04-card-body {
+            display: flex;
+            flex-flow: wrap;
+  
+            h4 {
+              font-size: 18px;
+              max-height: 45px;
+              overflow: hidden;
+              width: 100%;
+            }
+  
+            .suptxt-cont {
+              margin-top: auto;
+              height: 64px;
+              overflow: hidden;
+            }
+  
+            p {
+              margin-top: auto;
+              font-family: $noto-light;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+  
+  
+    }
+  }
+
+}
+
+
+// Small devices (landscape phones, less than 768px)
+@include media-breakpoint-down(sm) {
+  .corp-abt-head-cards {
+
+
+    .corp-desccards-slidecont {
+
+      //min-height: 200px;
+      height: 100%;
+      width: calc(50% - 20px);
+      margin-right: 20px;
+      margin-bottom: 20px;
+
+      &:nth-child(2) {
+        margin-right: 0px;
+
+      }
+    }
+  }
+
+  .corp-abt-head-cards-col4 {
+    height: 100%;
+    .corp-desccards-slidecont {
+     
+      overflow: hidden;
+      //min-height: 200px;
+      max-height: 400px;
+      width: calc(50% - 20px);
+      margin-right: 20px;
+      margin-bottom: 20px;
+      &:nth-child(4n) {
+        margin-right: 0px;
+  
+      }
+  
+      &:nth-child(3n) {
+        margin-right: 20px;
+  
+      }
+      &:nth-child(2n) {
+        margin-right: 0px;
+  
+      }
+  
+      .swiper-pagination-bullets {
+        margin-left: 15px;
+      }
+  
+      .desccards-card {
+        height: 100%;
+  
+        .img-cont {
+          min-height: 100px;
+          background-color: $img-bg-color;
+        }
+  
+        .desccards-card-body {
+          padding: 20px;
+  
+          .desccards-card-text {
+            //font-size: 18px;max-height: 105px;
+            @include multi-Truncate(18px, 1.4, 3);
+            font-family: $noto-light;
+          }
+        }
+  
+        .desccards-card-footer {
+          padding: 16px 20px;
+  
+          .ic-red-more {
+            width: 16px;
+            height: 36px;
+          }
+        }
+      }
+  
+  
+  
+      .home-sw04-slidecont {
+  
+        height: 100%;
+  
+        .sw04-card {
+          border-radius: 16px;
+  
+          .img-cont {
+            margin-top: 30px;
+  
+            .card-img-top {
+              width: 83px;
+            }
+          }
+  
+          .sw04-card-body {
+            display: flex;
+            flex-flow: wrap;
+  
+            h4 {
+              font-size: 18px;
+              max-height: 45px;
+              overflow: hidden;
+              width: 100%;
+            }
+  
+            .suptxt-cont {
+              margin-top: auto;
+              height: 64px;
+              overflow: hidden;
+            }
+  
+            p {
+              margin-top: auto;
+              font-family: $noto-light;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+  
+  
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(xs) {
+  .corp-abt-head-cards {
+    .corp-desccards-slidecont {
+
+      overflow: hidden;
+      //min-height: 200px;
+      height: auto;
+      width: 100%;
+      margin-right: 0px;
+      margin-bottom: 20px;
+
+      &:nth-child(0) {
+        margin-right: 0px;
+
+      }
+    }
+  }
+  .corp-abt-head-cards-col4 {
+    height: 100%;
+    .corp-desccards-slidecont {
+     
+      overflow: hidden;
+      //min-height: 200px;
+      max-height: 400px;
+      width: 100%;
+      margin-right: 0px!important;
+      margin-bottom: 20px;
+     
+     
+  
+      .swiper-pagination-bullets {
+        margin-left: 15px;
+      }
+  
+      .desccards-card {
+        height: 100%;
+  
+        .img-cont {
+          min-height: 100px;
+          background-color: $img-bg-color;
+        }
+  
+        .desccards-card-body {
+          padding: 20px;
+  
+          .desccards-card-text {
+            //font-size: 18px;max-height: 105px;
+            @include multi-Truncate(18px, 1.4, 3);
+            font-family: $noto-light;
+          }
+        }
+  
+        .desccards-card-footer {
+          padding: 16px 20px;
+  
+          .ic-red-more {
+            width: 16px;
+            height: 36px;
+          }
+        }
+      }
+  
+  
+  
+      .home-sw04-slidecont {
+  
+        height: 100%;
+  
+        .sw04-card {
+          border-radius: 16px;
+  
+          .img-cont {
+            margin-top: 30px;
+  
+            .card-img-top {
+              width: 83px;
+            }
+          }
+  
+          .sw04-card-body {
+            display: flex;
+            flex-flow: wrap;
+  
+            h4 {
+              font-size: 18px;
+              max-height: 45px;
+              overflow: hidden;
+              width: 100%;
+            }
+  
+            .suptxt-cont {
+              margin-top: auto;
+              height: 64px;
+              overflow: hidden;
+            }
+  
+            p {
+              margin-top: auto;
+              font-family: $noto-light;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+  
+  
+    }
+  }
+}
+
+// iOS 6 devices (portrait phones, less than 425px)
+@media (max-width: 425px) {}
+
+// iOS 6+ devices (portrait phones, less than 414px)
+@media (max-width: 414px) {}
+
+// Redmi pro devices (portrait phones, less than 393px)
+@media (max-width: 393px) {}
+
+
+
+// iOS 6 devices (portrait phones, less than 375px)
+@media (max-width: 375px) {}
+
+
+
+// Android devices (portrait phones, less than 360px)
+@media (max-width: 360px) {}
+
+
+// iOS 5 devices (portrait phones, less than 320px)
+@media (max-width: 320px) {}

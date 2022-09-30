@@ -1,0 +1,181 @@
+/* Indosat Website Styles 11 02  */
+///* =================
+//Global SASS Starts 
+//====================*/
+
+@import "indosat-global";
+@import "functions";
+
+// /* =================
+// Global SASS Ends
+//====================*/
+// Design Team Internal Framework (DIF)  -- Components
+@import "imports/components/mega-menu_new";
+@import "imports/components/corporate-mega-menu";
+@import "imports/components/business-mega-menu";
+@import "imports/components/mega-footer";
+// Toast Messages
+@import "imports/components/footer-fixed-icons";
+// Search
+@import "imports/components/global-search";
+@import "imports/components/no-results-compo";
+@import "imports/components/filter_compo";
+@import "imports/components/product-card-compo";
+@import "imports/components/list-img-dec-compo";
+@import "imports/components/list-info-desc-compo";
+@import "imports/components/download-list-compo";
+@import "imports/components/global-tab";
+@import "imports/components/global-contact";
+@import "imports/components/p_home-card-01";
+@import "imports/components/global-hero-carousel";
+@import "imports/components/global-mini-carousel";
+@import "imports/components/global-search";
+@import "imports/components/p-home-list-01";
+@import "imports/components/p-home-list-02";
+@import "imports/components/p-home-list-03";
+@import "imports/components/p-home-swp-01";
+@import "imports/components/p-home-swp-02";
+@import "imports/components/p-home-swp-03";
+@import "imports/components/comp-404Error";
+//Pages 2&3
+@import "imports/components/page-2and3/page2-comp1-multilinetext";
+@import "imports/components/page-2and3/page2-comp2-multilinetext";
+@import "imports/components/page-2and3/page3-comp-multilinetext";
+@import "imports/components/page-2and3/page3-comp-multilinetext2";
+//pages 4
+@import "imports/components/template4-swp-04";
+//Pages 5
+@import "imports/components/general-compo-5";
+//Corporate - Pages & Components
+@import "imports/components/corporate/aboutus/c_abot_other_Info";
+@import "imports/components/c-reqinfo-tabs";
+@import "imports/components/corp-abt-hddesc-cards-comp";
+@import "imports/components/corp-abt-hddesc-cards-swiper";
+//CSR pages
+@import "imports/components/corp-csr-pillar-education";
+@import "imports/components/corp-csr-landing";
+@import "imports/components/corp-csr-landing-new";
+@import "imports/components/corp-csr-id-camp";
+@import "imports/components/corp-csr-id-camp-inner";
+//Media pages
+@import "imports/components/corp-media-landing"; 
+@import "imports/components/corp-media-press-release";
+@import "imports/components/corp-media-awards";
+//Business pages
+@import "imports/components/b-partnarship"; 
+@import "imports/components/business/single_page_scroll";
+@import "imports/components/business/multi_row_swp-01";
+@import "imports/components/business/multi_row_swp-02";
+@import "imports/components/business/card-list-swp-01";
+@import "imports/components/business/faqs_compo";
+@import "imports/components/global-tab";
+@import "imports/components/filter-results-compo";
+@import "imports/components/business/desc-right-grid-compo";
+//kanna
+@import "imports/components/business/product_general";
+@import "imports/components/business/product_hcard_one";
+@import "imports/components/business/template4-variant1";
+@import "imports/components/business/b2b_date_center_gmap";
+@import "imports/components/business/b2b_disaster_recovery_center_map";
+@import "imports/components/corporate/ourcompany/c_ourcomp_brand_strategy";
+@import "imports/components/corporate/ourcompany/c_ourcomp_ceo_message";
+@import "imports/components/corporate/ourcompany/c_ourcomp_company_value";
+@import "imports/components/corporate/ourcompany/c_ourcomp_digital_telco";
+@import "imports/components/corporate/ourcompany/c_ourcomp_director_chief_description";
+@import "imports/components/corporate/ourcompany/c_ourcomp_director_detail";
+@import "imports/components/corporate/ourcompany/c_ourcomp_other_director";
+@import "imports/components/corporate/ourcompany/c_ourcompany_page";
+//kishore
+@import "imports/components/business/b2b-cards-grid";
+@import "imports/components/business/b2b-swiper-01";
+@import "imports/components/business_update";
+@import "imports/components/business/b2b-data-center-swiper";
+@import "imports/components/network-indonesia";
+//Presonal 2.0
+@import "imports/components/personal/p-card-absolute";
+@import "imports/components/personal/p-home-swp-full";
+@import "imports/components/personal/two_colum_cards";
+@import "imports/components/p-home-swp-01-2";
+@import "imports/components/personal/im3-sw-thumbs";
+@import "imports/components/personal/p-promo-bundle";
+@import "imports/components/personal/p-where-tobuy";
+//Personal --- Raja
+@import "imports/components/personal/menu-navigation";
+@import "imports/components/personal/menu-navigationDropdown";
+@import "imports/components/personal/title-menu-navigation";
+@import "imports/components/personal/gobal-tab-02";
+@import "imports/components/personal/left-input-right-img-compo";
+@import "imports/components/personal/medium-square-cards";
+@import "imports/components/personal/text-desc-swp-compo";
+@import "imports/components/personal/img-text-tiles-compo";
+@import "imports/components/personal/heading-swp-compo";
+@import "imports/components/personal/qns-list";
+@import "imports/components/personal/full-video-card";
+@import "imports/components/personal/yellow-banner-compo";
+@import "imports/components/personal/yellow-icon-info";
+@import "imports/components/personal/custom-datetimepicker";
+@import "imports/components/personal/product-right-swp-01";
+@import "imports/components/personal/promo-detail-compo";
+@import "imports/components/personal/personal-support-help-center";
+@import "imports/components/personal/personal-support-tc";
+@import "imports/components/personal/personal-support-faq-detail";
+@import "imports/components/personal/web-online-booking-compo";
+@import "imports/components/personal/map-on-card-compo";
+@import "imports/components/personal/heading-info-images";
+@import "imports/components/personal/map-on-card-compo";
+@import "imports/components/personal/imgs-swp-compo";
+@import "imports/components/personal/light-yellow-phonecard-compo";
+@import "imports/components/personal/custom-datatable-compo";
+@import "imports/components/personal/dynamic-iconInfo-swp-01";
+//Personal --- Kanna
+@import "imports/components/p_alert_message";
+@import "imports/components/p_dc_overview";
+@import "imports/components/p_dc_packs_table";
+@import "imports/components/p_dc_partner_content";
+@import "imports/components/p_dc_promo";
+@import "imports/components/p_dc_qrcode";
+@import "imports/components/p_dc_spotify_detail";
+@import "imports/components/p_network_coverage";
+@import "imports/components/p_store_location";
+@import "imports/components/p_dc_partner_content_template";
+@import "imports/components/p_popular_back_tone_songs";
+//@import "imports/components/two_colum_cards";
+@import "imports/components/personal/personal-roam-internet";
+@import "imports/components/personal/personal-postpaid-simulate-discount";
+//Personal Blog
+@import "imports/components/personal-blog-banner-carousal";
+@import "imports/components/personal-blog-tabs-swiper";
+@import "imports/components/personal-product-template"; 
+@import "imports/components/personal-myim3-general"; 
+@import "imports/components/global-error-404"; 
+@import "imports/components/global-error-504"; 
+@import "imports/components/personal/personal-product-pkg-detail-traffic";
+@import "imports/components/personal/personal-product-sim-card";
+//Kishore
+@import "imports/components/business/template4-variant2";
+// Design Team Internal Framework (DIF)  -- Buttons
+@import "imports/dif-media-queries";
+// Design Team Internal Framework (DIF)  -- Buttons
+@import "imports/shimmer";
+
+//01-03-2021
+//gobal alert message
+@import "imports/gobal-alert-messages";
+
+@import "imports/components/offer-tages";
+
+@import "imports/components/register-page";
+
+@import "imports/components/interset-category";
+
+@import "imports/components/prize-section";
+
+@import "imports/components/care-comp";
+
+@import "imports/components/before-login-header-comp";
+
+@import "imports/profile-menu";
+
+//new mega menu 29-06-22
+@import "imports/components/new-menu-styles";
+

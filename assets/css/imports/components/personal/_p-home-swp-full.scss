@@ -1,0 +1,249 @@
+.p-home-swp-full {
+    .p-home-swp-full-swiper-container {
+        padding-bottom: 40px;
+        .home-sw01-slidecont {
+            @include border-radius(14px);
+            overflow: hidden;
+
+            .img-cont-full {
+                min-height: 150px;
+
+                width: 100%;
+                cursor: pointer;
+                @extend %default-bg-image;
+
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .flexgrid-item {
+            @include border-radius(8px);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.11);
+            min-height: 150px;
+
+            .img-cont-full {
+                width: 100%;
+                height: 100%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .overlay-img {
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 0;
+                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.02) 40%, #000000 100%);
+                display: flex;
+                justify-content: center;
+                align-content: center;
+
+                h5 {
+                    margin: 20px;
+                    color: $white;
+                    text-align: left;
+                    margin-top: auto;
+                    font-size: 22px;
+                    width: 100%;
+                    position: relative;
+                    cursor: pointer;
+                }
+            }
+
+            &:hover {
+
+                .overlay-img {
+                    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 40%, transparent 100%);
+
+                    h5 {
+                        &::after {
+                            content: '';
+                            @include border-radius(50%);
+                            background: #ffffff url(../../indosatassets/images/detail-red.svg) 50% 50% no-repeat;
+                            position: absolute;
+                            top: -2px;
+                            right: -2px;
+                            width: 30px;
+                            height: 30px;
+
+                            background-size: cover;
+                        }
+                    }
+
+                }
+            }
+        }
+        .swiper-pagination {
+            width: 100%;
+        }
+    }
+}
+
+
+//---------------
+//Media Queries
+//---------------
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px){
+    .p-home-swp-full {
+        .p-home-swp-full-swiper-container {
+            .home-sw01-slidecont {
+                .img-cont-full {
+                    //height: 295px;
+                }
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+
+    @media (max-width: 991.98px){
+    .p-home-swp-full {
+        .p-home-swp-full-swiper-container {
+            .home-sw01-slidecont {
+                .img-cont-full {
+                   // height: 315px;
+                }
+            }
+
+            
+            .swiper-pagination {
+                width: auto;
+            }
+            .swiper-pagination-bullets {
+                margin-left: 0px;
+            }
+        }
+    }
+}
+
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .p-home-swp-full {
+        .p-home-swp-full-swiper-container {
+            .home-sw01-slidecont {
+                .img-cont-full {
+                    //height: 250px;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px){
+    .p-home-swp-full {
+        .p-home-swp-full-swiper-container {
+            padding-bottom: 30px;
+
+            .home-sw01-slidecont {
+                .img-cont-full {
+                    min-height: 60px;
+                }
+            }
+
+
+            .swiper-pagination-bullets {
+                bottom: 0;
+            }
+        }
+    }
+}
+
+
+// iOS 6 devices (portrait phones, less than 425px)
+@media (max-width: 425px) {
+    .p-home-swp-full {
+        .p-home-swp-full-swiper-container {
+            .home-sw01-slidecont {
+                .img-cont-full {
+                   // height: 162px;
+                }
+            }
+        }
+    }
+}
+
+// iOS 6+ devices (portrait phones, less than 414px)
+@media (max-width: 414px) {
+    .p-home-swp-full {
+        .p-home-swp-full-swiper-container {
+            .home-sw01-slidecont {
+                .img-cont-full {
+                   // height: 157px;
+                }
+            }
+        }
+    }
+}
+
+// Redmi pro devices (portrait phones, less than 393px)
+@media (max-width: 393px) {
+    .p-home-swp-full {
+        .p-home-swp-full-swiper-container {
+            .home-sw01-slidecont {
+                .img-cont-full {
+                   // height: 150px;
+                }
+            }
+        }
+    }
+}
+
+// iOS 6 devices (portrait phones, less than 375px)
+@media (max-width: 375px) {
+    .p-home-swp-full {
+        .p-home-swp-full-swiper-container {
+            .home-sw01-slidecont {
+                .img-cont-full {
+                    
+                }
+            }
+        }
+    }
+}
+
+// Android devices (portrait phones, less than 360px)
+@media (max-width: 360px) {
+    .p-home-swp-full {
+        .p-home-swp-full-swiper-container {
+            .home-sw01-slidecont {
+                .img-cont-full {
+                   
+                }
+            }
+        }
+    }
+}
+
+// iOS 5 devices (portrait phones, less than 320px)
+@media (max-width: 320px) {
+    .p-home-swp-full {
+        .p-home-swp-full-swiper-container {
+            .home-sw01-slidecont {
+                .img-cont-full {
+                   
+                }
+            }
+        }
+    }
+}

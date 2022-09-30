@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <path id="z9seal1hva" d="M7.002.084c.499 0 .934.337 1.061.822l.39 1.567 26.386.001c.284 0 .557.112.76.31l.083.089c.21.25.297.583.238.908L33.723 15.97c-.093.505-.519.88-1.026.906L12.3 17.909l.009.032 15.939 4.93c.606 0 1.098.497 1.098 1.108 0 .612-.492 1.108-1.098 1.108l-16.783-4.93c-.499 0-.934-.337-1.061-.822L6.158 2.3H1.883C1.277 2.3.784 1.804.784 1.192c0-.611.493-1.108 1.099-1.108h5.12z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g transform="translate(-788 -797) translate(0 631) translate(130 147) translate(600) translate(58 19)">
+                                <circle cx="32" cy="32" r="32" fill="#ED2324" fill-rule="nonzero"/>
+                                <g>
+                                    <g transform="translate(11.2 20.2) translate(.587 .288)">
+                                        <mask id="wg6irqas1b" fill="#fff">
+                                            <use xlink:href="#z9seal1hva"/>
+                                        </mask>
+                                        <use fill="#FFF" fill-rule="nonzero" xlink:href="#z9seal1hva"/>
+                                        <ellipse cx="10.384" cy="-1.983" fill="#E4E4E4" fill-rule="nonzero" mask="url(#wg6irqas1b)" opacity=".66" rx="17.829" ry="18.504"/>
+                                    </g>
+                                    <g fill="#ED2324" fill-rule="nonzero">
+                                        <path d="M14.28 6.648c-.606 0-1.098-.496-1.098-1.108V1.108c0-.611.492-1.108 1.099-1.108.606 0 1.098.497 1.098 1.108V5.54c0 .612-.492 1.108-1.098 1.108zM7.69 6.648c-.607 0-1.099-.496-1.099-1.108V1.108C6.591.497 7.083 0 7.69 0c.606 0 1.098.497 1.098 1.108V5.54c0 .612-.492 1.108-1.098 1.108zM1.099 6.648C.492 6.648 0 6.152 0 5.54V1.108C0 .497.492 0 1.099 0c.606 0 1.098.497 1.098 1.108V5.54c0 .612-.492 1.108-1.098 1.108z" transform="translate(11.2 20.2) translate(14.554 7.193)"/>
+                                    </g>
+                                    <g fill="#FFF" fill-rule="nonzero" transform="translate(11.2 20.2) translate(8.229 20.943)">
+                                        <ellipse cx="3.296" cy="3.324" rx="3.296" ry="3.324"/>
+                                        <ellipse cx="22.496" cy="3.6" rx="3.296" ry="3.324"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,247 @@
+.b2b-cards-grid {
+    .b2b-flexgrid-cont {
+        .flexgrid-item {
+            @include border-radius(8px);
+            position: relative;
+            overflow: hidden;
+            width: calc(25% - 15px);
+            box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.11);
+            margin-right: 20px;
+            margin-bottom: 20px;
+            height: 150px;
+            transition: all 0.2s;
+            @extend %default-bg-image;
+
+            &:nth-child(4n) {
+                margin-right: 0px;
+            }
+
+            &:last-child() {
+                width: calc(50% - 10px);
+                margin-right: 0;
+                background-image: linear-gradient(106deg, #e46728 8%, #da2626);
+
+                height: 150px;
+                justify-content: center;
+
+                .more-item {
+                    @extend %flex-vertical-center;
+                    justify-content: center;
+                    flex-flow: row nowrap;
+                    padding: 24px;
+
+                    .flex-img {
+                        width: 50px;
+                        height: 50px;
+                        padding: 5px;
+                        background: $white;
+                        @include border-radius(50%);
+                        margin-right: 24px;
+                        box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+                    }
+
+                    .flex-more {
+                        font-size: 20px;
+                        color: $white;
+                        display: inline;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            .img-cont {
+                width: 100%;
+                height: 100%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .overlay-img {
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 0;
+                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.02) 40%, #000000 100%);
+                display: flex;
+                justify-content: center;
+                align-content: center;
+
+                h5 {
+                    margin: 20px;
+                    color: $white;
+                    text-align: left;
+                    margin-top: auto;
+                    font-size: 22px;
+                    width: 100%;
+                    position: relative;
+                    cursor: pointer;
+
+
+                }
+            }
+
+            &:hover {
+
+                .overlay-img {
+                    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 40%, transparent 100%);
+
+                    h5 {
+                        &::after {
+                            content: '';
+                            @include border-radius(50%);
+                            background: #ffffff url(../../indosatassets/images/detail-red.svg) 50% 50% no-repeat;
+                            position: absolute;
+                            top: -2px;
+                            right: -2px;
+                            width: 30px;
+                            height: 30px;
+
+                            background-size: cover;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+//3card template
+.umroh-pack-swp-01-container {
+    .swiper-slide {
+        padding: 0 10px 30px;
+        width: 33% !important;
+        height: auto;
+    }
+}
+
+
+//---------------
+//Media Queries
+//---------------
+
+// Large devices (desktops, less than 1200px)
+@include media-breakpoint-down(lg) {}
+
+// Medium devices (tablets, less than 992px)
+@include media-breakpoint-down(md) {
+
+    .b2b-cards-grid {
+        .b2b-flexgrid-cont {
+            .flexgrid-item {
+                width: calc(33% - 12px);
+                margin-right: 20px;
+                margin-bottom: 20px;
+                height: 150px;
+                //transition: all 2s;
+
+                &:nth-child(3n) {
+                    margin-right: 0px;
+                }
+
+                &:nth-child(4n) {
+                    margin-right: 20px;
+                }
+
+                &:last-child() {
+                    width: calc(66% - 2px);
+                }
+
+                .overlay-img {
+                    h5 {
+                        font-size: 16px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    //3card template
+    .umroh-pack-swp-01-container {
+        .swiper-slide {
+            padding: 0 10px 30px;
+            width: 85% !important;
+            height: auto;
+        }
+    }
+}
+
+
+// Small devices (landscape phones, less than 768px)
+@include media-breakpoint-down(sm) {
+    .b2b-cards-grid {
+        .b2b-flexgrid-cont {
+            .flexgrid-item {
+
+                width: calc(50% - 7.5px);
+                margin-right: 15px;
+                margin-bottom: 15px;
+                height: 100px;
+
+                // transition: all 2s;
+                &:nth-child(4n) {
+                    margin-right: 15px;
+                }
+
+                &:nth-child(3n) {
+                    margin-right: 15px;
+                }
+
+                &:nth-child(2n) {
+                    margin-right: 0px !important;
+                }
+
+                &:last-child() {
+                    width: calc(100% - 0px);
+                    height: 100px;
+                }
+
+                .overlay-img {
+                    h5 {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(xs) {
+
+
+   
+}
+
+// iOS 6 devices (portrait phones, less than 425px)
+@media (max-width: 425px) {}
+
+// iOS 6+ devices (portrait phones, less than 414px)
+@media (max-width: 414px) {}
+
+// Redmi pro devices (portrait phones, less than 393px)
+@media (max-width: 393px) {}
+
+
+
+// iOS 6 devices (portrait phones, less than 375px)
+@media (max-width: 375px) {}
+
+
+
+// Android devices (portrait phones, less than 360px)
+@media (max-width: 360px) {}
+
+
+// iOS 5 devices (portrait phones, less than 320px)
+@media (max-width: 320px) {}

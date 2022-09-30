@@ -1,0 +1,167 @@
+ .csr-pillar-edu {
+   .container {
+     .row {
+       .col-lg-6 {
+         padding: 0 10px;
+       }
+     }
+   }
+
+   .banner-top {
+     img {
+       width: 100%;
+       max-height: 486px;
+
+       &.show-mob {
+         display: none;
+       }
+
+       &.show-lg {
+         display: block;
+       }
+     }
+   }
+
+   .ban-descrption {
+     margin-top: 71px;
+     margin-bottom: 70px;
+     font-size: 16px;
+     font-family: $noto-light;
+     line-height: 26px;
+     color: $secondary;
+   }
+
+ }
+
+ .program-cards {
+   background: #f9f9f9;
+
+   .container {
+     .mrgn-adjsut {
+       margin-bottom: 70px;
+     }
+   }
+
+   .card {
+     width: 100%;
+     max-width: 580px;
+     height: 500px;
+     border-radius: 16px;
+     overflow: hidden;
+     box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.06);
+     margin: 0 auto;
+     &:first-child{
+      margin-bottom: 20px;
+     }
+     
+
+
+     .img-cont {
+      // background-color: #f4f4f4;
+       min-height: 150px;
+       @extend %default-bg-image;
+       img{width: 100%;}
+
+       /* img {
+         width: 580px;
+         height: 325px;
+       } */
+     }
+
+     .card-body {
+       padding: 0;
+       max-height: 120px;
+
+       p {
+         font-size: 22px;
+        
+         color: #333333;
+         margin: 20px;
+       }
+     }
+
+     .card-footer {
+       height: 68px;
+       border-radius: 0px 0px 16px 16px;
+       border-color: #eeeeee;
+       margin-top: auto;
+     }
+   }
+ }
+
+ @media (max-width: 576px) {
+
+   .csr-pillar-edu {
+     .banner-top {
+       img {
+         &.show-mob {
+           display: block;
+         }
+
+         &.show-lg {
+           display: none;
+         }
+
+       }
+     }
+
+     .ban-descrption {
+       margin-top: 21px;
+       margin-bottom: 30px;
+       font-size: 12px;
+       
+       line-height: 26px;
+       color: $secondary;
+     }
+
+   }
+
+   .program-cards {
+     padding: 20px 0px 10px 0px;
+
+     .container {
+       .mrgn-adjsut {
+         margin-bottom: 16px;
+         text-align: left !important;
+       }
+     }
+
+     .card {
+       height: 337px;
+       margin-bottom: 20px;
+
+       .img-cont {
+         /* img {
+           height: 180px;
+         } */
+       }
+
+       .card-body {
+         max-height: 105px;
+
+         p {
+           font-size: 16px;
+           font-family: $noto-light;
+         }
+       }
+
+       .card-footer {
+         height: 50px;
+         display: block !important;
+
+         .btn-link-cont {
+           line-height: 30px;
+           position: relative;
+
+           .button-link {
+
+             img {
+               position: absolute;
+               right: 0
+             }
+           }
+         }
+       }
+     }
+   }
+ }

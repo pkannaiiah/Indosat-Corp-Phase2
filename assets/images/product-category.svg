@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="280" height="157" viewBox="0 0 280 157">
+    <defs>
+        <linearGradient id="thf5wmby4b" x1="10.364%" x2="46.527%" y1="62.672%" y2="35.747%">
+            <stop offset="0%" stop-color="#FFC800"/>
+            <stop offset="100%" stop-color="#FFD600"/>
+        </linearGradient>
+        <linearGradient id="mepr1ra9cc" x1="50%" x2="50%" y1="0%" y2="99.198%">
+            <stop offset="0%" stop-color="#FFD600"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".577"/>
+        </linearGradient>
+        <path id="22ocx26zla" d="M0 0H280V157H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <mask id="2o6r2n7wfd" fill="#fff">
+                    <use xlink:href="#22ocx26zla"/>
+                </mask>
+                <use fill="url(#thf5wmby4b)" fill-rule="nonzero" xlink:href="#22ocx26zla"/>
+                <circle cx="127.5" cy="72.5" r="72.5" fill="url(#mepr1ra9cc)" mask="url(#2o6r2n7wfd)"/>
+                <circle cx="127.5" cy="72.5" r="59.5" fill="#ED2324" mask="url(#2o6r2n7wfd)"/>
+                <text fill="#FFF" font-family="Ooredoo-Heavy, Ooredoo" font-size="18" font-weight="600" mask="url(#2o6r2n7wfd)">
+                    <tspan x="91.548" y="69">Product </tspan> <tspan x="86.625" y="91">category</tspan>
+                </text>
+                <circle cx="193" cy="119" r="24" fill="#ED2324" mask="url(#2o6r2n7wfd)"/>
+            </g>
+        </g>
+    </g>
+</svg>

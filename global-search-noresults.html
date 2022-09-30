@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Indosat</title>
+
+    <!--/* -- Brand Favicon -- */-->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- /* -- Swiper CSS V 6.1.1 -- */ -->
+    <link rel="stylesheet" href="assets/css/imports/vendors/swiper-bundle.min.css">
+
+    <!--/* -- Custom CSS V 1.0 -- */-->
+    <link rel="stylesheet" href="assets/css/indosatwebv1.css">
+</head>
+
+<body>
+    <img class="position-absolute trans-img" src="assets/images/transimg.png" alt="" title="">
+
+    <div class="wrapper">
+
+        <div class="global-search-wrapper">
+            <section class="global_breadcrumb">
+                <div class="container">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Search Result</a>
+                        </li>
+                    </ul>
+                </div>
+            </section><!--global_breadcrumb-->
+            <section class="search_input-section">
+                <div class="container">
+                    <div class="search_input">
+                        <button class="search_icon">
+                            <img src="assets/images/search.svg" title="search" alt="search">
+                        </button>
+                        <button class="close_icon">
+                            <img src="assets/images/close-black.svg" title="close" alt="close">
+                        </button>
+                        <input type="text" class="form-control" name="" id="search" placeholder="Type search keyword here">
+                        <p class="search_input--support">Type your keyword and hit enter to search</p>
+                    </div>
+                </div>
+            </section>
+            <section class="no-results-section">
+                <div class="container text-center">
+                    <div class="no-results-card">
+                        <img src="assets/images/indira_ask.svg" alt="no-result">
+                        <h3>Nothing can be found in <span>“Aktivasi”</span></h3>
+                        <p>Plese use another keyword</p>
+                    </div>
+                </div>
+            </section>
+        </div><!--global-search-wrapper-->
+
+        <br>
+        <br>
+        
+    </div>
+
+    <!--/* -- jQuery JS V 3.3.1 -- */-->
+    <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+    <!--/* -- bootstrap JS Bundle V  v4.5.2 -- */-->
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <!--/* -- Swiper JS V V 6.1.1 -- */-->
+    <script type="text/javascript" src="assets/js/swiper-bundle.min.js"></script>
+    <!--/* -- custom JS V 1.0 -- */-->
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+</body>
+
+<script>
+    //Search Value empty
+$(".search_input").each(function() {
+  
+  var $inp = $(this).find("#search"),
+      $cle = $(this).find(".close_icon");
+
+  $inp.on("input", function(){
+    $cle.toggle(!!this.value);
+  });
+  
+  $cle.on("touchstart click", function(e) {
+    e.preventDefault();
+    $inp.val("").trigger("input");
+  });
+  
+});
+</script>
+
+</html>

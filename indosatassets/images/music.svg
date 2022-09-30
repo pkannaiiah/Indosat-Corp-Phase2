@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <path id="3oetbs5pxa" d="M16.49 3.44l9.631 5.133.316 4.412-6.576-3.782.111 18.303c0 1.236-.31 2.377-.932 3.42-.622 1.044-1.472 1.876-2.55 2.494-1.077.618-2.238.927-3.481.927-1.244 0-2.39-.31-3.44-.927-1.05-.618-1.886-1.45-2.508-2.493-.622-1.044-.933-2.185-.933-3.42 0-1.237.311-2.391.933-3.463.622-1.071 1.458-1.916 2.508-2.534 1.05-.618 2.196-.927 3.44-.927 1.105 0 2.266.316 3.482.948V3.44z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g transform="translate(-188 -797) translate(0 631) translate(130 147) translate(58 19)">
+                                <circle cx="32" cy="32" r="32" fill="#ED2324" fill-rule="nonzero"/>
+                                <g transform="translate(16 12.8)">
+                                    <mask id="j9v224ytxb" fill="#fff">
+                                        <use xlink:href="#3oetbs5pxa"/>
+                                    </mask>
+                                    <use fill="#FFF" transform="rotate(-24 16.283 18.893)" xlink:href="#3oetbs5pxa"/>
+                                    <ellipse cx="14.248" cy="27.902" fill="#E0E0E0" fill-rule="nonzero" mask="url(#j9v224ytxb)" opacity=".541" rx="5.613" ry="5.58"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

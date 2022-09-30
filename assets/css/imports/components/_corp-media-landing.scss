@@ -1,0 +1,60 @@
+ .media-landing {
+   .awards {
+     background: #f9f9f9;
+     .container {
+       .c-moreinfo-cont {
+         .img-cont {
+           margin-right: 55px;
+
+           picture {
+             img {
+               width: 110px;
+               height: 110px;
+             }
+           }
+         }
+
+
+       }
+     }
+   }
+
+   .btn-primary {
+     min-width: 176px;
+   }
+
+ }
+
+ @media (max-width: 576px) {
+
+
+   // margin-top: 215px!important;
+   .activity-camp {
+     padding-top: 20px;
+
+     .btn-primary {
+       min-width: 87px;
+     }
+   }
+
+   .awards {
+     padding-bottom: 40px;
+
+     .container {
+       .c-moreinfo-cont {
+         .img-cont {
+           margin-right: 0;
+           margin-top: 27px;
+           margin-bottom: 20px;
+         }
+       }
+     }
+   }
+
+   .media-landing {
+
+     .btn-primary {
+       min-width: 130px;
+     }
+   }
+ }

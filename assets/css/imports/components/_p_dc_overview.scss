@@ -1,0 +1,27 @@
+//over view responce st
+.overview_newsec{
+    text-align: center;
+    margin-top:72px;
+    .colum_row{margin-top:32px;}
+    p{margin-bottom:2px;}
+    label{
+       font-size:20px;
+       font-family:$heavy;
+       margin-bottom: 1.5rem;
+    }
+ }
+ //over view responce end
+
+ @media (max-width: 576px) {
+    //over view responce st
+   .overview_newsec{
+    h3{font-size:18px!important;}
+    .colum_row{margin-top:32px;}
+    .col-6{margin-bottom:38px;}      
+    p{font-size:14px;margin-bottom:2px;}
+    label{font-size:16px;}  
+    .temp-header-title{text-align:center!important;}
+    .temp-header-title{text-align:center;}
+ }
+//over view responce end 
+ }

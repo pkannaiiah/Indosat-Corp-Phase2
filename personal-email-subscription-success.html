@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Indosat - Request for Information</title>
+
+    <!--/* -- Brand Favicon -- */-->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- /* --  fontawesome CSS V 5 -- */ 
+    <link rel="stylesheet" href="assets/css/imports/vendors/fontawesome-all.min.css">
+    -->
+    <!-- /* -- Swiper CSS V 6.1.1 -- */ -->
+    <link rel="stylesheet" href="assets/css/imports/vendors/swiper-bundle.min.css">
+
+    <!--/* -- Custom CSS V 1.0 -- */-->
+    <link rel="stylesheet" href="assets/css/indosatwebv1.css">
+</head>
+
+<body>
+    <!-- onload="myToaster2()" -->
+
+    <div class="wrapper">
+
+
+        <div class="form-btn-cont">
+            <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#successModal">successfully
+                Subscribed</button>
+        </div>
+
+
+        <!-- Success Modal Modal starts  -->
+        <div class="modal  fade" id="successModal" tabindex="-1" aria-labelledby="largeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-promo modal-sm modal-dialog-centered ">
+                <div class="modal-content modal-promo bg-white">
+
+                    <div class="modal-body promo-body ">
+
+
+                        <div class="model-cont p-3 my-3 ">
+
+                            <div
+                                class="heading-info-section-ho5 d-flex align-items-center flex-wrap flex-column justify-content-center">
+
+                                <div class="img-cont text-center mb-3"><img width="120" src="assets/images/success.png"
+                                        alt="" title="">
+                                </div>
+                                <h5 class="section-ho5 text-center">Successfully subscribed</h5>
+                                <p class="section-body3 text-center">
+
+                                    You’ve successfully subscribed
+                                    to our newsletter.
+                                    <br>
+                                    <br>
+
+                                    Don’t miss it, check your inbox email regularly to get the latest updates, news and
+                                    promo
+                                    from us
+                                </p>
+
+
+                                <div class="section-btn-cont">
+                                    <a href="#" class="btn btn-primary" data-dismiss="modal">OK</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Success Modal Modal starts  -->
+
+    </div>
+
+
+
+
+
+
+    <!--/* -- jQuery JS V 3.3.1 -- */-->
+    <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+    <!--/* -- bootstrap JS Bundle V  v4.5.2 -- */-->
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <!--/* -- Swiper JS V V 6.1.1 -- */-->
+    <script type="text/javascript" src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- mega-menu js st-->
+
+    <script src="assets/js/mega-menu/mobile-mega-menu.min.js"></script>
+    <script src="assets/js/mega-menu/main-mega-menu.js"></script>
+    <!-- mega-menu js end-->
+    <script src="assets/js/mega-menu/mega-footer.js"></script>
+
+
+    <!--/* -- custom JS V 1.0 -- */-->
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+
+
+    <!-- Initialize Swiper -->
+    <!-- Tab Dropdown -->
+    <script>
+        $('.title-menu-navigation')
+            .on("click", "li a:not('.active')", function (event) {
+                $(this).closest('ul').removeClass("open");
+            })
+            .on("click", "li a.active", function (event) {
+                $(this).closest('ul').toggleClass("open");
+            });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="507" height="308" viewBox="0 0 507 308">
+    <defs>
+        <rect id="u71gshdd4c" width="11.7" height="345.6" x="0" y="0" rx="5.85"/>
+        <path id="jphmmr43ea" d="M0 0H507V308H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-803 -682) translate(0 631) translate(803 51)">
+                    <mask id="ftp5dd2wmb" fill="#fff">
+                        <use xlink:href="#jphmmr43ea"/>
+                    </mask>
+                    <use fill="#FFF" xlink:href="#jphmmr43ea"/>
+                    <g mask="url(#ftp5dd2wmb)">
+                        <g transform="translate(34 21)">
+                            <ellipse cx="125.5" cy="125" fill="#ED2324" rx="125.5" ry="125"/>
+                            <g>
+                                <g>
+                                    <g>
+                                        <g transform="translate(73 44) rotate(90 161.1 199.35)">
+                                            <rect width="26.1" height="360" fill="#F9F9F9" stroke="#E0E0E0" stroke-width=".9" rx="13.05"/>
+                                            <rect width="11.7" height="40.5" x="7.2" y="312.3" fill="#ED2324" rx="5.85"/>
+                                        </g>
+                                        <text fill="#FFF" font-family="Ooredoo-Heavy, Ooredoo" font-size="14.4" font-weight="600" transform="translate(73 44)">
+                                            <tspan x=".9" y="24.8">NOVEMBER</tspan>
+                                        </text>
+                                        <text fill="#ED2324" font-family="Ooredoo-Heavy, Ooredoo" font-size="26.1" font-weight="600" transform="translate(73 44)">
+                                            <tspan x="306.117" y="25">1 GB</tspan>
+                                        </text>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <g transform="translate(73 44) translate(0 79.2) rotate(90 161.1 199.35)">
+                                            <rect width="26.1" height="360" fill="#F9F9F9" stroke="#E0E0E0" stroke-width=".9" rx="13.05"/>
+                                            <g transform="translate(7.2 7.2)">
+                                                <mask id="cyual9p3wd" fill="#fff">
+                                                    <use xlink:href="#u71gshdd4c"/>
+                                                </mask>
+                                                <use fill="#ED2324" xlink:href="#u71gshdd4c"/>
+                                                <rect width="12.6" height="303.3" x="-.45" y="42.75" fill="#FFD600" mask="url(#cyual9p3wd)" rx="5.85"/>
+                                            </g>
+                                        </g>
+                                        <text fill="#FFF" font-family="Ooredoo-Heavy, Ooredoo" font-size="14.4" font-weight="600" transform="translate(73 44) translate(0 79.2)">
+                                            <tspan x=".9" y="24.8">DESEMBER</tspan>
+                                        </text>
+                                        <text fill="#ED2324" font-family="Ooredoo-Heavy, Ooredoo" font-size="26.1" font-weight="600" transform="translate(73 44) translate(0 79.2)">
+                                            <tspan x="228.757" y="25">7GB + 1 GB</tspan>
+                                        </text>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

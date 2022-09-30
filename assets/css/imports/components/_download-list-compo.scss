@@ -1,0 +1,119 @@
+.download_card_list{
+    ul{
+        padding: 0px;
+        margin: 0px;
+        li{
+            border-bottom: 1px solid #eee;
+            padding: 18px 0px;
+            justify-content: space-between;
+            &:first-child {
+                padding-top: 0px;
+            }
+            &:last-child {
+                border-bottom: 0px;
+                padding-bottom: 0px;
+            }
+            .download_card_list-grp{
+                margin-left: 25px;
+            }
+            .download_card_list-info{
+                flex: 1;
+                h5 {
+                    font-size: 12px;
+                    color: #aaa;
+                    text-transform: uppercase;
+                    margin-bottom: 5px;
+                }
+                p {
+                    font-family: $noto-light;
+                    margin-bottom: 8px;
+                }
+                .date {
+                    font-size: 12px;
+                    
+                    color: #aaa;
+                    margin-bottom: 0px;
+                }
+            }
+            .download_card_list-btn{
+                .download_card-link{
+                    font-family: $heavy;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    color: $primary;
+                    img {
+                        width: 20px;
+                        margin-left: 10px;
+                    }
+                    &:hover {
+                        color: #d41313;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+// -----------
+//Media Queries
+//---------------
+@media (max-width: 767.98px) { 
+    .download_card_list{
+        ul{
+            li{
+                .download_card_list-grp{
+                    margin-left: 20px;
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+                .download_card_list-info{
+                    margin-bottom: 15px;
+                }
+                .download_card_list-btn{
+                    .download_card-link{
+                        flex-direction: row-reverse;
+                        img{
+                            margin-left: 0px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 375px) {
+    .download_card_list{
+        ul{
+            li{
+                padding: 16px 0px 20px 0px;
+                justify-content: space-between;
+                .download_card_list-grp{
+                    margin-left: 15px;
+                }
+                .download_card_list-info{
+                    h5 {
+                        font-size: 12px;
+                        color: #aaa;
+                        text-transform: uppercase;
+                        margin-bottom: 5px;
+                    }
+                    p {
+                       
+                        font-size: 12px;
+                        margin-bottom: 5px;
+                    }
+                }
+                .download_card_list-btn{
+                    .download_card-link{
+                        font-size: 12px;
+                        img{
+                            width: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

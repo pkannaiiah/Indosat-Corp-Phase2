@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <circle id="00ofva5r7c" cx="4.767" cy="4.767" r="4.767"/>
+        <path id="uhf1i59fra" d="M11.806.36c4.671 1.59 9.736 1.59 14.407 0 3.518-1.197 7.34.685 8.538 4.203.088.26.16.526.217.795l2.984 14.326c.358 1.719-.744 3.402-2.463 3.76-.934.194-1.907-.041-2.648-.642l-5.829-4.723c-4.665-3.78-11.34-3.78-16.005 0L5.18 22.802c-1.364 1.105-3.365.895-4.47-.469-.601-.741-.837-1.714-.642-2.649L3.05 5.358C3.81 1.72 7.373-.615 11.011.143c.27.056.535.129.795.217z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g transform="translate(-588 -797) translate(0 631) translate(130 147) translate(400) translate(58 19)">
+                                <circle cx="32" cy="32" r="32" fill="#ED2324" fill-rule="nonzero"/>
+                                <g transform="translate(12.8 20.8)">
+                                    <mask id="qa5llgr43b" fill="#fff">
+                                        <use xlink:href="#uhf1i59fra"/>
+                                    </mask>
+                                    <use fill="#FFF" xlink:href="#uhf1i59fra"/>
+                                    <circle cx="19.2" cy=".662" r="11.255" fill="#E4E4E4" fill-rule="nonzero" mask="url(#qa5llgr43b)" opacity=".528"/>
+                                    <g mask="url(#qa5llgr43b)">
+                                        <g transform="translate(5.398 3.47)">
+                                            <mask id="bp3vxez1nd" fill="#fff">
+                                                <use xlink:href="#00ofva5r7c"/>
+                                            </mask>
+                                            <use fill="#ED2324" xlink:href="#00ofva5r7c"/>
+                                            <circle cx="4.767" cy="4.767" r="1.589" fill="#EDEDED" mask="url(#bp3vxez1nd)"/>
+                                            <circle cx=".794" cy=".794" r="2.383" fill="#FFF" mask="url(#bp3vxez1nd)"/>
+                                            <circle cx="8.739" cy=".794" r="2.383" fill="#F0F0F0" mask="url(#bp3vxez1nd)"/>
+                                            <circle cx="8.739" cy="8.739" r="2.383" fill="#FFF" mask="url(#bp3vxez1nd)"/>
+                                            <circle cx=".794" cy="8.739" r="2.383" fill="#FFF" mask="url(#bp3vxez1nd)"/>
+                                        </g>
+                                    </g>
+                                    <circle cx="29.232" cy="5.06" r="1.589" fill="#ED2324" mask="url(#qa5llgr43b)"/>
+                                    <circle cx="29.232" cy="11.416" r="1.589" fill="#ED2324" mask="url(#qa5llgr43b)"/>
+                                    <circle cx="26.054" cy="8.238" r="1.589" fill="#ED2324" mask="url(#qa5llgr43b)"/>
+                                    <circle cx="32.41" cy="8.238" r="1.589" fill="#ED2324" mask="url(#qa5llgr43b)"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+ 
+  .media-press{
+    .activity-camp{
+      .global_pagination{
+        margin-top:10px;
+        .pagination{
+          justify-content: center;
+        }
+  
+      }
+    }
+
+  }
+  
+  @media (max-width: 576px) {
+    .rounded-container{
+     // margin-top: 215px!important;
+     .activity-camp {
+        padding-top: 20px;
+        .btn-primary {
+          min-width: 87px; 
+      }
+    }
+ 
+ 
+      }
+   
+  }

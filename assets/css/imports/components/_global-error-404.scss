@@ -1,0 +1,97 @@
+
+ 
+.error-banner-bg{
+  background-image: url('/assets/images/imgErrorLost.png');
+  background-size: cover;
+  min-height: 630px;
+
+  .p-global-banner-01-cont{
+    margin-top: 140px;
+    h3 {
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+    
+    .error-text{margin-bottom: 28px;}
+    .go-buttons{font-size: 14px;
+      margin-bottom: 18px;
+      }
+    .button-cont{
+      margin-bottom: 40px;
+      button{
+        color: $primary;
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+    }
+    
+  }
+  .p-global-banner-01-img{
+    padding-top:70px ;
+  }
+}
+
+@media (max-width: 576px) {
+   
+.error-banner-bg{
+  background-image: none; 
+  background-color: #FFD500;
+  min-height: 630px!important;
+
+  .p-global-banner-01-cont{
+    margin-top: 10px;
+    h3 {
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
+    .error-text{margin-bottom: 18px; font-size: 12px;}
+    .go-buttons{font-size: 12px;
+      margin-bottom: 15px;
+      }
+    .button-cont{
+      margin-bottom: 30px;
+      button{
+        color: $primary;
+        margin-right: 10px;
+        margin-bottom: 0;
+      }
+    }
+    .btn-link-cont{
+      justify-content: center!important;
+    }
+    
+  }
+  .p-global-banner-01-img{
+    padding-top:40px ;
+  }
+}
+
+}   
+ 
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  .error-banner-bg{
+    min-height: 420px!important;
+
+    .p-global-banner-01-cont{
+      margin-top: 70px;
+    
+      h3 {
+        font-size: 18px;
+        margin-bottom: 16px;
+      }
+    
+      .button-cont {
+        button {
+          min-width: 120px;
+          font-size: 12px;
+          margin-right: 5px;
+        }
+      }
+    }
+  
+  .p-global-banner-01-img{
+    img{  width: 100%!important;}
+  }
+
+}}

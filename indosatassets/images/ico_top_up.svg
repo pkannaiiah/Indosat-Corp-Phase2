@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>icon/general/ico_top_up</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/general/ico_top_up" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" opacity="0" stroke="#979797">
+            <g id="Group-6">
+                <rect id="Rectangle" opacity="0.289481027" x="0.5" y="0.5" width="39" height="39" rx="19.5"></rect>
+                <rect id="Rectangle" fill="#D8D8D8" opacity="0.390345982" x="6.5" y="0.5" width="27" height="39" rx="2"></rect>
+                <rect id="Rectangle" fill="#D8D8D8" opacity="0.296619234" x="3.5" y="3.5" width="33" height="33" rx="2"></rect>
+                <rect id="Rectangle" opacity="0.265927269" transform="translate(20.000000, 20.000000) rotate(90.000000) translate(-20.000000, -20.000000) " x="6.5" y="0.5" width="27" height="39" rx="2"></rect>
+            </g>
+        </g>
+        <g id="icon/system/usage">
+            <path d="M39.8891967,19.9445983 C39.8891967,30.9606648 30.9606648,39.8891967 19.9445983,39.8891967 C8.92853186,39.8891967 0,30.9606648 0,19.9445983 C0,8.92853186 8.92853186,0 19.9445983,0 C30.9606648,0 39.8891967,8.92853186 39.8891967,19.9445983 Z" id="Combined-Shape" fill="#ED2324"></path>
+            <g id="Group" transform="translate(12.000000, 11.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M16.951,0.999944783 C16.951,1.55220047 16.5033109,1.99989354 15.9510552,1.99989843 L4.5,2 L4.5,2 C3.67157288,2 3,2.67157288 3,3.5 C3,4.27969612 3.59488808,4.92044868 4.35553999,4.99313342 L4.5,5 L14.9287904,5 C16.0333599,5 16.9287904,5.8954305 16.9287904,7 C16.9287904,7.00736225 16.9287498,7.01472445 16.9286685,7.02208626 L16.8226395,16.6228561 L16.8226395,16.6228561 C16.8101013,17.9393626 15.7393145,19 14.4227483,19 L4,19 C1.790861,19 0,17.209139 0,15 L0,4 C0,1.790861 1.790861,0 4,0 L15.9510552,0 C16.5033095,6.93908757e-16 16.951,0.447690529 16.951,0.999944783 Z" id="Path"></path>
+            </g>
+        </g>
+        <rect id="Rectangle" fill="#ED2324" x="20" y="19" width="2" height="8" rx="1"></rect>
+        <rect id="Rectangle" fill="#ED2324" transform="translate(21.000000, 23.000000) rotate(90.000000) translate(-21.000000, -23.000000) " x="20" y="19" width="2" height="8" rx="1"></rect>
+    </g>
+</svg>

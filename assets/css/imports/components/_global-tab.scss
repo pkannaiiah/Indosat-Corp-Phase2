@@ -1,0 +1,142 @@
+.g-tab-wrapper {
+    padding: 72px 0px;
+}
+
+.g-nav-tabs {
+    flex-direction: column;
+    border-bottom: 0px;
+
+    .nav-item {
+        .nav-link {
+            border: 0px;
+            font-family: $heavy;
+            font-size: 16px;
+            color: $secondary;
+            padding: 8px 0px;
+
+            &.active {
+                color: $primary;
+            }
+
+            &:hover {
+                color: #d41313;
+            }
+        }
+    }
+}
+
+.tab-heading-wrap{
+    margin-bottom: 40px;
+
+    h4 {
+        font-size: 28px;
+    }
+    .form_control{
+        width: 220px;
+    }
+}
+
+.nav-let-title{
+    margin-bottom: 40px;
+    h4 {
+        font-size: 28px;
+    }
+}
+
+.tabSub-heading-wrap{
+    margin-bottom: 20px;
+
+    h5 {
+        font-size: 22px;
+    }
+}
+.mobile-show{
+    display: none;
+}
+
+// -----------
+//Media Queries
+//---------------
+@media (max-width: 991.98px) {
+    .g-tab-wrapper {
+        padding: 60px 0px;
+    }
+    
+    .nav-let-title{
+        display: none;
+    }
+    .g-nav-tabs {
+        flex-direction: row;
+        margin-bottom: 40px;
+        white-space: nowrap;
+        overflow-y: hidden;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        width: 100%;
+
+        .nav-item {
+            .nav-link {
+                padding: 8px 10px;
+                font-size: 16px;
+            }
+        }
+    }
+    .web-show{
+        display: none;
+    }
+    .mobile-show{
+        display: block;
+    }
+}
+
+@media (max-width: 767.98px) { 
+    .tab-heading-wrap {
+        margin-bottom: 35px;
+        h4 {
+            font-size: 22px;
+        }
+    }
+    .tabSub-heading-wrap{
+        h5 {
+            font-size: 18px;
+        }
+    }
+
+    .g-tab-wrapper {
+        padding: 20px 0px 20px 0px;
+    }
+    
+}
+@media (max-width: 575.98px) {
+    .tab-heading-wrap {
+        margin-bottom: 30px;
+
+        h4 {
+            font-size: 20px;
+        }
+    }
+    .tabSub-heading-wrap{
+        flex-direction: column;
+        h5{margin-bottom: 20px !important;}
+    }
+    .g-nav-tabs {
+        margin-bottom: 30px;
+        .nav-item {
+            .nav-link {
+                font-size: 14px;
+            }
+        }
+    }
+}
+@media (max-width: 375px) {
+    .tab-heading-wrap{
+        a > span{
+            display: none;
+        }
+    }
+    .g-tab-wrapper {
+        padding: 10px 0px 20px 0px;
+    }
+}
+
+

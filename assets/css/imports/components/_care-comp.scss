@@ -1,0 +1,109 @@
+.care-compo-list{
+    .card{
+        .card-header{
+            background: none;
+            padding: 0px;
+            border-bottom: 0px;
+            .card-link{
+                font-family: $heavy;
+                font-size: 16px;
+                color: #333333;
+                padding:25px 0px;
+                border-bottom: 1px dotted #d8d8d8;
+                display: block;
+                position: relative;
+                padding-right: 30px;
+                &::after{
+                    position: absolute;
+                    content: '';
+                    background: url(../images/detail-black.svg);
+                    right: -8px;
+                    top: 24px;
+                    pointer-events: none;
+                    width: 28px;
+                    height: 28px;
+                    transform: rotate(0deg);
+                    transition: all .5s ease-out;
+                    background-size: cover;
+                }
+                &[aria-expanded="true"]{
+                    border-bottom: none;
+                    font-family: $noto-bold;
+                    font-weight: 600;
+                    &::after{
+                        transform: rotate(90deg);
+                        transition: all .5s ease-out;
+                    }
+                }
+            }
+        }
+        .card-body{
+            padding: 0px;
+            &-in{
+                padding-bottom: 25px;
+                border-bottom: 1px dotted #d8d8d8;
+                font-family: $noto-light;
+            }
+            p{
+                margin-bottom: 10px;
+                &:last-child{
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}
+
+// -----------
+//Media Queries
+//---------------
+@media (max-width: 1199.98px) {
+
+}
+@media (max-width: 991.98px) {
+    .care-compo-list{
+        .card{
+            .card-header{
+                .card-link{
+                    padding:20px 0px;
+                    padding-right:20px;
+                    &::after{
+                        top: 20px;
+                    }
+                }
+            }
+            .card-body{
+                &-in{
+                    padding-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 426px) {
+    .care-compo-list{
+        .card{
+            .card-header{
+                .card-link{
+                    padding:15px 0px;
+                    font-size: 14px;
+                    padding-right:15px;
+                    &::after{
+                        top: 12px;
+                    }
+                }
+            }
+            .card-body{
+                &-in{
+                    padding-bottom: 15px;
+                  
+                    font-size: 12px !important;
+                }
+            }
+        }
+    }
+    .faq-seemore-btn{
+        font-size: 10px;
+    }
+}

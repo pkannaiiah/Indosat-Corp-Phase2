@@ -1,0 +1,247 @@
+.corp-abt-hddesc-cards-swiper {}
+
+.corp-abt-head-swiper {
+  .card-wraper {
+    flex-wrap: wrap;
+  }
+  
+
+  .corp-desccards-slidecont {
+
+    //overflow: hidden;
+    //min-height: 200px;
+    max-height: 400px;
+    width: 33%;
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding: 10px;
+    height: auto;
+
+    .swiper-pagination-bullets {
+      margin-left: 15px;
+    }
+
+    .desccards-card {
+      height: 100%;
+
+      .img-cont {
+        min-height: 100px;
+        background-color: $img-bg-color;
+      }
+
+      .desccards-card-body {
+        padding: 20px;
+
+        .desccards-card-text {
+          //font-size: 18px;max-height: 105px;
+          @include multi-Truncate(18px, 1.4, 3);
+          font-family: $noto-light;
+        }
+      }
+
+      .desccards-card-footer {
+        padding: 16px 20px;
+
+        .ic-red-more {
+          width: 16px;
+          height: 36px;
+        }
+      }
+    }
+
+    .home-sw04-slidecont {
+      height: 100%;
+      @extend %cardbox-shadow;
+
+      .sw04-card {
+        border-radius: 16px;
+        overflow: hidden;
+        min-width: 200px;
+        .img-cont-banner {
+          position: relative;
+          min-height: 150px;
+          @extend %default-bg-image;
+          .promo {
+            min-width: 60px;
+            height: 22px;
+            border-radius: 5px;
+            background-color: #ffd600;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            color: #fff;
+            position: absolute;
+            left: 15px;
+            bottom: 15px;
+            font-size: 8px;
+            padding: 5px 15px;
+            text-align: center;
+            font-family: $heavy;
+            text-transform: uppercase;
+          }
+          .pill-red{
+            background-color: #ff7677;
+        }
+        .pill-green{
+            background-color: #b0e01f;
+        }
+        
+        .pill-yellow{
+            background-color: #fcd401;
+        }
+        }
+        .img-cont {
+          margin-top: 30px;
+
+          .card-img-top {
+            width: 83px;
+          }
+        }
+
+        .sw04-card-body {
+          display: flex;
+          flex-flow: wrap;
+          padding-bottom: 0;
+
+          h4 {
+            font-size: 18px;
+            max-height: 45px;
+            overflow: hidden;
+            width: 100%;
+          }
+
+          .suptxt-cont {
+            margin-top: auto;
+            height: 64px;
+            overflow: hidden;
+            width: 100%;
+            margin-bottom: 15px;
+
+            p {
+              margin-top: auto;
+              font-family: $noto-light;
+              font-size: 14px;
+              width: 100%;
+              margin: 0;
+            }
+          }
+          .suptxt-cont-12 {
+            margin-top: auto;
+            height: 64px;
+            overflow: hidden;
+            width: 100%;
+            margin-bottom: 15px;
+
+            p {
+              margin-top: auto;
+              font-family: $noto-light;
+              font-size: 12px;
+              width: 100%;
+              margin: 0;
+            }
+          }
+
+        }
+
+        .sw04-card-footer {
+          border: 0;
+          padding: 30px 15px;
+          background: #FFFFFF;
+          @include border-radius(16px);
+
+          .ic-red-more {
+            width: 16px;
+            height: 36px;
+          }
+        }
+        .footer-border{
+          border-top: 1px solid rgba(0, 0, 0, 0.125);
+          padding: 1.25rem;
+          border-radius: 0 0 16px 16px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+//---------------
+//Media Queries
+//---------------
+
+// Large devices (desktops, less than 1200px)
+@include media-breakpoint-down(lg) {}
+
+// Medium devices (tablets, less than 992px)
+@include media-breakpoint-down(md) {
+
+
+
+  .corp-abt-head-swiper {
+    .swiper-pagination-bullets {
+      margin-left: 15px;
+      bottom: 0;
+    }
+
+    padding-bottom: 30px;
+
+    .card-wraper {
+      flex-wrap: nowrap;
+    }
+
+    .corp-desccards-slidecont {
+      margin-bottom: 0;
+      width: auto;
+    }
+
+    .swiper-slide {
+      padding-right: 7.5px;
+      padding-left: 7.5px;
+
+      &:first-child {
+        padding-left: 15px;
+      }
+
+      &:last-child {
+        padding-right: 15px;
+      }
+
+    }
+  }
+
+
+}
+
+
+// Small devices (landscape phones, less than 768px)
+@include media-breakpoint-down(sm) {}
+
+// Small devices (landscape phones, less than 768px)
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(xs) {}
+
+// iOS 6 devices (portrait phones, less than 425px)
+@media (max-width: 425px) {}
+
+// iOS 6+ devices (portrait phones, less than 414px)
+@media (max-width: 414px) {}
+
+// Redmi pro devices (portrait phones, less than 393px)
+@media (max-width: 393px) {}
+
+
+
+// iOS 6 devices (portrait phones, less than 375px)
+@media (max-width: 375px) {}
+
+
+
+// Android devices (portrait phones, less than 360px)
+@media (max-width: 360px) {}
+
+
+// iOS 5 devices (portrait phones, less than 320px)
+@media (max-width: 320px) {}

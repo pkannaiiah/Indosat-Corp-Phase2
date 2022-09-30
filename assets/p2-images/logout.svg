@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <path d="M15 15H35V35H15z"/>
+            <g fill="#AAA">
+                <g>
+                    <g>
+                        <g transform="rotate(46 -3.703 40.736) translate(.6 .6) translate(.443 .755) translate(.305 .72)">
+                            <rect width="2.447" height="6.118" x="8.048" y=".281" rx="1.224"/>
+                            <path d="M4.882.905h.447c.553 0 1 .448 1 1v8c0 .552-.447 1-1 1h-.447c-.552 0-1-.448-1-1v-8c0-.552.448-1 1-1z" transform="rotate(45 5.106 5.905)"/>
+                            <path d="M10.495 1.28v.448c0 .552-.448 1-1 1H5.377c-.552 0-1-.448-1-1V1.28c0-.553.448-1 1-1h4.118c.552 0 1 .447 1 1z"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <path stroke="#AAA" stroke-linecap="round" stroke-width="2.3" d="M32 30.916V31c0 2.21-1.79 4-4 4h-6c-2.21 0-4-1.79-4-4V19c0-2.21 1.79-4 4-4h6c2.21 0 4 1.79 4 4v.537h0"/>
+        </g>
+    </g>
+</svg>

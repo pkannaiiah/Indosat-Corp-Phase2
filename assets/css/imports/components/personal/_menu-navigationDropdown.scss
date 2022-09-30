@@ -1,0 +1,132 @@
+.menu-navigationDropdown{
+    flex-direction: column;
+    border-bottom: 0px;
+    .nav-item{
+        margin-bottom: 0px;
+        .nav-link{
+            padding: 12px 0px;
+            border: none;
+            display: flex;
+            flex-direction: column;
+            color: $secondary;
+            border-radius: 8px;
+            font-family: $heavy;
+            font-size: 16px;
+            &.active{
+                color: $primary;
+            }
+            &:hover,&:focus{
+                border: none;
+            }
+        }
+    }
+    .sub_category{
+        display: none;
+    }
+}
+// -----------
+//Media Queries
+//---------------
+@media (max-width: 1199.98px) {
+
+}
+@media (max-width: 991.98px) {
+    
+}
+@media (max-width: 767.98px) {
+    .menu-navigationDropdown-left{
+        margin-bottom: 30px;
+    }
+    .menu-navigationDropdown{
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        overflow: hidden;
+        position: relative;
+        padding-top: 16px;
+        &::after {
+            content: '';
+            background: url(../../indosatassets/images/caret-down-black.svg);
+            position: absolute;
+            top: 12px;
+            right: 8px;
+            z-index: 2;
+            pointer-events: none;
+            width: 36px;
+            height: 36px;
+            transition: all .3s ease-out;
+            background-size: cover;
+        }
+        &.open {
+            padding-top: 0px;
+            &::after {
+                transform: rotate(180deg);
+                transition: all .3s ease-out;
+            }
+            .nav-item{
+                .nav-link {
+                    position: relative;
+                    &.active{
+                        color: $primary;
+                    }
+                  }
+            }
+            .sub_category{
+                display: none;
+            }
+          }
+        .nav-item {
+            display: block;
+            padding: 0;
+            .nav-link {
+                position: absolute;
+                top: 0;
+                left: 0;
+                margin: 0;
+                width: 100%;
+                height: 100%;
+                padding: 12px 20px;
+                border-color: transparent;
+                &:focus,
+                &:hover,
+                &:active {
+                  border-color: transparent;
+                }
+                &.active{
+                    border-color: transparent;
+                    position: relative;
+                    z-index: 1;
+                    background: #fff;
+                    color: $secondary;
+                    &:focus,
+                    &:hover,
+                    &:active {
+                        border-color: transparent;
+                    }
+                }
+            }
+        }
+        .sub_category{
+            display: block;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            font-size: 12px;
+            text-transform: uppercase;
+            font-family: $heavy;
+            color: #aaa;
+            z-index: 2;
+        }
+    }
+}
+@media (max-width: 576px) {
+
+}
+@media (max-width: 375px) {
+    .menu-navigationDropdown{
+        .nav-item{
+            .nav-link{
+                font-size: 14px;
+            }
+        }
+    }
+}

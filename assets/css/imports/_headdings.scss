@@ -1,0 +1,324 @@
+h1,
+.h1 {
+    font-size: 44px;
+}
+
+h2,
+.h2 {
+    font-size: 36px;
+}
+
+
+h3,
+.h3 {
+    font-size: 30px;
+}
+
+.head-light{
+    font-family: $noto-light;
+}
+
+h4,
+.h4 {
+    font-size: 22px;
+}
+
+h5,
+.h5 {
+    font-size: 18px;
+}
+
+h6,
+.h6 {
+    font-size: 16px;
+}
+
+
+//******************
+//Typography - Starts 
+//****************** 
+
+.regular-sec-14{
+    font-family: $noto-regular;
+    font-size: 14px;
+}
+.heading-info-section {
+    .overview-cont{
+        justify-content: center;
+        text-align: center;
+    }
+    .section-ho2 {
+        font-size: 30px;
+        margin-bottom: 24px;
+        
+    }
+    .section-ho4 {
+        font-size: 22px;
+        margin-bottom: 24px;
+        color:$primary;
+    }
+    .section-body1 {
+        font-size: 16px;
+        color: $secondary;
+        margin-bottom: 16px;
+        
+    }
+    .section-btn-cont {
+        margin-top: 36px;      
+    }
+}
+
+.heading-info-section-ho5 {
+    .section-ho5 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .section-body3 {
+        font-size: 12px;
+        margin: 0;
+        font-family: $noto-regular;
+        
+    }
+    .section-btn-cont{
+        margin-top: 36px;  
+    }
+}
+.combo-title{
+    .section-ho2 {
+        font-size: 30px;
+        margin-bottom: 24px;
+    }
+    .section-body3 {
+        font-size: 16px;
+        margin: 0;
+        
+    }
+   
+}
+
+.section-body12,.section-body14,.section-body16, .section-body18 {   
+    margin: 0;
+    font-family: $noto-light;
+}
+.section-body12{
+    font-size: 12px;
+}
+.section-body14 {
+    font-size: 14px;
+}
+.section-body16 {
+    font-size: 16px;
+}
+
+.section-body18 {
+    font-size: 18px;
+}
+
+.price-pack-cont{
+    .or-spacer {
+        font-family: $heavy;
+        font-size: 14px;
+        color: #aaaaaa;
+      }
+
+}
+.price-pack-grey{
+    background: #eeeeee;
+    padding: 15px 30px;
+    font-family: $noto-light;
+    width:auto;
+    margin:24px auto 0 auto;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+//---------------
+//Media Queries
+//---------------
+
+
+//@include headdings--lg(); 1200px
+@mixin headdings--lg() {}
+
+//@include headdings--md(); 992px
+@mixin headdings--md() {
+
+    h1,
+    .h1 {
+        font-size: 24px;
+    }
+
+
+    h2,
+    .h2 {
+        font-size: 18px;
+    }
+
+    h3,
+    .h3 {
+        font-size: 18px;
+    }
+
+    //******************
+//Typography - Starts 
+//****************** 
+.heading-info-section {
+    .section-ho2 {
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+
+    .section-body1 {
+        font-size: 14px;
+    }
+
+    .section-btn-cont {
+        margin-top: 30px;
+    }
+}
+.combo-title{
+    .section-ho2 {
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+    
+}
+
+.heading-info-section-ho5 {
+    .section-ho5 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .section-btn-cont{
+        margin-top: 30px;  
+    }
+}
+
+
+
+.heading-info-section {
+ 
+    .section-body1 {
+      
+        margin-bottom: 16px;
+    }
+
+  
+}}
+
+//@include headdings--sm(); 768px
+@mixin headdings--sm() {}
+
+//@include headdings--xs(); 576px
+@mixin headdings--xs() {
+
+    
+
+
+
+
+    h1,
+    .h1 {
+        font-size: 24px;
+    }
+
+
+    h2,
+    .h2 {
+        font-size: 18px;
+    }
+
+    h3,
+    .h3 {
+        font-size: 18px;
+    }
+
+
+
+    h4,
+    .h4 {
+        font-size: 16px;
+    }
+
+    h5,
+    .h5 {
+        font-size: 16px;
+    }
+
+    h6,
+    .h6 {
+        font-size: 16px;
+    }
+
+
+         //******************
+//Typography - Starts 
+//****************** 
+.heading-info-section {
+    .section-ho2 {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+
+    .section-body1 {
+        font-size: 16px;
+        color: $secondary;
+        margin-bottom: 16px;
+    }
+
+    .section-btn-cont {
+        margin-top: 30px;
+    }
+}
+.combo-title{
+    .section-ho2 {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+    
+}
+
+}
+
+
+//@include headdings--xs(); 375px
+@mixin headdings--375() {}
+
+//@include headdings--360(); 360px
+@mixin headdings--360() {}
+
+//@include headdings--320(); 320px
+@mixin headdings--320() {
+
+    h1,
+    .h1 {
+        font-size: 16px;
+    }
+
+    h2,
+    .h2 {
+        font-size: 16px;
+    }
+
+    h3,
+    .h3 {
+        font-size: 16px;
+    }
+
+    h4,
+    .h4 {
+        font-size: 16px;
+    }
+
+    h5,
+    .h5 {
+        font-size: 16px;
+    }
+
+    h6,
+    .h6 {
+        font-size: 16px;
+    }
+}

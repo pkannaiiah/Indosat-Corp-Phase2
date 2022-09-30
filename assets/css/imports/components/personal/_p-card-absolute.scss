@@ -1,0 +1,77 @@
+.p-card-absolute{
+    @include border-radius(16px);
+    position: absolute;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.11);
+    padding: 36px 46px;
+    background: $white;
+    max-width: 880px;
+    margin:72px auto;
+    left:calc(50% - 440px);
+
+
+   
+
+}
+
+//---------------
+//Media Queries
+//---------------
+
+// Large devices (desktops, less than 1200px)
+@include media-breakpoint-down(lg) {}
+
+// Medium devices (tablets, less than 992px)
+@include media-breakpoint-down(md) {
+    .p-card-absolute{        
+        padding: 24px;
+        max-width: 90%;
+        margin:24px auto;
+        left:5%;
+        right: 5%;
+    }
+}
+
+
+// Small devices (landscape phones, less than 768px)
+@include media-breakpoint-down(sm) {
+
+}
+
+// Small devices (landscape phones, less than 768px)
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(xs) {
+    .p-card-absolute{        
+        padding: 20px 5px;
+        max-width: 100%;
+        margin: 0;
+        left: 20px;
+        right: 20px;
+        top: 50px;
+    }
+}
+
+// iOS 6 devices (portrait phones, less than 425px)
+@media (max-width: 425px) {}
+
+// iOS 6+ devices (portrait phones, less than 414px)
+@media (max-width: 414px) {}
+
+// Redmi pro devices (portrait phones, less than 393px)
+@media (max-width: 393px) {}
+
+
+
+// iOS 6 devices (portrait phones, less than 375px)
+@media (max-width: 375px) {}
+
+
+
+// Android devices (portrait phones, less than 360px)
+@media (max-width: 360px) {}
+
+
+// iOS 5 devices (portrait phones, less than 320px)
+@media (max-width: 320px) {}

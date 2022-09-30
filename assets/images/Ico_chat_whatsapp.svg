@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_56750" data-name="Rectangle 56750" width="65" height="65" transform="translate(120 497)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Ico_chat_whatsapp" transform="translate(-120 -497)" clip-path="url(#clip-path)">
+    <g id="Icon_Chat_Ico_chat_whatsapp" data-name="Icon/Chat/Ico_chat_whatsapp" transform="translate(125.408 504.176)">
+      <g id="Group-42" transform="translate(-0.408 -0.535)">
+        <circle id="Oval" cx="28" cy="28" r="28" transform="translate(0 0.359)" fill="#1bd741"/>
+        <g id="whatsapp" transform="translate(11.746 11.858)">
+          <g id="Group_13250" data-name="Group 13250" transform="translate(0 0)">
+            <g id="Group" transform="translate(0 0)">
+              <path id="Shape" d="M.061,33.981l2.374-8.433a16.924,16.924,0,1,1,6.323,6.195ZM9.2,28.662l.518.316A14.055,14.055,0,1,0,5.2,24.556l.349.543L4.178,29.956Z" transform="translate(-0.061 -0.04)" fill="#fff"/>
+              <path id="Path" d="M13.706,10.614l-1.1-.06a1.328,1.328,0,0,0-.944.323A5,5,0,0,0,10.017,13.4c-.39,1.737.213,3.865,1.773,5.992A17.826,17.826,0,0,0,21.4,26.376a4.682,4.682,0,0,0,3.965-.491,3.546,3.546,0,0,0,1.543-2.251l.175-.819a.569.569,0,0,0-.318-.636l-3.713-1.711a.569.569,0,0,0-.689.169l-1.458,1.89a.417.417,0,0,1-.469.14,11.413,11.413,0,0,1-6.176-5.285.421.421,0,0,1,.053-.47L15.706,15.3a.569.569,0,0,0,.093-.6l-1.6-3.744A.569.569,0,0,0,13.706,10.614Z" transform="translate(-1.488 -1.564)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

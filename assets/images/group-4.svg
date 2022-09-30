@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="19.6" cy="19.6" r="19.6" fill="#FFD600"/>
+        <text fill="#000" font-family="Ooredoo-Heavy, Ooredoo" font-size="12" font-weight="600">
+            <tspan x="8" y="23">icon</tspan>
+        </text>
+    </g>
+</svg>

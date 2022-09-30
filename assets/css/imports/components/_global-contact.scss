@@ -1,0 +1,206 @@
+.global-contact {
+    background-color: $white;
+    padding: 72px 0px;
+    position: relative;
+    z-index: 2;
+    border-top: 1px solid #eee;
+    h3 {
+        margin-bottom: 60px;
+    }
+
+    &-img {
+        background: #f6f6f6;
+        margin-right: 15px;
+        border-radius: 50px;
+
+        img {
+            width: 72px;
+            height: 72px;
+        }
+
+    }
+
+    &-desc {
+        h3 {
+            font-family: $noto-light;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-family: $heavy;
+            font-size: 14px;
+        }
+
+        a {
+            color: $primary;
+            font-family: $heavy;
+            font-size: 14px;
+            line-height: 30px;
+            height: 30px;
+
+            picture img {
+                width: 30px;
+            }
+        }
+        .mailto{
+            
+        }
+        .callto{color: $secondary!important;}
+    }
+}
+
+//---------------
+//Media Queries
+//---------------
+
+//@include global-contact--lg(); 1200px
+@mixin global-contact--lg() {
+    .global-contact {
+        &-img {
+
+            margin-right: 10px;
+        }
+
+        .callto{color: $primary!important;}
+    }
+}
+
+//@include global-contact--md(); 992px
+@mixin global-contact--md() {
+    .global-contact {
+        padding: 40px 0px;
+
+        h3 {
+            margin-bottom: 40px;
+            font-size: 28px;
+        }
+
+        &-list {
+            flex-wrap: wrap;
+
+            >.d-flex {
+                width: 50%;
+                margin-bottom: 20px;
+                ;
+            }
+        }
+
+        &-img {
+
+            margin-right: 15px;
+
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+        &-desc {
+            h3 {
+                font-size: 18px;
+                margin-bottom: 4px;
+            }
+        }
+
+    
+    }
+}
+
+//@include global-contact--sm(); 768px
+@mixin global-contact--sm() {
+    .global-contact {
+        padding: 30px 0px 20px 0px;
+
+        h3 {
+            margin-bottom: 30px;
+            font-size: 26px;
+        }
+
+        &-img {
+
+            margin-right: 10px;
+        }
+
+        &-desc {
+            h3 {
+                font-size: 18px;
+                margin-bottom: 4px;
+            }
+        }
+    }
+}
+
+//@include global-contact--xs(); 576px
+@mixin global-contact--xs() {
+    .global-contact {
+        border-top: 0px;
+        .global-contact-desc{
+            h3{
+                margin-bottom: 10px;
+            }
+        }
+        padding: 20px 0px 10px 0px;
+
+        h3 {
+            margin-bottom: 25px;
+            font-size: 22px;
+            text-align: left;
+        }
+
+        &-list {
+            flex-wrap: wrap;
+
+            >.d-flex {
+                width: 100%;
+                margin-bottom: 20px;
+                ;
+            }
+        }
+
+        &-img {
+
+            margin-right: 15px;
+        }
+        &-desc {
+            h3 {
+                font-size: 14px;
+            }
+        }
+        
+    }
+}
+
+//@include global-contact--xs(); 375px
+@mixin global-contact--375() {
+    .global-contact {
+        padding: 20px 0px 10px 0px;
+
+        h3 {
+            margin-bottom: 25px;
+            font-size: 18px;
+        }
+
+        &-list {
+            >.d-flex {
+                margin-bottom: 15px;
+            }
+        }
+
+        &-img {
+
+            margin-right: 15px;
+        }
+        &-desc {
+            h3 {
+                font-size: 14px;
+            }
+        }
+        
+    }
+}
+
+//@include global-contact--360(); 360px
+@mixin global-contact--360() {}
+
+//@include global-contact--320(); 320px
+@mixin global-contact--320() {}

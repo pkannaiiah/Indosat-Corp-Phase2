@@ -1,0 +1,45 @@
+
+//<!-- /* -- Swiper CSS V 6.1.1 -- */ -->
+@import "imports/vendors/swiper-bundle.min";
+
+
+// Design Team Internal Framework (DIF)  -- Variables
+// ***Custom Variables should be in first position, Before the bootstrap SCSS
+// Design Team Internal Framework (DIF)  -- Variables
+@import "imports/dif-variables";
+
+/* --  Bootstrap v4.5.2 -- */
+//@import "imports/vendors/bootstrap.min";
+@import "imports/vendors/bootstrap-all";
+// Design Team Internal Framework (DIF)  -- Buttons
+@import "imports/dif-buttons";
+// Design Team Internal Framework (DIF)  -- Mixins
+@import "imports/dif-mixins";
+// Design Team Internal Framework (DIF)  -- Functions
+@import "imports/dif-functions";
+// Design Team Internal Framework (DIF)  -- Buttons
+@import "imports/global";
+// Design Team Internal Framework (DIF)  -- Headdings
+@import "imports/headdings";
+// Design Team Internal Framework (DIF)  -- Paddings
+@import "imports/margin-padding";
+// Design Team Internal Framework (DIF)  -- Forms
+@import "imports/forms";
+// Design Team Internal Framework (DIF)  -- Model
+@import "imports/modal_popup";
+
+// Design Team Internal Framework (DIF)  -- tabs
+@import "imports/global-tab";
+// Design Team Internal Framework (DIF)  -- tabs
+@import "imports/global_tabs_one";
+
+@import "imports/comp-preloader";
+
+
+
+
+
+
+
+
+

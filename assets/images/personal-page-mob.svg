@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="280" viewBox="0 0 360 280">
+    <defs>
+        <linearGradient id="jz52vgm3vc" x1="77.105%" x2="-1.313%" y1="50%" y2="80.247%">
+            <stop offset="0%" stop-color="#FFD600"/>
+            <stop offset="100%" stop-color="#FFB601"/>
+        </linearGradient>
+        <linearGradient id="gykzvyto6e" x1="22.753%" x2="79.551%" y1="7.664%" y2="96.152%">
+            <stop offset="0%" stop-color="#FFD600" stop-opacity=".527"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".464"/>
+        </linearGradient>
+        <linearGradient id="dmjubg0qhf" x1="20.037%" x2="89.023%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#F7915D"/>
+            <stop offset="100%" stop-color="#E33535"/>
+        </linearGradient>
+        <linearGradient id="l8rsmbq9eh" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#FFD449"/>
+        </linearGradient>
+        <linearGradient id="hysh2x4cuj" x1="22.753%" x2="79.551%" y1="7.664%" y2="96.152%">
+            <stop offset="0%" stop-color="#ED2324"/>
+            <stop offset="100%" stop-color="#FF454C"/>
+        </linearGradient>
+        <linearGradient id="jfvlgfx3bk" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FE9632"/>
+            <stop offset="100%" stop-color="#FF6641"/>
+        </linearGradient>
+        <path id="3e9r8txfia" d="M0 0L360 0 360 258 0 258z"/>
+        <path id="z8l71m7lmb" d="M0 0H360V280H0z"/>
+        <path id="ba5w5o3isg" d="M22.592 0c1.729 0 3.371.747 4.5 2.047l8.596 9.902c.929 1.07 1.44 2.436 1.44 3.85v22.53c0 3.257-2.66 5.897-5.94 5.897H5.94c-3.28 0-5.94-2.64-5.94-5.897V5.897C0 2.64 2.66 0 5.94 0h16.652zm3.07 30.122h-1.57l.197 5.504h1.373v-5.504zm-2.692 0h-5.61l.196 5.504h5.611l-.197-5.503zm8.217 0h-4.403v5.504h.764c1.945 0 3.534-1.526 3.634-3.446l.006-.194-.001-1.864zm-14.95 0h-2.871v1.864c0 1.816 1.33 3.32 3.067 3.596l-.196-5.46zm14.95-5.569H13.366v4.455h17.821v-4.455zM13.371 22.12l-.005.193v1.126h2.422v-4.557c-1.353.48-2.338 1.74-2.417 3.238zm11.843-3.447h-5.611v4.767h5.611v-4.767zm2.334 0h-1.212v4.767l4.851-.001v-1.126c0-2.01-1.63-3.64-3.64-3.64zm-9.067 0h-1.475l-.096.002v4.764h1.571v-4.766z"/>
+        <path id="dr5qi5i5el" d="M6.608 0H25.13c1.923 0 3.75.828 5.006 2.268l9.562 10.97c1.033 1.187 1.602 2.7 1.602 4.266v24.963c0 3.608-2.959 6.533-6.608 6.533H6.608C2.958 49 0 46.075 0 42.467V6.533C0 2.925 2.959 0 6.608 0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(0 -122) translate(0 122)">
+                    <use fill="#FEDA00" fill-rule="nonzero" xlink:href="#3e9r8txfia"/>
+                    <mask id="91y0vuhntd" fill="#fff">
+                        <use xlink:href="#z8l71m7lmb"/>
+                    </mask>
+                    <use fill="url(#jz52vgm3vc)" fill-rule="nonzero" xlink:href="#z8l71m7lmb"/>
+                    <g mask="url(#91y0vuhntd)">
+                        <g>
+                            <g transform="translate(7 -56) translate(216 182)">
+                                <circle cx="73.85" cy="118.8" r="58.45" fill="url(#gykzvyto6e)" fill-rule="nonzero" transform="scale(-1 1) rotate(-72 0 220.446)"/>
+                                <g>
+                                    <g>
+                                        <g transform="rotate(-38 119.04 -38.757) translate(0 13.195)">
+                                            <rect width="46.41" height="52.78" x=".015" y="8.011" fill="#211E20" fill-opacity=".106" rx="4.095"/>
+                                            <rect width="44.59" height="52.78" x="10.01" fill="url(#dmjubg0qhf)" rx="8.19"/>
+                                        </g>
+                                        <g>
+                                            <g transform="rotate(-38 119.04 -38.757) translate(0 13.195) translate(13.65 4.095)">
+                                                <mask id="tz2u4tythi" fill="#fff">
+                                                    <use xlink:href="#ba5w5o3isg"/>
+                                                </mask>
+                                                <use fill="url(#l8rsmbq9eh)" fill-rule="nonzero" xlink:href="#ba5w5o3isg"/>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                                <circle cx="136.15" cy="56.85" r="1.75" fill="#F26CAA" fill-rule="nonzero"/>
+                                <circle cx="68.425" cy="3.125" r="2.625" fill-rule="nonzero" stroke="#ED1C24" stroke-width="1.4"/>
+                                <circle cx="115.5" cy="28.5" r="6.65" fill="#ED1C24" fill-rule="nonzero"/>
+                            </g>
+                            <g transform="translate(7 -56)">
+                                <circle cx="71.575" cy="64.575" r="47.075" fill="url(#hysh2x4cuj)" fill-rule="nonzero" transform="rotate(150 71.575 64.575)"/>
+                                <circle cx="25.9" cy="111.65" r="18.9" fill="url(#hysh2x4cuj)" fill-rule="nonzero" transform="rotate(150 25.9 111.65)"/>
+                                <g>
+                                    <g transform="rotate(37 31.824 173.858) translate(0 16.1)">
+                                        <rect width="52.5" height="58.8" x=".061" y="9.918" fill="#211E20" fill-opacity=".097" rx="6.3"/>
+                                        <rect width="52.5" height="58.8" x="11.2" fill="url(#jfvlgfx3bk)" rx="10.5"/>
+                                        <g transform="translate(16.68 4.591)">
+                                            <mask id="gradkdo28m" fill="#fff">
+                                                <use xlink:href="#dr5qi5i5el"/>
+                                            </mask>
+                                            <use fill="#ED1C24" fill-rule="nonzero" xlink:href="#dr5qi5i5el"/>
+                                            <g mask="url(#gradkdo28m)">
+                                                <g transform="translate(10.9 18.9)">
+                                                    <rect width="19.82" height="18.861" x="3.654" y="1.22" fill="#FF979C" fill-rule="nonzero" rx="1.344"/>
+                                                    <g>
+                                                        <g fill="#ED1C24" fill-rule="nonzero">
+                                                            <g>
+                                                                <path d="M0 6.196L20.646 6.196 20.646 7.435 0 7.435zM7.488 0L7.488 6.196 6.24 6.196 6.24 0zM14.975 0L14.975 6.196 13.727 6.196 13.727 0z" transform="translate(.13 .327) translate(2.974)"/>
+                                                                <path d="M4.493 0.248L4.493 6.444 3.245 6.444 3.245 0.248z" transform="translate(.13 .327) translate(2.974)"/>
+                                                            </g>
+                                                            <g>
+                                                                <path d="M0 7.562L23.023 7.562 23.023 8.802 0 8.802zM10.24 1.367L10.24 7.562 8.992 7.562 8.992 1.367zM17.728 1.367L17.728 7.562 16.48 7.562 16.48 1.367z" transform="translate(.13 .327) rotate(180 12.223 10.597)"/>
+                                                                <path d="M7.245 0L7.245 7.81 5.997 7.81 5.997 0z" transform="translate(.13 .327) rotate(180 12.223 10.597)"/>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                                <circle cx="71.584" cy="94.224" r="2.625" fill-rule="nonzero" stroke="#ED1C24" stroke-width="1.4"/>
+                                <circle cx="84.534" cy="87.574" r="2.625" fill="#00BEF6" fill-rule="nonzero"/>
+                                <circle cx="72.459" cy="137.799" r="3.5" fill="#C43AA8" fill-rule="nonzero"/>
+                                <circle cx="57.05" cy="111.65" r="4.55" fill-rule="nonzero" stroke="#ED1C24" stroke-width="1.4"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

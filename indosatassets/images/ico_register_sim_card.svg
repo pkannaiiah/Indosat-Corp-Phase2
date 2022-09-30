@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>icon/general/ico_register_sim_card</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.2123176,0.784683682 L16.1750361,5.13922918 C16.5771549,5.58110883 16.8,6.15708658 16.8,6.7545455 L16.8,18.6 C16.8,19.9254834 15.7254834,21 14.4,21 L2.4,21 C1.0745166,21 6.0641411e-16,19.9254834 0,18.6 L0,2.4 C-1.623249e-16,1.0745166 1.0745166,2.4348735e-16 2.4,0 L10.4372815,0 C11.1130451,-1.45640338e-15 11.757496,0.284890056 12.2123176,0.784683682 Z" id="path-1"></path>
+    </defs>
+    <g id="icon/general/ico_register_sim_card" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" opacity="0" stroke="#979797">
+            <g id="Group-6">
+                <rect id="Rectangle" opacity="0.289481027" x="0.5" y="0.5" width="39" height="39" rx="19.5"></rect>
+                <rect id="Rectangle" fill="#D8D8D8" opacity="0.390345982" x="6.5" y="0.5" width="27" height="39" rx="2"></rect>
+                <rect id="Rectangle" fill="#D8D8D8" opacity="0.296619234" x="3.5" y="3.5" width="33" height="33" rx="2"></rect>
+                <rect id="Rectangle" opacity="0.265927269" transform="translate(20.000000, 20.000000) rotate(90.000000) translate(-20.000000, -20.000000) " x="6.5" y="0.5" width="27" height="39" rx="2"></rect>
+            </g>
+        </g>
+        <g id="icon/system/usage">
+            <path d="M39.8891967,19.9445983 C39.8891967,30.9606648 30.9606648,39.8891967 19.9445983,39.8891967 C8.92853186,39.8891967 0,30.9606648 0,19.9445983 C0,8.92853186 8.92853186,0 19.9445983,0 C30.9606648,0 39.8891967,8.92853186 39.8891967,19.9445983 Z" id="Combined-Shape" fill="#ED2324"></path>
+            <g id="Group" transform="translate(12.000000, 10.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="Group-7" mask="url(#mask-2)">
+                    <g transform="translate(2.400000, 3.400000)">
+                        <rect id="Rectangle-2" fill="#ED2324" fill-rule="nonzero" x="1.68" y="5.72" width="8.64" height="8.28" rx="1.44"></rect>
+                        <g id="icon/system/paid_light" fill="none" transform="translate(0.600000, 0.600000)" fill-rule="evenodd" stroke-width="1">
+                            <g id="icon/system/paid" transform="translate(3.900000, 3.900000)">
+                                <rect id="Rectangle" x="0.6" y="0.6" width="6" height="6"></rect>
+                                <path d="M0.6,2.1 C0.6,1.93431458 0.734314575,1.8 0.9,1.8 L1.3,1.8 C1.46568542,1.8 1.6,1.93431458 1.6,2.1 L1.599,4.3 L6.3,4.3 C6.46568542,4.3 6.6,4.43431458 6.6,4.6 L6.6,5 C6.6,5.16568542 6.46568542,5.3 6.3,5.3 L0.9,5.3 C0.734314575,5.3 0.6,5.16568542 0.6,5 L0.6,2.1 Z" id="Combined-Shape" stroke="#FFFFFF" stroke-width="0.5" fill="#FFFFFF" transform="translate(3.600000, 3.550000) rotate(-45.000000) translate(-3.600000, -3.550000) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#ED2324;}
+	.st1{fill:#FFFFFF;}
+	.st2{filter:url(#Adobe_OpacityMaskFilter);}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st4{opacity:0.66;mask:url(#cacilmqpub_1_);fill:#E4E4E4;enable-background:new    ;}
+</style>
+<g transform="translate(26 26)">
+	<circle class="st0" cx="-6" cy="-6" r="20"/>
+	<g>
+		<g transform="translate(5 10) translate(.428 .21)">
+			<g>
+				<path id="b2zyt7li0a_1_" class="st1" d="M-20.9-25.2c0.4,0,0.7,0.2,0.8,0.6l0.3,1.1h19.2c0.2,0,0.4,0.1,0.5,0.2L0-23.2
+					c0.2,0.2,0.2,0.4,0.2,0.7l-1.6,8.9C-1.5-13.3-1.8-13-2.2-13L-17-12.2l0,0l11.6,3.6c0.4,0,0.8,0.4,0.8,0.8C-4.6-7.3-5-7-5.4-7
+					l-12.2-3.6c-0.4,0-0.7-0.2-0.8-0.6l-3.1-12.4h-3.1c-0.4,0-0.8-0.4-0.8-0.8c0-0.4,0.4-0.8,0.8-0.8L-20.9-25.2L-20.9-25.2z"/>
+			</g>
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-31.4" y="-40.2" width="26" height="27">
+					<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+				</filter>
+			</defs>
+			<mask maskUnits="userSpaceOnUse" x="-31.4" y="-40.2" width="26" height="27" id="cacilmqpub_1_">
+				<g class="st2">
+					<path id="b2zyt7li0a_2_" class="st3" d="M-20.9-25.2c0.4,0,0.7,0.2,0.8,0.6l0.3,1.1h19.2c0.2,0,0.4,0.1,0.5,0.2L0-23.2
+						c0.2,0.2,0.2,0.4,0.2,0.7l-1.6,8.9C-1.5-13.3-1.8-13-2.2-13L-17-12.2l0,0l11.6,3.6c0.4,0,0.8,0.4,0.8,0.8C-4.6-7.3-5-7-5.4-7
+						l-12.2-3.6c-0.4,0-0.7-0.2-0.8-0.6l-3.1-12.4h-3.1c-0.4,0-0.8-0.4-0.8-0.8c0-0.4,0.4-0.8,0.8-0.8L-20.9-25.2L-20.9-25.2z"/>
+				</g>
+			</mask>
+			<ellipse class="st4" cx="-18.4" cy="-26.7" rx="13" ry="13.5"/>
+		</g>
+		<g>
+			<path class="st0" d="M0-5.2c-0.4,0-0.8-0.4-0.8-0.8v-3.2C-0.8-9.7-0.4-10,0-10s0.8,0.4,0.8,0.8V-6C0.8-5.5,0.5-5.2,0-5.2L0-5.2z
+				 M-4.8-5.2c-0.4,0-0.8-0.4-0.8-0.8v-3.2c0-0.4,0.4-0.8,0.8-0.8C-4.3-10-4-9.7-4-9.2V-6C-4-5.5-4.3-5.2-4.8-5.2L-4.8-5.2z
+				 M-9.6-5.2c-0.4,0-0.8-0.4-0.8-0.8v-3.2c0-0.4,0.4-0.8,0.8-0.8c0.4,0,0.8,0.4,0.8,0.8V-6C-8.8-5.5-9.1-5.2-9.6-5.2z"/>
+		</g>
+		<g transform="translate(5 10) translate(6 16)">
+			<ellipse class="st1" cx="-23.6" cy="-23.6" rx="2.4" ry="2.4"/>
+			<ellipse class="st1" cx="-9.6" cy="-23.4" rx="2.4" ry="2.4"/>
+		</g>
+	</g>
+</g>
+</svg>

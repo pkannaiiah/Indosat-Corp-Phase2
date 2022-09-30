@@ -1,0 +1,191 @@
+.corp-media-awards{
+  .default-bg{
+    border-radius: 8px;
+  }
+  .form_control{min-width: 240px;}
+  .medcont{
+    &--rect{
+      cursor: pointer;
+      background: $white;
+      box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+      @include border-radius(16px);
+      display: flex;
+      padding: 20px;
+      width:calc(25% - 16px);
+      margin-right: 20px;
+      margin-bottom: 20px;
+      &:nth-child(4n){
+        margin-right: 0px;
+      }
+      .md-img-suptext{
+        margin-bottom: 40px;
+        .md-suptext{
+          font-size:14px;
+          color: #a3a3a3;
+          font-family: $noto-light;
+        }
+        .md-img{
+          width: 40px;
+        }
+      }
+
+      .md-headcont{
+        .md-headding{
+         @include multi-Truncate(16px, 1.2, 3);
+         margin-bottom: 16px;
+         flex: 0 0 100%;
+        }
+        .md-head-suptext{
+          @include multi-Truncate(12px, 1.5, 2);          
+          color:#898989;
+          margin: 0;
+          flex: 0 0 100%;
+        }
+        margin-bottom: 20px;
+        
+      }
+      .md-bodycont{
+        .md-head-bodytext{
+          @include multi-Truncate(12px, 1.5, 3);          
+          color:#333333;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@include media-breakpoint-down(lg) {}
+
+// Medium devices (tablets, less than 992px)
+@include media-breakpoint-down(md) {
+  .corp-media-awards{
+    .medcont{
+      &--rect{
+      
+        width:calc(33% - 20px);
+        margin-right: 20px;
+        &:nth-child(3n){
+          margin-right: 0px;
+        }
+        .md-img-suptext{
+          margin-bottom: 40px;
+          .md-suptext{
+            font-size:14px;
+            color: #a3a3a3;
+            font-family: $noto-light;
+          }
+          .md-img{
+            width: 36px;
+          }
+        }
+  
+        .md-headcont{
+          .md-headding{
+           @include multi-Truncate(14px, 1.2, 3);
+           margin-bottom: 16px;
+          }
+          .md-head-suptext{
+            @include multi-Truncate(12px, 1.5, 2);          
+            color:#898989;
+            margin: 0;
+          }
+          margin-bottom: 20px;
+        }
+        .md-bodycont{
+          .md-head-bodytext{
+            @include multi-Truncate(12px, 1.5, 3);          
+            color:#333333;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// Small devices (landscape phones, less than 768px)
+@include media-breakpoint-down(sm) {
+
+  .corp-media-awards{
+    .medcont{
+      &--rect{
+
+      
+        width:100%;
+        margin-right: 0px;
+        &:nth-child(1n){
+          margin-right: 0px;
+        }
+        .md-img-suptext{
+          margin-bottom: 40px;
+          .md-suptext{
+            font-size:14px;
+            color: #a3a3a3;
+            font-family: $noto-light;
+          }
+          .md-img{
+          }
+        }
+  
+        .md-headcont{
+          .md-headding{
+           @include multi-Truncate(16px, 1.2, 3);
+           margin-bottom: 16px;
+          }
+          .md-head-suptext{
+            @include multi-Truncate(12px, 1.5, 2);          
+            color:#898989;
+            margin: 0;
+          }
+          margin-bottom: 20px;
+        }
+        .md-bodycont{
+          .md-head-bodytext{
+            @include multi-Truncate(12px, 1.5, 3);          
+            color:#333333;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+// Small devices (landscape phones, less than 768px)
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(xs) {
+  
+}
+
+// iOS 6 devices (portrait phones, less than 425px)
+@media (max-width: 425px) {}
+
+// iOS 6+ devices (portrait phones, less than 414px)
+@media (max-width: 414px) {}
+
+// Redmi pro devices (portrait phones, less than 393px)
+@media (max-width: 393px) {}
+
+
+
+// iOS 6 devices (portrait phones, less than 375px)
+@media (max-width: 375px) {
+
+
+}
+
+
+
+// Android devices (portrait phones, less than 360px)
+@media (max-width: 360px) {}
+
+
+// iOS 5 devices (portrait phones, less than 320px)
+@media (max-width: 320px) {}
