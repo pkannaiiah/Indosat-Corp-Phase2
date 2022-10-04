@@ -457,9 +457,9 @@
         <!-- Ravi New Secitons start -->
         <section class="Cycle_Capped_Information">
             <div class="container">
-                <h6>Cycle Capped Information</h6>
+                <h6 class="mt-4">Cycle Capped Information</h6>
                 <div class="cci_card">
-                    <div class="cci_card_sec1">
+                    <div class="cci_card_sec1 row">
                         <div class="cci_card_usage">
                             <div class="cci_card_usage_img me-20">
                                 <img src="assets/images/cci_cap_usage.svg">
@@ -470,33 +470,235 @@
                             </div>
                         </div>
                         <div class="cci_card_bonus">
-                            <div class="cci_card_bonus_detail">
-                                <div><img src="assets/images/globe.svg"><span class="ms-10">Bonus Quota</span></div>
-                                <h5 class="min-xs-font-20-16 mt-1 mb-0">3GB</h5>
-                                <div class=" mt-2 cci_support_txt">All network</div>
-                            </div>
-                            <div class="cci_card_bonus_detail">
-                                <div><img src="assets/images/call-incoming.svg"><span class="ms-10">Bonus Receive
-                                        Call</span></div>
-                                <h5 class="min-xs-font-20-16 mt-1 mb-0">Unlimited</h5>
-                                <div class="mt-2 cci_support_txt">All Network</div>
-                            </div>
-                            <div class="cci_card_bonus_detail">
-                                <div><img src="assets/images/call-outcoming.svg"><span class="ms-10">Bonus Outbond
-                                        Call</span></div>
-                                <h5 class="min-xs-font-20-16 mt-1 mb-0">3GB</h5>
-                                <div class="mt-2 cci_support_txt">Home & Local</div>
+                            <div class="cci_bonus_lst">
+                                <div class="cci_card_bonus_detail">
+                                    <div><img src="assets/images/globe.svg"><span class="ms-10">Bonus Quota</span></div>
+                                    <h5 class="min-xs-font-20-16 mt-1 mb-0">3GB</h5>
+                                    <div class=" mt-2 cci_support_txt">All network</div>
+                                </div>
+                                <div class="cci_card_bonus_detail">
+                                    <div><img src="assets/images/call-incoming.svg"><span class="ms-10">Bonus Receive
+                                            Call</span></div>
+                                    <h5 class="min-xs-font-20-16 mt-1 mb-0">Unlimited</h5>
+                                    <div class="mt-2 cci_support_txt">All Network</div>
+                                </div>
+                                <div class="cci_card_bonus_detail">
+                                    <div><img src="assets/images/call-outcoming.svg"><span class="ms-10">Bonus Outbond
+                                            Call</span></div>
+                                    <h5 class="min-xs-font-20-16 mt-1 mb-0">3GB</h5>
+                                    <div class="mt-2 cci_support_txt">Home & Local</div>
+                                </div>
+                                <div class="cci_card_bonus_detail">
+                                    <div><img src="assets/images/sms_cci.svg"><span class="ms-10">SMS</span></div>
+                                    <h5 class="min-xs-font-20-16 mt-1 mb-0">30</h5>
+                                    <div class="mt-2 cci_support_txt">&nbsp;</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="cci_card_info">
-                        <div style="margin: 16px 0px;">
-                            <img src="assets/images/cci_card_info.svg">
-                            <h6>
-                                Bonus will be obtained after the cycle capped limit is reached. Usage calculation
-                                including
-                                all network activity ( call, sms or data )
-                            </h6>
+                        <div class="cci_card_info_detail">
+                            <div class="pr-2"><img src="assets/images/cci_card_info.svg"></div>
+                            <div>
+                                <h6 class="mb-0 min-xs-font-16-14 cci_card_support_txt">
+                                    Bonus will be obtained after the cycle capped limit is reached. Usage calculation
+                                    including all network activity ( call, sms or data )
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- new section start -->
+        <section class="Cycle_Capped_Information">
+            <div class="container">
+                <h6 class="mt-4">Tariff Information</h6>
+                <div class="cci_card">
+                    <div class="cci_card_sec1 m-0">
+                        <div class="cci_card_bonus width100 m-0">
+                            <div class="cci_bonus_lst">
+                                <div class="cci_card_bonus_detail cci_card_bonus_detail_250">
+                                    <div><img src="assets/images/globe.svg"><span class="ms-10">Internet</span></div>
+                                    <h5 class="min-xs-font-20-16 mt-1 mb-0">Rp 500</h5>
+                                    <div class=" mt-2 cci_support_txt">per kb</div>
+                                </div>
+                                <div class="cci_card_bonus_detail cci_card_bonus_detail_250">
+                                    <div><img src="assets/images/call-icon-cci.svg"><span class="ms-10">Call to
+                                            Indonesia</span></div>
+                                    <h5 class="min-xs-font-20-16 mt-1 mb-0">Rp17.500</h5>
+                                    <div class="mt-2 cci_support_txt">per minute</div>
+                                </div>
+                                <div class="cci_card_bonus_detail cci_card_bonus_detail_250">
+                                    <div><img src="assets/images/call-icon-cci.svg"><span class="ms-10">Local
+                                            call</span></div>
+                                    <h5 class="min-xs-font-20-16 mt-1 mb-0">Rp 15.000</h5>
+                                    <div class="mt-2 cci_support_txt">per minute</div>
+                                </div>
+                                <div class="cci_card_bonus_detail cci_card_bonus_detail_250">
+                                    <div><img src="assets/images/call-icon-cci.svg"><span class="ms-10">International
+                                            call</span></div>
+                                    <h5 class="min-xs-font-20-16 mt-1 mb-0">Rp40.000</h5>
+                                    <div class="mt-2 cci_support_txt">per minute</div>
+                                </div>
+                                <div class="cci_card_bonus_detail cci_card_bonus_detail_250">
+                                    <div><img src="assets/images/call-incoming.svg"><span class="ms-10">Receive
+                                            call</span></div>
+                                    <h5 class="min-xs-font-20-16 mt-1 mb-0">Rp15.000</h5>
+                                    <div class="mt-2 cci_support_txt">per minute</div>
+                                </div>
+                                <div class="cci_card_bonus_detail cci_card_bonus_detail_250">
+                                    <div><img src="assets/images/sms_cci.svg"><span class="ms-10">Send SMS</span></div>
+                                    <h5 class="min-xs-font-20-16 mt-1 mb-0">Rp15.000</h5>
+                                    <div class="mt-2 cci_support_txt">per minute</div>
+                                </div>
+                                <div class="cci_card_bonus_detail cci_card_bonus_detail_250">
+                                    <div><img src="assets/images/sms_cci.svg"><span class="ms-10">Receive SMS</span>
+                                    </div>
+                                    <h5 class="min-xs-font-20-16 mt-1 mb-0">Free</h5>
+                                    <div class="mt-2 cci_support_txt">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- New Section start-->
+        <section class="Cycle_Capped_Information" style="display: none;">
+            <div class="container">
+                <h6 class="mt-4">Available Operator List</h6>
+                <div class="cci_card cci_card_noshadow">
+                    <div class="cci_card_sec1 m-0">
+                        <!-- <div class="cci_card_bonus m-0 widthauto">
+
+                            <div class="cci_bonus_lst">
+                                <div class="cci_card_bonus_detail whitecard">
+                                    <div class="whitecard_primary">
+                                        <h5 class="min-xs-font-18-16 mb-0">BSNL</h5>
+                                        <div class="cci_support_txt cci_support_txt_gray">3G</div>
+                                    </div>
+                                    <div class="whitecard_secondary m-0">
+                                        <div class="whitecard_secondary">
+                                            <img src="assets/images/ico_check.svg">
+                                            <span class="ml-2">Prepaid</span>
+                                        </div>
+                                        <div class="whitecard_secondary">
+                                            <img src="assets/images/ico_check.svg">
+                                            <span class="ml-2">Postpaid</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- <div class="cci_card_bonus width100 m-0"> -->
+                        <div class="cci_bonus_lst">
+                            <div class="cci_card_bonus_detail whitecard">
+                                <div class="whitecard_primary">
+                                    <h5 class="min-xs-font-18-16 mb-0">BSNL</h5>
+                                    <div class="cci_support_txt cci_support_txt_gray">3G</div>
+                                </div>
+                                <div class="whitecard_secondary m-0">
+                                    <div class="whitecard_secondary">
+                                        <img src="assets/images/ico_check.svg">
+                                        <span class="ml-2">Prepaid</span>
+                                    </div>
+                                    <div class="whitecard_secondary">
+                                        <img src="assets/images/ico_check.svg">
+                                        <span class="ml-2">Postpaid</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cci_bonus_lst">
+                            <div class="cci_card_bonus_detail whitecard">
+                                <div class="whitecard_primary">
+                                    <h5 class="min-xs-font-18-16 mb-0">Bharti Airtel</h5>
+                                    <div class="cci_support_txt cci_support_txt_gray">GRPS/3G/4G</div>
+                                </div>
+                                <div class="whitecard_secondary m-0">
+                                    <div class="whitecard_secondary">
+                                        <img src="assets/images/ico_check.svg">
+                                        <span class="ml-2">Prepaid</span>
+                                    </div>
+                                    <div class="whitecard_secondary">
+                                        <img src="assets/images/ico_check.svg">
+                                        <span class="ml-2">Postpaid</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cci_bonus_lst">
+                            <div class="cci_card_bonus_detail whitecard">
+                                <div class="whitecard_primary">
+                                    <h5 class="min-xs-font-18-16 mb-0">Loop Mobile</h5>
+                                    <div class="cci_support_txt cci_support_txt_gray">3G/4G</div>
+                                </div>
+                                <div class="whitecard_secondary m-0">
+                                    <div class="whitecard_secondary">
+                                        <img src="assets/images/ico_check.svg">
+                                        <span class="ml-2">Prepaid</span>
+                                    </div>
+                                    <div class="whitecard_secondary">
+                                        <img src="assets/images/ico_check.svg">
+                                        <span class="ml-2">Postpaid</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cci_bonus_lst">
+                            <div class="cci_card_bonus_detail whitecard">
+                                <div class="whitecard_primary">
+                                    <h5 class="min-xs-font-18-16 mb-0">Vodafone</h5>
+                                    <div class="cci_support_txt cci_support_txt_gray">GRPS/3G/4G</div>
+                                </div>
+                                <div class="whitecard_secondary m-0">
+                                    <div class="whitecard_secondary">
+                                        <img src="assets/images/ico_check.svg">
+                                        <span class="ml-2">Prepaid</span>
+                                    </div>
+                                    <div class="whitecard_secondary">
+                                        <img src="assets/images/ico_check.svg">
+                                        <span class="ml-2">Postpaid</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cci_bonus_lst">
+                            <div class="cci_card_bonus_detail whitecard">
+                                <div class="whitecard_primary">
+                                    <h5 class="min-xs-font-18-16 mb-0">BSNL</h5>
+                                    <div class="cci_support_txt cci_support_txt_gray">GRPS/3G/4G</div>
+                                </div>
+                                <div class="whitecard_secondary m-0">
+                                    <div class="whitecard_secondary">
+                                        <img src="assets/images/ico_check.svg">
+                                        <span class="ml-2">Prepaid</span>
+                                    </div>
+                                    <div class="whitecard_secondary">
+                                        <img src="assets/images/ico_check.svg">
+                                        <span class="ml-2">Postpaid</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cci_bonus_lst">
+                            <div class="cci_card_bonus_detail whitecard">
+                                <div class="whitecard_primary">
+                                    <h5 class="min-xs-font-18-16 mb-0">Bharti Airtel</h5>
+                                    <div class="cci_support_txt cci_support_txt_gray">GRPS/3G/4G</div>
+                                </div>
+                                <div class="whitecard_secondary m-0">
+                                    <div class="whitecard_secondary">
+                                        <img src="assets/images/ico_check.svg">
+                                        <span class="ml-2">Prepaid</span>
+                                    </div>
+                                    <div class="whitecard_secondary">
+                                        <img src="assets/images/ico_check.svg">
+                                        <span class="ml-2">Postpaid</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

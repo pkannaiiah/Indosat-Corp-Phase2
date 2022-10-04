@@ -13,25 +13,26 @@
     padding: 30px;
     // width: 1107px;
     // height: 245px;
-    background: #FFFFFF;
+    background: #FFF;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
     border-radius: 16px;
 
     .cci_card_sec1 {
         display: flex;
         justify-content: space-between;
+        margin: 6px 0px;
     }
 
     .cci_card_info {
         display: flex;
-        flex-direction: row;
-        align-items: flex-start;
+        // flex-direction: row;
+        // align-items: flex-start;
         background: #CCEDFF;
         border-radius: 12px;
-        margin:16px 0px;
+        margin: 16px 0px;
     }
-
 }
+
 .cci_card_usage {
     display: flex;
     flex-direction: row;
@@ -47,11 +48,15 @@
 
 .cci_card_bonus {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 4px 8px;
+    // padding: 4px 8px;
     width: 70%;
+
+}
+
+.width100 {
+    width: 100%;
 }
 
 .usage_primary {
@@ -67,16 +72,15 @@
 }
 
 .cci_card_bonus_detail {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 4px 8px;
     background: $default-bg;
     border-radius: 16px;
-    width: 100%;
-    margin-right: 16px;
     color: $secondary;
+    text-align: center;
+    width: 160px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
 
     span {
         font-family: $noto-bold;
@@ -87,5 +91,146 @@
         font-family: $noto-bold;
         color: #aaaaaa;
         font-size: x-small;
+    }
+}
+
+.cci_card_info_detail {
+    margin: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cci_bonus_lst {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.min-xs-font-16-14 {
+    font-size: 16px;
+}
+
+.cci_card_support_txt {
+    color: #437B9B;
+    align-items: center;
+}
+
+.whitecard {
+    background-color: #FFF;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    width: 250px
+}
+
+.whitecard_primary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.whitecard_secondary {
+    display: flex;
+    margin-right: 20px;
+}
+
+.cci_support_txt_gray {
+    background: #F4F4F4;
+    border-radius: 100px;
+    padding: 4px 16px;
+    line-height: 22px;
+}
+
+.cci_card_noshadow {
+    box-shadow: none;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.widthauto {
+    width: auto;
+}
+
+.cci_card_bonus_detail_250 {
+    width: 250px;
+}
+
+@media(max-width: 1024px) {
+    .cci_card_bonus_detail {
+        width: 140px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cci_card {
+
+        padding: 16px;
+
+        .cci_card_sec1 {
+            flex-direction: row;
+        }
+    }
+
+    .cci_card_usage {
+        width: 100%;
+    }
+
+    .cci_card_bonus {
+        display: table-row;
+        width: 100%;
+        margin-top: 10px;
+        padding: 0px;
+    }
+
+    .cci_card_bonus_detail {
+        width: 150px;
+        margin-top: 10px;
+        margin-right: 10px;
+
+        img {
+            display: none;
+        }
+    }
+
+    .min-xs-font-20-16 {
+        font-size: 16px;
+    }
+
+    .min-xs-font-16-14 {
+        font-size: 14px;
+    }
+
+    .cci_card_info_detail img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .whitecard {
+        width: 206px;
+        padding: 16px;
+
+        img {
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .cci_card_bonus_detail {
+        width: 170px;
+    }
+}
+
+@media (max-width: 375px) {
+    .cci_card_bonus_detail {
+        width: 145px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cci_card_bonus_detail {
+        width: 119px;
     }
 }
