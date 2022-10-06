@@ -34414,7 +34414,13 @@ Media
 .cci_card .cci_card_sec1 {
   display: flex;
   justify-content: space-between;
-  margin: 6px 0px;
+  align-items: center;
+}
+.cci_card .cci_card_sec1_v1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .cci_card .cci_card_info {
   display: flex;
@@ -34428,7 +34434,6 @@ Media
   flex-direction: row;
   justify-content: left;
   align-items: center;
-  width: 30%;
 }
 
 .cci_card_usage img {
@@ -34440,7 +34445,6 @@ Media
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 70%;
 }
 
 .width100 {
@@ -34451,7 +34455,7 @@ Media
   color: red;
 }
 
-.me-20 {
+.me-20-16 {
   margin-right: 20px;
 }
 
@@ -34460,15 +34464,16 @@ Media
 }
 
 .cci_card_bonus_detail {
-  align-items: center;
   background: #f9f9f9;
   border-radius: 16px;
   color: #211e20;
   text-align: center;
-  width: 160px;
-  padding: 5px;
-  margin-top: 10px;
-  margin-right: 10px;
+  min-width: 160px;
+  padding: 10px;
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .cci_card_bonus_detail span {
   font-family: "noto_sansbold", "Arial";
@@ -34494,6 +34499,16 @@ Media
   justify-content: flex-start;
 }
 
+.cci_bonus_lst_v1 {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.cci_bonus_lst_v1 .cci_card_bonus_detail_v1 {
+  width: 246px;
+}
+
 .min-xs-font-16-14 {
   font-size: 16px;
 }
@@ -34508,18 +34523,18 @@ Media
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
   padding: 20px;
   width: 250px;
+  margin-left: 0px;
 }
 
 .whitecard_primary {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 .whitecard_secondary {
   display: flex;
-  margin-right: 20px;
 }
 
 .cci_support_txt_gray {
@@ -34527,6 +34542,7 @@ Media
   border-radius: 100px;
   padding: 4px 16px;
   line-height: 22px;
+  margin-left: 10px;
 }
 
 .cci_card_noshadow {
@@ -34539,13 +34555,82 @@ Media
   width: auto;
 }
 
-.cci_card_bonus_detail_250 {
-  width: 250px;
+.cci_card_sec1_v2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mxwd235 {
+  max-width: 235px;
+}
+
+.min-xs-font-16-12 {
+  font-size: 16px;
+  font-family: "NotoSans-Light", "Arial";
+}
+
+.disflx_dirclm {
+  display: flex;
+  flex-direction: column;
+}
+
+.disflx_dirrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.disflx_dirrow1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.acc_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  background: #F9F9F9;
+  border-radius: 16px;
+  width: 100%;
+  padding: 16px;
+}
+.acc_content h4 {
+  font-size: 16px;
+  line-height: 19px;
+  color: #ED1C24;
+}
+
+.inlinesize140 {
+  inline-size: 140px;
+  line-height: 14px;
+  margin-bottom: 4px;
+}
+
+.roaminlist {
+  list-style: disc;
+  font-family: "NotoSans-Light", "Arial";
+}
+
+.roamingcard {
+  padding: 0px 0px 16px 0px;
+  border-bottom: 1px solid #E0E0E0;
+  width: 100%;
+}
+
+.roamingcard2 {
+  padding: 16px 0px;
+  width: 100%;
+}
+
+.min-wid215 {
+  min-width: 215px;
 }
 
 @media (max-width: 1024px) {
-  .cci_card_bonus_detail {
-    width: 140px;
+  .cci_bonus_lst_v1 .cci_card_bonus_detail_v1 {
+    width: auto;
   }
 }
 @media (max-width: 768px) {
@@ -34553,7 +34638,7 @@ Media
     padding: 16px;
   }
   .cci_card .cci_card_sec1 {
-    flex-direction: row;
+    display: grid;
   }
   .cci_card_usage {
     width: 100%;
@@ -34565,9 +34650,8 @@ Media
     padding: 0px;
   }
   .cci_card_bonus_detail {
-    width: 150px;
-    margin-top: 10px;
-    margin-right: 10px;
+    min-width: 47%;
+    margin: 4px;
   }
   .cci_card_bonus_detail img {
     display: none;
@@ -34589,19 +34673,25 @@ Media
   .whitecard img {
     display: block;
   }
-}
-@media (max-width: 425px) {
-  .cci_card_bonus_detail {
-    width: 170px;
+  .me-20-16 {
+    margin-right: 16px;
   }
-}
-@media (max-width: 375px) {
-  .cci_card_bonus_detail {
-    width: 145px;
+  .mb3 {
+    margin-bottom: 3px;
   }
-}
-@media (max-width: 320px) {
-  .cci_card_bonus_detail {
-    width: 119px;
+  .disflx_dirrow {
+    flex-direction: column;
+    width: 100%;
+  }
+  .disflx_dirrow1 {
+    width: 100%;
+  }
+  .inlinesize140 {
+    width: 100%;
+    line-height: 1.5;
+    margin-bottom: 0px;
+  }
+  .ms-10 {
+    margin-left: 0px;
   }
 }/*# sourceMappingURL=indosatwebv1.css.map */
